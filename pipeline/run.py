@@ -90,7 +90,7 @@ def cmd_discover(args):
     existing = {p["id"] for p in data["products"]}
     existing_names = set()
     for p in data["products"]:
-        existing_names.add(utils.slug(p["brand"] + p["name"]))
+        existing_names.add(utils.slug(p["brand"] + utils.canonical_name(p["name"])))
 
     targets = args.brands.split(",") if args.brands else None
     all_candidates = []

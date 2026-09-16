@@ -20,9 +20,11 @@ def merge_candidates(data, candidates, cfg):
     """把发现的新产品并入产品库（先分类，标记待核验）。"""
     products = data.setdefault("products", [])
     by_id = {p["id"]: p for p in products}
+    existing_canon = {utils.canonical_name(p["brand"] + p["name"]) for p in products}
     added = 0
     enriched = 0
     for c in candidates:
+        canon = utils.canonical_name(c["brand"] + c["name"])
         pid = utils.slug(c["brand"]) + "-" + utils.slug(c["name"])
         hints = c.get("hints") or []
         if pid in by_id:
@@ -33,6 +35,9 @@ def merge_candidates(data, candidates, cfg):
             if new:
                 extra["hints"] = " ".join(cur | set(hints))
                 enriched += 1
+            continue
+        if canon in existing_canon:
+            # 规范化名称已存在（跨语言/修饰词变体）→ 视为重复跳过
             continue
         product = {
             "id": pid,
@@ -60,6 +65,7 @@ def merge_candidates(data, candidates, cfg):
         classify.classify_product(product)
         products.append(product)
         by_id[pid] = product
+        existing_canon.add(canon)
         added += 1
     return added, enriched
 

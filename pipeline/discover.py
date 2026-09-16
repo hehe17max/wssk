@@ -42,8 +42,9 @@ def discover_from_sitemap(brand, cfg):
             found = [u for u in urls if _is_product_url(u, patterns)]
             utils.logger.info("%s sitemap 发现产品 URL %d 个", brand.get("key"), len(found))
             return found
-        # 子 sitemap
+        # 子 sitemap：优先英文版（避免多语言重复）
         subs = re.findall(r"<loc>\s*([^<]+?\.xml)\s*</loc>", html)
+        subs.sort(key=lambda u: (0 if re.search(r"/(en-us|en-gb|en|us-en)/", u) else 1, u))
         for sub in subs[:5]:
             s2, h2 = utils.http_get(sub, cfg)
             if s2 == 200:
@@ -160,7 +161,7 @@ def discover_brand_products(brand, cfg, existing_names=None):
         low = n.lower()
         if low in STOPWORDS or any(w in low for w in STOPWORD_PARTS):
             return
-        key = utils.slug(brand.get("key", "") + n)
+        key = utils.slug(brand.get("key", "") + utils.canonical_name(n))
         if key in seen or key in existing_names:
             return
         seen.add(key)

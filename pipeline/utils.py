@@ -79,6 +79,20 @@ def slug(s):
     return s
 
 
+# 名称去重时的修饰词（不影响型号区分，仅去营销/连接方式词）
+_FUZZ_DROP = {
+    "wireless", "wired", "gaming", "bluetooth", "usb", "mac", "business",
+    "for", "with", "and", "rgb", "lightspeed", "computer", "computer-keyboard",
+    "keyboard", "mouse", "headset", "headphone", "speaker", "controller",
+}
+
+
+def canonical_name(name):
+    """规范化产品名用于去重：去修饰词、去空格连字符。"""
+    words = [w for w in str(name).lower().split() if w not in _FUZZ_DROP]
+    return slug(" ".join(words))
+
+
 def extract_number(text):
     """从文本提取第一个数字（含小数）。"""
     m = re.search(r"(\d+(?:\.\d+)?)", str(text))
