@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>外设水库 · 自动化外设数据库</title>
+<meta name="description" content="外设水库：自动化运行的外设数据库。自动发现新品、自动分类、自动多源核验，支持 20 款产品同时对比。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2322d3ee'/%3E%3Cpath d='M16 6c-4.5 5-7 8.4-7 12a7 7 0 0 0 14 0c0-3.6-2.5-7-7-12z' fill='%2306222b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="logo" onclick="location.href='index.html'">
+      <div class="drop"><svg viewBox="0 0 32 32"><path d="M16 3C9.5 10 6 14.5 6 19a10 10 0 0 0 20 0c0-4.5-3.5-9-10-16z"/></svg></div>
+      <div><b>外设水库</b><small>自动化外设数据库</small></div>
+    </div>
+    <nav>
+      <a href="index.html" class="active">全部产品</a>
+      <a href="compare.html" id="navCompare">对比 (0/20)</a>
+      <a href="about.html">关于 / 架构</a>
+    </nav>
+  </div>
+</header>
+
+<section class="search-wrap">
+  <div class="search-box">
+    <svg viewBox="0 0 24 24"><path d="M10 2a8 8 0 1 0 4.9 14.3l5.4 5.4 1.4-1.4-5.4-5.4A8 8 0 0 0 10 2zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12z"/></svg>
+    <input id="searchInput" type="text" placeholder="搜索品牌（中英文）或产品名，如：sony / 罗技 / GPX / 磁轴…" autocomplete="off">
+    <span class="hint">Enter 回车可配合下方快捷词汇筛选</span>
+  </div>
+  <div class="chip-row" id="chipsRow"></div>
+</section>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="panel">
+      <h3>外设类型</h3>
+      <div class="cat-tabs" id="catTabs"></div>
+    </div>
+    <div class="panel">
+      <h3>子类型</h3>
+      <div class="subtype-row" id="subtypeRow"></div>
+    </div>
+    <div class="panel">
+      <h3>品牌筛选 <span class="clear" id="brandAll">全选</span></h3>
+      <input class="brand-search" id="brandSearch" type="text" placeholder="搜索品牌…">
+      <div class="brand-list" id="brandList"></div>
+      <div style="font-size:11px;color:var(--muted);margin-top:8px">● 绿点 = 品牌已自动核验 &nbsp;● 黄点 = 待核验</div>
+    </div>
+    <div class="panel">
+      <h3>结构化参数筛选</h3>
+      <div class="struct-form">
+        <select id="structField"></select>
+        <select id="structOp"><option value="<=">≤</option><option value=">=">≥</option></select>
+        <input id="structVal" type="number" placeholder="数值" min="0">
+        <button id="structApply">应用</button>
+        <button id="structReset" style="background:none;border:1px solid var(--line2);color:var(--muted);border-radius:6px;padding:6px 8px">清</button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="toolbar">
+      <div class="count" id="count">加载中…</div>
+      <div class="spacer"></div>
+      <select class="sort-select" id="sort">
+        <option value="default">默认排序</option>
+        <option value="new">最新录入</option>
+        <option value="brand">按品牌</option>
+        <option value="name">按名称</option>
+      </select>
+      <button class="btn-clear" id="clearAll">清除全部筛选</button>
+    </div>
+    <div class="grid" id="grid">
+      <div class="loading"><div class="spinner"></div>正在载入外设水库…</div>
+    </div>
+  </main>
+</div>
+
+<div class="compare-bar" id="compareBar">
+  <div class="compare-bar-inner">
+    <span style="color:var(--accent2);font-weight:700">已选对比</span>
+    <div class="names" id="compareNames"></div>
+    <button class="ghost-btn" id="compareClear">清空</button>
+    <button class="primary-btn" id="compareGo" disabled>开始对比</button>
+  </div>
+</div>
+
+<div class="modal-mask" id="modalMask"><div class="modal" id="modalBody"></div></div>
+
+<footer class="footer">
+  <div><b>外设水库</b> · 自动化外设数据库 · 数据由流水线自动发现、分类、多源核验</div>
+  <div class="meta" id="footerMeta"></div>
+</footer>
+
+<script src="js/util.js"></script>
+<script src="js/data.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

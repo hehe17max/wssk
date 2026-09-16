@@ -1,0 +1,4148 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-16",
+ "brands": [
+  {
+   "key": "1more",
+   "name": "万魔",
+   "name_en": "1MORE",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐"
+   },
+   "region": "中国",
+   "official_url": "https://1more.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "3nod",
+   "name": "三诺",
+   "name_en": "3NOD",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "传统音频",
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": "https://3nod.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "8bitdo",
+   "name": "八位堂",
+   "name_en": "8BitDo",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": "https://8bitdo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "a4tech",
+   "name": "双飞燕",
+   "name_en": "A4Tech",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "电竞",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://a4tech.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "aigo",
+   "name": "爱国者",
+   "name_en": "aigo",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "传统音频"
+   },
+   "region": "中国",
+   "official_url": "https://aigo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "ajazz",
+   "name": "黑爵",
+   "name_en": "AJAZZ",
+   "categories": [
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "mouse": "电竞新锐",
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://a-jazz.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "akg",
+   "name": "AKG",
+   "name_en": "AKG",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "奥地利"
+   },
+   "region": "奥地利",
+   "official_url": "https://akg.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "alienware",
+   "name": "外星人",
+   "name_en": "Alienware",
+   "categories": [
+    "earphone",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "美国",
+    "keyboard": "美国",
+    "mousepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://alienware.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "amazon",
+   "name": "亚马逊 Echo",
+   "name_en": "Amazon Echo",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": "https://amazon.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "angrymiao",
+   "name": "怒喵",
+   "name_en": "AngryMiao",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://angrymiao.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "aojiashi",
+   "name": "澳加狮",
+   "name_en": "Aojiashi",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "apple",
+   "name": "苹果",
+   "name_en": "Apple",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "earphone": "美国",
+    "mouse": "美国",
+    "keyboard": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://apple.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "artisan",
+   "name": "剑匠",
+   "name_en": "Artisan",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://artisan-jp.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "astrotec",
+   "name": "阿思翠",
+   "name_en": "Astrotec",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "asus-rog",
+   "name": "华硕 ROG",
+   "name_en": "ASUS ROG",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "speaker",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "中国台湾",
+    "mouse": "中国台湾",
+    "keyboard": "中国台湾",
+    "speaker": "中国台湾",
+    "mousepad": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://rog.asus.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "atc",
+   "name": "ATC",
+   "name_en": "ATC",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://atc.audio",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "atk",
+   "name": "ATK",
+   "name_en": "ATK",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "电竞新锐"
+   },
+   "region": "中国",
+   "official_url": "https://atkgear.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "audeze",
+   "name": "Audeze",
+   "name_en": "Audeze",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://audeze.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "audio-technica",
+   "name": "铁三角",
+   "name_en": "Audio-Technica",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://audio-technica.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "aula",
+   "name": "狼蛛",
+   "name_en": "AULA",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "电竞",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "baishipai",
+   "name": "佰世派",
+   "name_en": "BaiShiPai",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "baize",
+   "name": "白泽",
+   "name_en": "BaiZe",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "bang-olufsen",
+   "name": "B&O",
+   "name_en": "Bang & Olufsen",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "丹麦",
+    "speaker": "丹麦"
+   },
+   "region": "丹麦",
+   "official_url": "https://bang-olufsen.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "baseus",
+   "name": "倍思",
+   "name_en": "Baseus",
+   "categories": [
+    "earphone",
+    "speaker",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐",
+    "speaker": "便携/桌面",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://baseus.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "beats",
+   "name": "Beats",
+   "name_en": "Beats",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://beatsbydre.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "betop",
+   "name": "北通",
+   "name_en": "Betop",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": "https://betopgame.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "beyerdynamic",
+   "name": "拜亚动力",
+   "name_en": "beyerdynamic",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "德国"
+   },
+   "region": "德国",
+   "official_url": "https://beyerdynamic.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "blackcanyon",
+   "name": "黑峡谷",
+   "name_en": "BlackCanyon",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://blackcanyon.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "bloody",
+   "name": "血手幽灵",
+   "name_en": "Bloody",
+   "categories": [
+    "earphone",
+    "mouse",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "电竞",
+    "mouse": "传统外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://bloody.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "bose",
+   "name": "Bose",
+   "name_en": "Bose",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://bose.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "bowers-wilkins",
+   "name": "宝华韦健",
+   "name_en": "Bowers & Wilkins",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "英国",
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://bowerswilkins.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "burmester",
+   "name": "柏林之声",
+   "name_en": "Burmester",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "德国"
+   },
+   "region": "德国",
+   "official_url": "https://burmester.de",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "campfire",
+   "name": "Campfire Audio",
+   "name_en": "Campfire Audio",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://campfireaudio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "canton",
+   "name": "金榜",
+   "name_en": "Canton",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "德国"
+   },
+   "region": "德国",
+   "official_url": "https://canton.de",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "cayin",
+   "name": "凯音",
+   "name_en": "Cayin",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧",
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": "https://cayin.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "changba",
+   "name": "唱吧",
+   "name_en": "Changba",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "便携/桌面"
+   },
+   "region": "中国",
+   "official_url": "https://changba.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "chario",
+   "name": "卓丽",
+   "name_en": "Chario",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "意大利"
+   },
+   "region": "意大利",
+   "official_url": "https://chario.it",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "cherry",
+   "name": "樱桃",
+   "name_en": "Cherry",
+   "categories": [
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "mouse": "德国",
+    "keyboard": "德国"
+   },
+   "region": "德国",
+   "official_url": "https://cherry.de",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "chike",
+   "name": "炽壳",
+   "name_en": "Chike",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "chongjibo",
+   "name": "冲击波",
+   "name_en": "ChongJiBo",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "colorful",
+   "name": "七彩虹",
+   "name_en": "Colorful",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "电竞",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://colorful.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "coolermaster",
+   "name": "酷冷至尊",
+   "name_en": "Cooler Master",
+   "categories": [
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "mouse": "中国台湾",
+    "keyboard": "中国台湾",
+    "mousepad": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://coolermaster.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "coopreme",
+   "name": "Coopreme",
+   "name_en": "Coopreme",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "corsair",
+   "name": "海盗船",
+   "name_en": "Corsair",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "美国",
+    "mouse": "美国",
+    "keyboard": "美国",
+    "mousepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://corsair.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "creative",
+   "name": "创新",
+   "name_en": "Creative",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "新加坡",
+    "speaker": "新加坡"
+   },
+   "region": "新加坡",
+   "official_url": "https://creative.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "d-glow",
+   "name": "D-glow",
+   "name_en": "D-glow",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "dali",
+   "name": "达尼",
+   "name_en": "DALI",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "丹麦"
+   },
+   "region": "丹麦",
+   "official_url": "https://daliloudspeakers.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "dareu",
+   "name": "达尔优",
+   "name_en": "DAREU",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "电竞",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://dareu.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "delux",
+   "name": "多彩",
+   "name_en": "Delux",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "传统外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://deluxworld.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "denon",
+   "name": "天龙",
+   "name_en": "Denon",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "日本",
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://denon.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "devialet",
+   "name": "帝瓦雷",
+   "name_en": "Devialet",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "法国",
+    "speaker": "法国"
+   },
+   "region": "法国",
+   "official_url": "https://devialet.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "dingdong",
+   "name": "叮咚",
+   "name_en": "DingDong",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "智能音箱"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "divoom",
+   "name": "Divoom 点音",
+   "name_en": "Divoom",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "便携/桌面"
+   },
+   "region": "中国",
+   "official_url": "https://divoom.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "ducky",
+   "name": "Ducky",
+   "name_en": "Ducky",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://duckychannel.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "dunu",
+   "name": "达音科",
+   "name_en": "DUNU",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧"
+   },
+   "region": "中国",
+   "official_url": "https://duni.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "durgod",
+   "name": "杜伽",
+   "name_en": "Durgod",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://durgod.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "dynaudio",
+   "name": "丹拿",
+   "name_en": "Dynaudio",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "丹麦"
+   },
+   "region": "丹麦",
+   "official_url": "https://dynaudio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "edifier",
+   "name": "漫步者",
+   "name_en": "Edifier",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "传统音频",
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": "https://edifier.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "elac",
+   "name": "意力",
+   "name_en": "ELAC",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "德国"
+   },
+   "region": "德国",
+   "official_url": "https://elac.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "endgame-gear",
+   "name": "Endgame Gear",
+   "name_en": "Endgame Gear",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "德国"
+   },
+   "region": "德国",
+   "official_url": "https://endgamegear.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "etymotic",
+   "name": "音特美",
+   "name_en": "Etymotic",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://etymotic.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "fenda",
+   "name": "奋达",
+   "name_en": "Fenda",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "传统音频",
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "fiio",
+   "name": "飞傲",
+   "name_en": "FiiO",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧",
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": "https://fiio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "filco",
+   "name": "斐尔可",
+   "name_en": "FILCO",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://diatec.co.jp",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "final",
+   "name": "Final",
+   "name_en": "Final",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://final-inc.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "finalmouse",
+   "name": "Finalmouse",
+   "name_en": "Finalmouse",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://finalmouse.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "flydigi",
+   "name": "飞智",
+   "name_en": "Flydigi",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": "https://flydigi.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "focal",
+   "name": "劲浪",
+   "name_en": "Focal",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "法国",
+    "speaker": "法国"
+   },
+   "region": "法国",
+   "official_url": "https://focal.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "fostex",
+   "name": "丰达",
+   "name_en": "Fostex",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://fostex.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "fuhlen",
+   "name": "富勒",
+   "name_en": "Fuhlen",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "传统外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "fulin",
+   "name": "腹灵",
+   "name_en": "FULIN",
+   "categories": [
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "mouse": "电竞新锐",
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "g-wolves",
+   "name": "游狼",
+   "name_en": "G-Wolves",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "电竞新锐"
+   },
+   "region": "中国",
+   "official_url": "https://g-wolves.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "gamesir",
+   "name": "盖世小鸡",
+   "name_en": "GameSir",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": "https://gamesir.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "ganss",
+   "name": "高斯",
+   "name_en": "GANSS",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "genelec",
+   "name": "真力",
+   "name_en": "Genelec",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "芬兰"
+   },
+   "region": "芬兰",
+   "official_url": "https://genelec.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "gigabyte",
+   "name": "技嘉",
+   "name_en": "GIGABYTE",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "earphone": "中国台湾",
+    "mouse": "中国台湾",
+    "keyboard": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://gigabyte.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "goldenfield",
+   "name": "金河田",
+   "name_en": "Goldenfield",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "电竞",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": "https://goldenfield.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "google",
+   "name": "谷歌 Nest",
+   "name_en": "Google Nest",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": "https://store.google.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "grado",
+   "name": "歌德",
+   "name_en": "Grado",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://gradolabs.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "gulikit",
+   "name": "谷粒",
+   "name_en": "GuliKit",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": "https://gulikit.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "gustard",
+   "name": "歌诗德",
+   "name_en": "Gustard",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "haylou",
+   "name": "嘿喽",
+   "name_en": "Haylou",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐"
+   },
+   "region": "中国",
+   "official_url": "https://haylou.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "hhkb",
+   "name": "HHKB",
+   "name_en": "HHKB",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://hhkb.io",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "hifiman",
+   "name": "头领科技",
+   "name_en": "HIFIMAN",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧"
+   },
+   "region": "中国",
+   "official_url": "https://hifiman.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "hivi",
+   "name": "惠威",
+   "name_en": "HiVi",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "传统音频",
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": "https://hivi.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "hongmi",
+   "name": "虹觅",
+   "name_en": "HongMi",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "honor",
+   "name": "荣耀",
+   "name_en": "HONOR",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "手机/生态"
+   },
+   "region": "中国",
+   "official_url": "https://honor.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "hori",
+   "name": "HORI",
+   "name_en": "HORI",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://hori.co.jp",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "huawei",
+   "name": "华为",
+   "name_en": "Huawei",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "speaker",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "手机/生态",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "speaker": "智能音箱",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://consumer.huawei.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "hufu",
+   "name": "虎符",
+   "name_en": "HuFu",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "hyperx",
+   "name": "HyperX",
+   "name_en": "HyperX",
+   "categories": [
+    "earphone",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "美国",
+    "mousepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://hyperx.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "iflytek",
+   "name": "科大讯飞",
+   "name_en": "iFlytek",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "智能音箱"
+   },
+   "region": "中国",
+   "official_url": "https://iflytek.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "ikbc",
+   "name": "ikbc",
+   "name_en": "ikbc",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://ikbc.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "inphic",
+   "name": "英菲克",
+   "name_en": "inphic",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "传统外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://inphic.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "ipason",
+   "name": "攀升",
+   "name_en": "IPASON",
+   "categories": [
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "jamo",
+   "name": "尊宝",
+   "name_en": "Jamo",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "丹麦"
+   },
+   "region": "丹麦",
+   "official_url": "https://jamo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "jbl",
+   "name": "JBL",
+   "name_en": "JBL",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://jbl.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "jixiang",
+   "name": "极想",
+   "name_en": "JiXiang",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "jvc",
+   "name": "JVC",
+   "name_en": "JVC",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "日本",
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://jvc.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "kef",
+   "name": "KEF",
+   "name_en": "KEF",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "英国",
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://kef.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "kenwood",
+   "name": "建伍",
+   "name_en": "Kenwood",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://kenwood.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "keychron",
+   "name": "Keychron",
+   "name_en": "Keychron",
+   "categories": [
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "mouse": "中国香港",
+    "keyboard": "中国香港"
+   },
+   "region": "中国香港",
+   "official_url": "https://keychron.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "klipsch",
+   "name": "杰士",
+   "name_en": "Klipsch",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://klipsch.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "kzzi",
+   "name": "珂芝",
+   "name_en": "KZZI",
+   "categories": [
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "mouse": "电竞新锐",
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://kzzi.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "lajitong",
+   "name": "垃圾桶",
+   "name_en": "LaJiTong",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "lamzu",
+   "name": "兰族",
+   "name_en": "Lamzu",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "电竞新锐"
+   },
+   "region": "中国",
+   "official_url": "https://lamzu.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "langtu",
+   "name": "狼途",
+   "name_en": "Langtu",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "leadjoy",
+   "name": "Leadjoy",
+   "name_en": "Leadjoy",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "lenovo",
+   "name": "联想",
+   "name_en": "Lenovo",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "gamepad",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "手机/生态",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "gamepad": "国内品牌",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://lenovo.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "leopold",
+   "name": "Leopold",
+   "name_en": "Leopold",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "韩国"
+   },
+   "region": "韩国",
+   "official_url": "https://leopold.co.kr",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "lethal",
+   "name": "Lethal Gaming Gear",
+   "name_en": "Lethal Gaming Gear",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://lethal.gg",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "lg",
+   "name": "LG",
+   "name_en": "LG",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "韩国"
+   },
+   "region": "韩国",
+   "official_url": "https://lg.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "liangzhi",
+   "name": "良值",
+   "name_en": "Liangzhi",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "lingluqianyu",
+   "name": "铃鹿千羽",
+   "name_en": "LingLuQianYu",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "lingwoke",
+   "name": "凌沃克",
+   "name_en": "LingWoKe",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "linn",
+   "name": "Linn",
+   "name_en": "Linn",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://linn.co.uk",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "lofree",
+   "name": "洛斐",
+   "name_en": "LOFREE",
+   "categories": [
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "mouse": "电竞新锐",
+    "keyboard": "客制化/外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://lofree.co",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "logitech",
+   "name": "罗技",
+   "name_en": "Logitech",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "gamepad",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "瑞士",
+    "mouse": "瑞士",
+    "keyboard": "瑞士",
+    "gamepad": "瑞士",
+    "mousepad": "美国"
+   },
+   "region": "瑞士",
+   "official_url": "https://logitech.com",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://logitech.com",
+    "http_status": 200,
+    "title": "罗技中国",
+    "site_name": "Logitech",
+    "matched_terms": [
+     "罗技",
+     "Logitech"
+    ]
+   }
+  },
+  {
+   "key": "machenike",
+   "name": "机械师",
+   "name_en": "Machenike",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "gamepad",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "电竞",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "gamepad": "国内品牌",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://machenike.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "maoking",
+   "name": "猫王",
+   "name_en": "MaoKing",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "便携/桌面"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "marantz",
+   "name": "马兰士",
+   "name_en": "Marantz",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://marantz.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "marshall",
+   "name": "马歇尔",
+   "name_en": "Marshall",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "英国",
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://marshallheadphones.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "matrix",
+   "name": "矩声",
+   "name_en": "Matrix Audio",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "mchose",
+   "name": "迈从",
+   "name_en": "MCHOSE",
+   "categories": [
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "mouse": "电竞新锐",
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://mchose.net",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "mcintosh",
+   "name": "麦景图",
+   "name_en": "McIntosh",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": "https://mcintoshlabs.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "meizu",
+   "name": "魅族",
+   "name_en": "MEIZU",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "手机/生态"
+   },
+   "region": "中国",
+   "official_url": "https://meizu.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "microlab",
+   "name": "麦博",
+   "name_en": "Microlab",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "传统音频",
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": "https://microlab.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "microsoft",
+   "name": "微软",
+   "name_en": "Microsoft",
+   "categories": [
+    "mouse",
+    "keyboard",
+    "gamepad"
+   ],
+   "groups": {
+    "mouse": "美国",
+    "keyboard": "美国",
+    "gamepad": "御三家"
+   },
+   "region": "美国",
+   "official_url": "https://microsoft.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "mission",
+   "name": "美声",
+   "name_en": "Mission",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://mission.co.uk",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "mobapad",
+   "name": "魔派",
+   "name_en": "Mobapad",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": "https://mobapad.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "mojiang",
+   "name": "墨将",
+   "name_en": "MoJiang",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "monitor-audio",
+   "name": "猛牌",
+   "name_en": "Monitor Audio",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://monitoraudio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "moondrop",
+   "name": "水月雨",
+   "name_en": "Moondrop",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧"
+   },
+   "region": "中国",
+   "official_url": "https://moondroplab.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "msi",
+   "name": "微星",
+   "name_en": "MSI",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "中国台湾",
+    "mouse": "中国台湾",
+    "keyboard": "中国台湾",
+    "mousepad": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://msi.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "nacon",
+   "name": "Nacon",
+   "name_en": "Nacon",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "法国"
+   },
+   "region": "法国",
+   "official_url": "https://nacon.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "naim",
+   "name": "Naim",
+   "name_en": "Naim",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://naimaudio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "nank",
+   "name": "南卡",
+   "name_en": "NANK",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "neumann",
+   "name": "纽曼",
+   "name_en": "Neumann",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "德国"
+   },
+   "region": "德国",
+   "official_url": "https://neumann.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "newmen",
+   "name": "新贵",
+   "name_en": "Newmen",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "传统外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "newsmy",
+   "name": "纽曼",
+   "name_en": "Newsmy",
+   "categories": [
+    "earphone",
+    "speaker",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "传统音频",
+    "speaker": "便携/桌面",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://newsmy.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "nf-audio",
+   "name": "宁梵声学",
+   "name_en": "NF Audio",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧"
+   },
+   "region": "中国",
+   "official_url": "https://nfaudio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "nintendo",
+   "name": "任天堂",
+   "name_en": "Nintendo",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "御三家"
+   },
+   "region": "中国",
+   "official_url": "https://nintendo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "nubia",
+   "name": "努比亚",
+   "name_en": "nubia",
+   "categories": [
+    "earphone",
+    "gamepad"
+   ],
+   "groups": {
+    "earphone": "手机/生态",
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": "https://nubia.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "onkyo",
+   "name": "安桥",
+   "name_en": "Onkyo",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "日本",
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://onkyo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "oppo",
+   "name": "OPPO",
+   "name_en": "OPPO",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "手机/生态"
+   },
+   "region": "中国",
+   "official_url": "https://oppo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "panasonic",
+   "name": "松下",
+   "name_en": "Panasonic",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "日本",
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://panasonic.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "pdp",
+   "name": "PDP",
+   "name_en": "PDP",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://pdp.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "philips",
+   "name": "飞利浦",
+   "name_en": "Philips",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "荷兰",
+    "speaker": "荷兰"
+   },
+   "region": "荷兰",
+   "official_url": "https://philips.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "pioneer",
+   "name": "先锋",
+   "name_en": "Pioneer",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "日本",
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://pioneerelectronics.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "pisen",
+   "name": "品胜",
+   "name_en": "PISEN",
+   "categories": [
+    "earphone",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://pisen.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "powera",
+   "name": "PowerA",
+   "name_en": "PowerA",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://powera.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "pulsar",
+   "name": "Pulsar",
+   "name_en": "Pulsar",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "韩国"
+   },
+   "region": "韩国",
+   "official_url": "https://pulsargaming.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "pxn",
+   "name": "莱仕达",
+   "name_en": "PXN",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": "https://pxn.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "qcy",
+   "name": "QCY",
+   "name_en": "QCY",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐"
+   },
+   "region": "中国",
+   "official_url": "https://qcy.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "qingqibing",
+   "name": "轻骑兵",
+   "name_en": "QingQiBing",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "qingsui",
+   "name": "青穗",
+   "name_en": "QingSui",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "qls",
+   "name": "乾龙盛",
+   "name_en": "QLS",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "quaoar",
+   "name": "夸瓦",
+   "name_en": "QUAOAR",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "rapoo",
+   "name": "雷柏",
+   "name_en": "Rapoo",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "电竞",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://rapoo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "razer",
+   "name": "雷蛇",
+   "name_en": "Razer",
+   "categories": [
+    "mouse",
+    "keyboard",
+    "gamepad",
+    "mousepad"
+   ],
+   "groups": {
+    "mouse": "美国",
+    "keyboard": "美国",
+    "gamepad": "美国",
+    "mousepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://razer.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "realforce",
+   "name": "Realforce（燃风）",
+   "name_en": "Realforce",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://realforce.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "redmi",
+   "name": "红米",
+   "name_en": "Redmi",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "手机/生态"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "rk",
+   "name": "雷咖泽",
+   "name_en": "RK",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "roccat",
+   "name": "冰豹",
+   "name_en": "ROCCAT",
+   "categories": [
+    "mouse",
+    "mousepad"
+   ],
+   "groups": {
+    "mouse": "德国",
+    "mousepad": "德国"
+   },
+   "region": "德国",
+   "official_url": "https://roccat.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "rose-technics",
+   "name": "弱水时砂",
+   "name_en": "Rose Technics",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "samsung",
+   "name": "三星",
+   "name_en": "Samsung",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "韩国",
+    "speaker": "韩国"
+   },
+   "region": "韩国",
+   "official_url": "https://samsung.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "sanag",
+   "name": "塞那",
+   "name_en": "SANAG",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "sansui",
+   "name": "山水 Sansui",
+   "name_en": "SANSUI",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "scuf",
+   "name": "SCUF",
+   "name_en": "SCUF",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://scufgaming.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "sennheiser",
+   "name": "森海塞尔",
+   "name_en": "Sennheiser",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "德国"
+   },
+   "region": "德国",
+   "official_url": "https://sennheiser.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "shanling",
+   "name": "山灵",
+   "name_en": "SHANLING",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧",
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": "https://shanling.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "shanshui-cn",
+   "name": "山水（国内授权）",
+   "name_en": "SANSUI CN",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "传统音频",
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "shenghui",
+   "name": "声荟",
+   "name_en": "ShengHui",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "shokz",
+   "name": "韶音",
+   "name_en": "Shokz",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "骨传导"
+   },
+   "region": "中国",
+   "official_url": "https://shokz.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "shouxi-player",
+   "name": "首席玩家",
+   "name_en": "Chief Player",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "shure",
+   "name": "舒尔",
+   "name_en": "Shure",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://shure.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "simgot",
+   "name": "兴戈",
+   "name_en": "Simgot",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧"
+   },
+   "region": "中国",
+   "official_url": "https://simgotaudio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "smsl",
+   "name": "双木三林",
+   "name_en": "SMSL",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": "https://smsl-audio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "soaiy",
+   "name": "索爱",
+   "name_en": "Soaiy",
+   "categories": [
+    "earphone",
+    "speaker",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "传统音频",
+    "speaker": "便携/桌面",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "somic",
+   "name": "硕美科",
+   "name_en": "Somic",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "传统音频"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "sonus-faber",
+   "name": "世霸",
+   "name_en": "Sonus Faber",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "意大利"
+   },
+   "region": "意大利",
+   "official_url": "https://sonusfaber.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "sony",
+   "name": "索尼",
+   "name_en": "Sony",
+   "categories": [
+    "earphone",
+    "gamepad",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "日本",
+    "gamepad": "御三家",
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://sony.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "核验失败",
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://sony.com",
+    "http_status": null
+   }
+  },
+  {
+   "key": "soundcore",
+   "name": "声阔",
+   "name_en": "Soundcore",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐"
+   },
+   "region": "中国",
+   "official_url": "https://soundcore.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "steelseries",
+   "name": "赛睿",
+   "name_en": "SteelSeries",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "美国",
+    "mouse": "美国",
+    "keyboard": "美国",
+    "mousepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://steelseries.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "subor",
+   "name": "小霸王",
+   "name_en": "Subor",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": "https://subor.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "takstar",
+   "name": "得胜",
+   "name_en": "Takstar",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "麦克风/监听"
+   },
+   "region": "中国",
+   "official_url": "https://takstar.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "tangzu",
+   "name": "天使吉米",
+   "name_en": "TANGZU",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "tannoy",
+   "name": "天朗",
+   "name_en": "Tannoy",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://tannoy.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "teac",
+   "name": "TEAC",
+   "name_en": "TEAC",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://teac-audio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "teclast",
+   "name": "台电",
+   "name_en": "Teclast",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "传统音频",
+    "speaker": "便携/桌面"
+   },
+   "region": "中国",
+   "official_url": "https://teclast.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "tesoro",
+   "name": "铁修罗",
+   "name_en": "Tesoro",
+   "categories": [
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "mouse": "中国台湾",
+    "keyboard": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://tesorotec.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "tfz",
+   "name": "锦瑟香也",
+   "name_en": "TFZ",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "thermaltake",
+   "name": "曜越 Tt",
+   "name_en": "Thermaltake",
+   "categories": [
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "mouse": "中国台湾",
+    "keyboard": "中国台湾",
+    "mousepad": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://thermaltake.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "thrustmaster",
+   "name": "图马思特",
+   "name_en": "Thrustmaster",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "法国"
+   },
+   "region": "法国",
+   "official_url": "https://thrustmaster.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "thunderobot",
+   "name": "雷神",
+   "name_en": "ThundeRobot",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "电竞",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://thunderobot.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "tianlu",
+   "name": "天路",
+   "name_en": "TianLu",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "tianyi",
+   "name": "天逸",
+   "name_en": "TianYi",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "传统音箱"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "tmall-genie",
+   "name": "天猫精灵",
+   "name_en": "Tmall Genie",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "智能音箱"
+   },
+   "region": "中国",
+   "official_url": "https://aligenie.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "topping",
+   "name": "拓品",
+   "name_en": "Topping",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "torras",
+   "name": "图拉斯",
+   "name_en": "Torras",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐"
+   },
+   "region": "中国",
+   "official_url": "https://torras.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "triangle",
+   "name": "三角",
+   "name_en": "Triangle",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "法国"
+   },
+   "region": "法国",
+   "official_url": "https://trianglehifi.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "turtlebeach",
+   "name": "乌龟海岸",
+   "name_en": "Turtle Beach",
+   "categories": [
+    "mouse",
+    "gamepad"
+   ],
+   "groups": {
+    "mouse": "美国",
+    "gamepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://turtlebeach.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "ugreen",
+   "name": "绿联",
+   "name_en": "UGREEN",
+   "categories": [
+    "earphone",
+    "speaker",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "TWS 新锐",
+    "speaker": "便携/桌面",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://ugreen.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "varmilo",
+   "name": "阿米洛",
+   "name_en": "Varmilo",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://varmilo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "vaxee",
+   "name": "VAXEE",
+   "name_en": "VAXEE",
+   "categories": [
+    "mouse",
+    "mousepad"
+   ],
+   "groups": {
+    "mouse": "中国台湾",
+    "mousepad": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://vaxee.co",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "vgn",
+   "name": "VGN",
+   "name_en": "VGN",
+   "categories": [
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "mouse": "电竞新锐",
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "victrix",
+   "name": "Victrix",
+   "name_en": "Victrix",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://victrixpro.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "vivo",
+   "name": "vivo",
+   "name_en": "vivo",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "手机/生态"
+   },
+   "region": "中国",
+   "official_url": "https://vivo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "vortex",
+   "name": "Vortex",
+   "name_en": "Vortex",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://vortexgear.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "vxe",
+   "name": "VXE",
+   "name_en": "VXE",
+   "categories": [
+    "mouse"
+   ],
+   "groups": {
+    "mouse": "电竞新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "westone",
+   "name": "威士顿",
+   "name_en": "Westone",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "美国"
+   },
+   "region": "美国",
+   "official_url": "https://westone.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "wharfedale",
+   "name": "乐富豪",
+   "name_en": "Wharfedale",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "英国"
+   },
+   "region": "英国",
+   "official_url": "https://wharfedale.co.uk",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "wob",
+   "name": "WOB",
+   "name_en": "WOB",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "wooting",
+   "name": "Wooting",
+   "name_en": "Wooting",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "荷兰"
+   },
+   "region": "荷兰",
+   "official_url": "https://wooting.io",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "xduoo",
+   "name": "乂度",
+   "name_en": "xDuoo",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "HiFi/耳烧",
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": "https://xduoo.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "xiaoai",
+   "name": "小爱同学",
+   "name_en": "XiaoAI",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "智能音箱"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "xiaodu",
+   "name": "小度",
+   "name_en": "Xiaodu",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "智能音箱"
+   },
+   "region": "中国",
+   "official_url": "https://xiaodu.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "xiaomi",
+   "name": "小米",
+   "name_en": "Xiaomi",
+   "categories": [
+    "earphone",
+    "mouse",
+    "keyboard",
+    "mousepad"
+   ],
+   "groups": {
+    "earphone": "手机/生态",
+    "mouse": "传统外设厂",
+    "keyboard": "传统外设厂",
+    "mousepad": "键鼠外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://mi.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "xinmeng",
+   "name": "新盟",
+   "name_en": "Xinmeng",
+   "categories": [
+    "keyboard"
+   ],
+   "groups": {
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "yamaha",
+   "name": "雅马哈",
+   "name_en": "Yamaha",
+   "categories": [
+    "earphone",
+    "speaker"
+   ],
+   "groups": {
+    "earphone": "日本",
+    "speaker": "日本"
+   },
+   "region": "日本",
+   "official_url": "https://yamaha.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "yisuma",
+   "name": "易速马",
+   "name_en": "YiSuMa",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "yulong",
+   "name": "钰龙",
+   "name_en": "Yulong",
+   "categories": [
+    "speaker"
+   ],
+   "groups": {
+    "speaker": "HiFi/台式"
+   },
+   "region": "中国",
+   "official_url": "https://yulongaudio.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "yunzii",
+   "name": "御斧",
+   "name_en": "Yunzii",
+   "categories": [
+    "mouse",
+    "keyboard"
+   ],
+   "groups": {
+    "mouse": "电竞新锐",
+    "keyboard": "客制化/外设厂"
+   },
+   "region": "中国",
+   "official_url": "https://yunzii.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "yuyou",
+   "name": "御游",
+   "name_en": "YuYou",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "zhenhuo",
+   "name": "臻火",
+   "name_en": "ZhenHuo",
+   "categories": [
+    "mousepad"
+   ],
+   "groups": {
+    "mousepad": "电竞垫新锐"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "zhidong",
+   "name": "致动",
+   "name_en": "ZhiDong",
+   "categories": [
+    "gamepad"
+   ],
+   "groups": {
+    "gamepad": "国内品牌"
+   },
+   "region": "中国",
+   "official_url": null,
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "zowie",
+   "name": "卓威",
+   "name_en": "ZOWIE",
+   "categories": [
+    "mouse",
+    "mousepad"
+   ],
+   "groups": {
+    "mouse": "中国台湾",
+    "mousepad": "中国台湾"
+   },
+   "region": "中国台湾",
+   "official_url": "https://zowie.com",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  },
+  {
+   "key": "zte",
+   "name": "中兴",
+   "name_en": "ZTE",
+   "categories": [
+    "earphone"
+   ],
+   "groups": {
+    "earphone": "手机/生态"
+   },
+   "region": "中国",
+   "official_url": "https://zte.com.cn",
+   "verified": false,
+   "verified_at": null,
+   "status": "待核验",
+   "evidence": null
+  }
+ ]
+}

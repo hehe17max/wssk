@@ -1,0 +1,12 @@
+# 外设水库
+# 依赖与密钥不入库
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+
+# 本地临时
+.DS_Store
+Thumbs.db
