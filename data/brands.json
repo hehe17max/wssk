@@ -39,16 +39,18 @@
    "region": "中国",
    "official_url": "https://3nod.com.cn",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://3nod.com.cn",
     "http_status": 200,
     "title": "三诺集团-智慧生活创想家",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "三诺"
+    ]
    }
   },
   {
@@ -64,16 +66,18 @@
    "region": "中国",
    "official_url": "https://8bitdo.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://8bitdo.com",
     "http_status": 200,
     "title": "8BitDo",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "8BitDo"
+    ]
    }
   },
   {
@@ -95,16 +99,18 @@
    "region": "中国",
    "official_url": "https://a4tech.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://a4tech.com",
     "http_status": 200,
     "title": "A4TECH Official Website",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "A4Tech"
+    ]
    }
   },
   {
@@ -120,16 +126,18 @@
    "region": "中国",
    "official_url": "https://aigo.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://aigo.com",
     "http_status": 200,
     "title": "aigo Electric Scooters – Smart Urban Mobility for Everyone",
     "site_name": "aigo Electric Scooters",
-    "matched_terms": []
+    "matched_terms": [
+     "aigo"
+    ]
    }
   },
   {
@@ -147,16 +155,19 @@
    "region": "中国",
    "official_url": "https://a-jazz.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://a-jazz.com",
     "http_status": 200,
     "title": "AJAZZ 黑爵 ( 中英文 ) 官方网站",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "黑爵",
+     "AJAZZ"
+    ]
    }
   },
   {
@@ -198,16 +209,18 @@
    "region": "美国",
    "official_url": "https://alienware.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://alienware.com",
     "http_status": 200,
     "title": "Alienware Gaming | Dell USA",
     "site_name": "Alienware",
-    "matched_terms": []
+    "matched_terms": [
+     "Alienware"
+    ]
    }
   },
   {
@@ -248,16 +261,19 @@
    "region": "中国",
    "official_url": "https://angrymiao.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://angrymiao.com",
     "http_status": 200,
     "title": "Angry Miao 怒喵科技官网",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "怒喵",
+     "AngryMiao"
+    ]
    }
   },
   {
@@ -298,16 +314,18 @@
    "region": "美国",
    "official_url": "https://apple.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://apple.com",
     "http_status": 200,
     "title": "Apple",
     "site_name": "Apple",
-    "matched_terms": []
+    "matched_terms": [
+     "Apple"
+    ]
    }
   },
   {
@@ -323,16 +341,18 @@
    "region": "日本",
    "official_url": "https://artisan-jp.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://artisan-jp.com",
     "http_status": 200,
     "title": "ARTISAN // プロゲーマーの定番! 国産ハイパフォーマンス・ゲーミングマウスパッド",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "Artisan"
+    ]
    }
   },
   {
@@ -402,16 +422,19 @@
    "region": "英国",
    "official_url": "https://atc.audio",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://atc.audio",
     "http_status": 200,
     "title": "Home - ATC Loudspeakers",
     "site_name": "ATC Loudspeakers - Manufacturers of the Finest Audio Systems in the World",
-    "matched_terms": []
+    "matched_terms": [
+     "ATC",
+     "ATC"
+    ]
    }
   },
   {
@@ -449,16 +472,19 @@
    "region": "美国",
    "official_url": "https://audeze.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://audeze.com",
     "http_status": 200,
     "title": "Audeze Headphones | Uncompromised Audio | Planar Magnetic Technology",
     "site_name": "Audeze",
-    "matched_terms": []
+    "matched_terms": [
+     "Audeze",
+     "Audeze"
+    ]
    }
   },
   {
@@ -474,16 +500,18 @@
    "region": "日本",
    "official_url": "https://audio-technica.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://audio-technica.com",
     "http_status": 200,
     "title": "Headphones, Turntables, Microphones & Cartridges | Audio-Technica",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "Audio-Technica"
+    ]
    }
   },
   {
@@ -570,16 +598,18 @@
    "region": "丹麦",
    "official_url": "https://bang-olufsen.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://bang-olufsen.com",
     "http_status": 200,
     "title": "Bang & Olufsen - High-end Headphones, Speakers, and Televisions",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "Bang & Olufsen"
+    ]
    }
   },
   {
@@ -599,16 +629,18 @@
    "region": "中国",
    "official_url": "https://baseus.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://baseus.com",
     "http_status": 200,
     "title": "Baseus Official | Practical. Reliable. Base on User.",
     "site_name": "Baseus US",
-    "matched_terms": []
+    "matched_terms": [
+     "Baseus"
+    ]
    }
   },
   {
@@ -624,16 +656,19 @@
    "region": "美国",
    "official_url": "https://beatsbydre.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://beatsbydre.com",
     "http_status": 200,
     "title": "Beats by Dre - Wireless Headphones, Earbuds, Speakers, and more",
     "site_name": "beatsbydre.com",
-    "matched_terms": []
+    "matched_terms": [
+     "Beats",
+     "Beats"
+    ]
    }
   },
   {
@@ -671,16 +706,18 @@
    "region": "德国",
    "official_url": "https://beyerdynamic.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://beyerdynamic.com",
     "http_status": 200,
     "title": "Headphones & Microphones |beyerdynamic",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "beyerdynamic"
+    ]
    }
   },
   {
@@ -725,16 +762,18 @@
    "region": "中国",
    "official_url": "https://bloody.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://bloody.com",
     "http_status": 200,
     "title": "Bloody Official Website",
     "site_name": "",
-    "matched_terms": []
+    "matched_terms": [
+     "Bloody"
+    ]
    }
   },
   {
@@ -750,16 +789,19 @@
    "region": "美国",
    "official_url": "https://bose.com",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "待人工确认",
+   "verified": true,
+   "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://bose.com",
     "http_status": 200,
     "title": "Headphones, Earbuds, Speakers, Soundbars, & More\n        | Bose",
     "site_name": "Bose",
-    "matched_terms": []
+    "matched_terms": [
+     "Bose",
+     "Bose"
+    ]
    }
   },
   {
