@@ -224,15 +224,12 @@
    "official_url": "https://amazon.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
+   "status": "核验失败",
    "verified_at": null,
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://amazon.com",
-    "http_status": 200,
-    "title": "Amazon.com. Spend less. Smile more.",
-    "site_name": "",
-    "matched_terms": []
+    "http_status": null
    }
   },
   {
@@ -1723,15 +1720,12 @@
    "official_url": "https://fostex.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
+   "status": "核验失败",
    "verified_at": null,
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://fostex.com",
-    "http_status": 200,
-    "title": "Fostex",
-    "site_name": "Fostex | Sound is the expansion of the heart",
-    "matched_terms": []
+    "http_status": null
    }
   },
   {
