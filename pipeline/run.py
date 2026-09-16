@@ -149,21 +149,31 @@ def cmd_mass(args):
     utils.save_json(utils.data_path("brands.json"), brands_data)
     print("品牌核验：%d/%d 确认" % (ok, total))
 
-    print("== 3/7 全品牌新品发现 ==")
+    print("== 3/7 全品牌新品发现（并发） ==")
     verified = [b for b in brands_data["brands"] if b.get("verified")]
     existing = {p["id"] for p in data["products"]}
     existing_names = {utils.slug(p["brand"] + utils.canonical_name(p["name"])) for p in data["products"]}
-    all_candidates = []
     cap = cfg.get("discovery", {}).get("mass_total_cap", 5000)
-    for b in verified:
+    all_candidates = []
+
+    def _discover_one(b):
         utils.logger.info("发现新品: %s", b["key"])
         cands = discover.discover_brand_products(b, cfg, existing_names=existing_names)
-        all_candidates.extend(cands)
-        if cands:
-            utils.logger.info("  +%d 个候选（累计 %d）", len(cands), len(all_candidates))
-        if len(all_candidates) >= cap:
-            print("已达候选上限 %d，停止发现" % cap)
-            break
+        return b["key"], cands
+
+    from concurrent.futures import ThreadPoolExecutor, as_completed as _ac
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        futs = {ex.submit(_discover_one, b): b for b in verified}
+        for fut in _ac(futs):
+            key, cands = fut.result()
+            if cands:
+                all_candidates.extend(cands)
+                utils.logger.info("%s +%d 个候选（累计 %d）", key, len(cands), len(all_candidates))
+            if len(all_candidates) >= cap:
+                utils.logger.info("已达候选上限 %d，停止等待", cap)
+                for f in list(futs):
+                    f.cancel()
+                break
     print("候选总数:", len(all_candidates))
 
     print("== 4/7 入库 ==")
