@@ -1,39 +1,40 @@
 {
  "site": "外设水库",
- "generated_at": "2026-09-16T08:40:53Z",
+ "generated_at": "2026-09-16T10:19:38Z",
  "brands": {
   "total": 231,
   "verified": 1,
   "by_status": {
-   "待核验": 229,
-   "已核验": 1,
-   "核验失败": 1
+   "核验失败": 39,
+   "待人工确认": 133,
+   "待核验": 58,
+   "已核验": 1
   },
   "with_products": 88,
   "no_products": 143,
   "verified_no_products": 0
  },
  "products": {
-  "total": 352,
+  "total": 552,
   "by_category": {
-   "未分类": 92,
-   "键盘": 75,
-   "鼠标": 67,
-   "耳机": 49,
-   "音响": 32,
-   "手柄": 23,
+   "未分类": 182,
+   "键盘": 110,
+   "鼠标": 92,
+   "耳机": 81,
+   "音响": 45,
+   "手柄": 28,
    "鼠标垫": 14
   },
   "data_status": {
-   "seed": 152,
-   "unverified": 200
+   "unverified": 548,
+   "seed": 4
   },
-  "with_image": 0,
-  "with_description": 244,
-  "with_specs": 154,
-  "with_official_link": 198,
-  "image_coverage": 0.0,
-  "spec_coverage": 43.8
+  "with_image": 397,
+  "with_description": 551,
+  "with_specs": 201,
+  "with_official_link": 398,
+  "image_coverage": 71.9,
+  "spec_coverage": 36.4
  },
  "integrity": {
   "dup_ids": 0,

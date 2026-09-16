@@ -16,9 +16,13 @@
    "official_url": "https://1more.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://1more.com",
+    "http_status": null
+   }
   },
   {
    "key": "3nod",
@@ -36,9 +40,16 @@
    "official_url": "https://3nod.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://3nod.com.cn",
+    "http_status": 200,
+    "title": "三诺集团-智慧生活创想家",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "8bitdo",
@@ -54,9 +65,16 @@
    "official_url": "https://8bitdo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://8bitdo.com",
+    "http_status": 200,
+    "title": "8BitDo",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "a4tech",
@@ -78,9 +96,16 @@
    "official_url": "https://a4tech.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://a4tech.com",
+    "http_status": 200,
+    "title": "A4TECH Official Website",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "aigo",
@@ -96,9 +121,16 @@
    "official_url": "https://aigo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://aigo.com",
+    "http_status": 200,
+    "title": "aigo Electric Scooters – Smart Urban Mobility for Everyone",
+    "site_name": "aigo Electric Scooters",
+    "matched_terms": []
+   }
   },
   {
    "key": "ajazz",
@@ -116,9 +148,16 @@
    "official_url": "https://a-jazz.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://a-jazz.com",
+    "http_status": 200,
+    "title": "AJAZZ 黑爵 ( 中英文 ) 官方网站",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "akg",
@@ -134,9 +173,13 @@
    "official_url": "https://akg.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://akg.com",
+    "http_status": null
+   }
   },
   {
    "key": "alienware",
@@ -156,9 +199,16 @@
    "official_url": "https://alienware.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://alienware.com",
+    "http_status": 200,
+    "title": "Alienware Gaming | Dell USA",
+    "site_name": "Alienware",
+    "matched_terms": []
+   }
   },
   {
    "key": "amazon",
@@ -174,9 +224,16 @@
    "official_url": "https://amazon.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://amazon.com",
+    "http_status": 200,
+    "title": "Amazon.com. Spend less. Smile more.",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "angrymiao",
@@ -192,9 +249,16 @@
    "official_url": "https://angrymiao.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://angrymiao.com",
+    "http_status": 200,
+    "title": "Angry Miao 怒喵科技官网",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "aojiashi",
@@ -212,7 +276,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "apple",
@@ -232,9 +299,16 @@
    "official_url": "https://apple.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://apple.com",
+    "http_status": 200,
+    "title": "Apple",
+    "site_name": "Apple",
+    "matched_terms": []
+   }
   },
   {
    "key": "artisan",
@@ -250,9 +324,16 @@
    "official_url": "https://artisan-jp.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://artisan-jp.com",
+    "http_status": 200,
+    "title": "ARTISAN // プロゲーマーの定番! 国産ハイパフォーマンス・ゲーミングマウスパッド",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "astrotec",
@@ -270,7 +351,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "asus-rog",
@@ -294,9 +378,16 @@
    "official_url": "https://rog.asus.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://rog.asus.com",
+    "http_status": 200,
+    "title": "ROG - Republic of Gamers｜Global | For Those Who Dare",
+    "site_name": "@ROG",
+    "matched_terms": []
+   }
   },
   {
    "key": "atc",
@@ -312,9 +403,16 @@
    "official_url": "https://atc.audio",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://atc.audio",
+    "http_status": 200,
+    "title": "Home - ATC Loudspeakers",
+    "site_name": "ATC Loudspeakers - Manufacturers of the Finest Audio Systems in the World",
+    "matched_terms": []
+   }
   },
   {
    "key": "atk",
@@ -330,9 +428,13 @@
    "official_url": "https://atkgear.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://atkgear.com.cn",
+    "http_status": null
+   }
   },
   {
    "key": "audeze",
@@ -348,9 +450,16 @@
    "official_url": "https://audeze.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://audeze.com",
+    "http_status": 200,
+    "title": "Audeze Headphones | Uncompromised Audio | Planar Magnetic Technology",
+    "site_name": "Audeze",
+    "matched_terms": []
+   }
   },
   {
    "key": "audio-technica",
@@ -366,9 +475,16 @@
    "official_url": "https://audio-technica.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://audio-technica.com",
+    "http_status": 200,
+    "title": "Headphones, Turntables, Microphones & Cartridges | Audio-Technica",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "aula",
@@ -392,7 +508,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "baishipai",
@@ -410,7 +529,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "baize",
@@ -428,7 +550,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "bang-olufsen",
@@ -446,9 +571,16 @@
    "official_url": "https://bang-olufsen.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://bang-olufsen.com",
+    "http_status": 200,
+    "title": "Bang & Olufsen - High-end Headphones, Speakers, and Televisions",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "baseus",
@@ -468,9 +600,16 @@
    "official_url": "https://baseus.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://baseus.com",
+    "http_status": 200,
+    "title": "Baseus Official | Practical. Reliable. Base on User.",
+    "site_name": "Baseus US",
+    "matched_terms": []
+   }
   },
   {
    "key": "beats",
@@ -486,9 +625,16 @@
    "official_url": "https://beatsbydre.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://beatsbydre.com",
+    "http_status": 200,
+    "title": "Beats by Dre - Wireless Headphones, Earbuds, Speakers, and more",
+    "site_name": "beatsbydre.com",
+    "matched_terms": []
+   }
   },
   {
    "key": "betop",
@@ -504,9 +650,13 @@
    "official_url": "https://betopgame.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://betopgame.com",
+    "http_status": null
+   }
   },
   {
    "key": "beyerdynamic",
@@ -522,9 +672,16 @@
    "official_url": "https://beyerdynamic.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://beyerdynamic.com",
+    "http_status": 200,
+    "title": "Headphones & Microphones |beyerdynamic",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "blackcanyon",
@@ -540,9 +697,16 @@
    "official_url": "https://blackcanyon.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://blackcanyon.com",
+    "http_status": 200,
+    "title": "",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "bloody",
@@ -562,9 +726,16 @@
    "official_url": "https://bloody.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://bloody.com",
+    "http_status": 200,
+    "title": "Bloody Official Website",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "bose",
@@ -580,9 +751,16 @@
    "official_url": "https://bose.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://bose.com",
+    "http_status": 200,
+    "title": "Headphones, Earbuds, Speakers, Soundbars, & More\n        | Bose",
+    "site_name": "Bose",
+    "matched_terms": []
+   }
   },
   {
    "key": "bowers-wilkins",
@@ -600,9 +778,16 @@
    "official_url": "https://bowerswilkins.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://bowerswilkins.com",
+    "http_status": 200,
+    "title": "Bowers & Wilkins | True Sound in Headphones, Loudspeakers & Audio Systems",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "burmester",
@@ -618,9 +803,16 @@
    "official_url": "https://burmester.de",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://burmester.de",
+    "http_status": 200,
+    "title": "Burmester — High-End-Audio, handgefertigt in Berlin seit 1977",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "campfire",
@@ -636,9 +828,16 @@
    "official_url": "https://campfireaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://campfireaudio.com",
+    "http_status": 200,
+    "title": "Campfire Audio | Hand-Built IEMs & Audiophile Earphones",
+    "site_name": "Campfire Audio",
+    "matched_terms": []
+   }
   },
   {
    "key": "canton",
@@ -654,9 +853,16 @@
    "official_url": "https://canton.de",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://canton.de",
+    "http_status": 200,
+    "title": "Startseite Canton Lautsprecher",
+    "site_name": "Canton",
+    "matched_terms": []
+   }
   },
   {
    "key": "cayin",
@@ -674,9 +880,16 @@
    "official_url": "https://cayin.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://cayin.com",
+    "http_status": 200,
+    "title": "Cayin Audio Distribution • High-End Hifi Online Shop › Cayin",
+    "site_name": "Cayin › Cayin High End Tube Audio Distribution",
+    "matched_terms": []
+   }
   },
   {
    "key": "changba",
@@ -692,9 +905,16 @@
    "official_url": "https://changba.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://changba.com",
+    "http_status": 200,
+    "title": "唱吧 - 移动K歌神器",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "chario",
@@ -710,9 +930,16 @@
    "official_url": "https://chario.it",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://chario.it",
+    "http_status": 200,
+    "title": "Chario Laudspeakers is under construction",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "cherry",
@@ -730,9 +957,16 @@
    "official_url": "https://cherry.de",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://cherry.de",
+    "http_status": 200,
+    "title": "CHERRY | Willkommen in der Welt von CHERRY - Cherry",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "chike",
@@ -750,7 +984,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "chongjibo",
@@ -768,7 +1005,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "colorful",
@@ -790,9 +1030,13 @@
    "official_url": "https://colorful.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://colorful.cn",
+    "http_status": null
+   }
   },
   {
    "key": "coolermaster",
@@ -812,9 +1056,16 @@
    "official_url": "https://coolermaster.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://coolermaster.com",
+    "http_status": 200,
+    "title": "Cooler Master",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "coopreme",
@@ -832,7 +1083,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "corsair",
@@ -854,9 +1108,16 @@
    "official_url": "https://corsair.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://corsair.com",
+    "http_status": 200,
+    "title": "CORSAIR | PC Components | Gaming Gear",
+    "site_name": "CORSAIR",
+    "matched_terms": []
+   }
   },
   {
    "key": "creative",
@@ -874,9 +1135,13 @@
    "official_url": "https://creative.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://creative.com",
+    "http_status": null
+   }
   },
   {
    "key": "d-glow",
@@ -894,7 +1159,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "dali",
@@ -910,9 +1178,13 @@
    "official_url": "https://daliloudspeakers.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://daliloudspeakers.com",
+    "http_status": null
+   }
   },
   {
    "key": "dareu",
@@ -934,9 +1206,16 @@
    "official_url": "https://dareu.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://dareu.com",
+    "http_status": 200,
+    "title": "Dareu® Official Store | Keyboards, Mice & Accessories",
+    "site_name": "Dareu",
+    "matched_terms": []
+   }
   },
   {
    "key": "delux",
@@ -952,9 +1231,16 @@
    "official_url": "https://deluxworld.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://deluxworld.com",
+    "http_status": 200,
+    "title": "DELUX 多彩 | 健康办公，从多彩开始! |垂直鼠标|立式鼠标|游戏鼠标|人体工学键盘推荐|人体工学鼠标推荐|-DELUX多彩官网",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "denon",
@@ -972,9 +1258,16 @@
    "official_url": "https://denon.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://denon.com",
+    "http_status": 200,
+    "title": "Denon | Premium AV Receivers, Wireless Speakers & Headphones",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "devialet",
@@ -992,9 +1285,13 @@
    "official_url": "https://devialet.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://devialet.com",
+    "http_status": null
+   }
   },
   {
    "key": "dingdong",
@@ -1012,7 +1309,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "divoom",
@@ -1028,9 +1328,16 @@
    "official_url": "https://divoom.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://divoom.com",
+    "http_status": 200,
+    "title": "Divoom – Pixel Art Bluetooth Speakers & Digital Photo Frames",
+    "site_name": "Divoom International",
+    "matched_terms": []
+   }
   },
   {
    "key": "ducky",
@@ -1046,9 +1353,13 @@
    "official_url": "https://duckychannel.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://duckychannel.com",
+    "http_status": null
+   }
   },
   {
    "key": "dunu",
@@ -1064,9 +1375,13 @@
    "official_url": "https://duni.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://duni.com.cn",
+    "http_status": null
+   }
   },
   {
    "key": "durgod",
@@ -1082,9 +1397,16 @@
    "official_url": "https://durgod.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://durgod.com",
+    "http_status": 200,
+    "title": "Best Wireless Mechanical keyboard - DURGOD",
+    "site_name": "DURGOD | Best Wireless Mechanical Keyboard for Gaming, Office, Mac, Windows, Android",
+    "matched_terms": []
+   }
   },
   {
    "key": "dynaudio",
@@ -1100,9 +1422,16 @@
    "official_url": "https://dynaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://dynaudio.com",
+    "http_status": 200,
+    "title": "High-end loudspeakers for home systems, professionals and cars",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "edifier",
@@ -1120,9 +1449,16 @@
    "official_url": "https://edifier.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://edifier.com",
+    "http_status": 200,
+    "title": "Edifier丨Official Site | Speakers & Headphones – Edifier Official",
+    "site_name": "Edifier Official",
+    "matched_terms": []
+   }
   },
   {
    "key": "elac",
@@ -1138,9 +1474,16 @@
    "official_url": "https://elac.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://elac.com",
+    "http_status": 200,
+    "title": "Elac - The life of sound | Best Audiophile Speakers",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "endgame-gear",
@@ -1156,9 +1499,16 @@
    "official_url": "https://endgamegear.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://endgamegear.com",
+    "http_status": 200,
+    "title": "The Game Changer | Endgame Gear",
+    "site_name": "Endgame Gear",
+    "matched_terms": []
+   }
   },
   {
    "key": "etymotic",
@@ -1174,9 +1524,16 @@
    "official_url": "https://etymotic.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://etymotic.com",
+    "http_status": 200,
+    "title": "Etymotic",
+    "site_name": "Etymotic",
+    "matched_terms": []
+   }
   },
   {
    "key": "fenda",
@@ -1196,7 +1553,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "fiio",
@@ -1214,9 +1574,16 @@
    "official_url": "https://fiio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://fiio.com",
+    "http_status": 200,
+    "title": "FiiO--Born for Music",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "filco",
@@ -1232,9 +1599,13 @@
    "official_url": "https://diatec.co.jp",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://diatec.co.jp",
+    "http_status": null
+   }
   },
   {
    "key": "final",
@@ -1250,9 +1621,16 @@
    "official_url": "https://final-inc.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://final-inc.com",
+    "http_status": 200,
+    "title": "final 公式ストア | 日本の高品質イヤホン・ワイヤレスイヤホン・ヘッドホンならfinal",
+    "site_name": "final 公式ストア",
+    "matched_terms": []
+   }
   },
   {
    "key": "finalmouse",
@@ -1268,9 +1646,16 @@
    "official_url": "https://finalmouse.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://finalmouse.com",
+    "http_status": 200,
+    "title": "Finalmouse",
+    "site_name": "Finalmouse",
+    "matched_terms": []
+   }
   },
   {
    "key": "flydigi",
@@ -1286,9 +1671,16 @@
    "official_url": "https://flydigi.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://flydigi.com",
+    "http_status": 200,
+    "title": "Flydigi Official Store",
+    "site_name": "Flydigi",
+    "matched_terms": []
+   }
   },
   {
    "key": "focal",
@@ -1306,9 +1698,16 @@
    "official_url": "https://focal.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://focal.com",
+    "http_status": 200,
+    "title": "Top-of-the-range speakers and hi-fi equipment | Focal",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "fostex",
@@ -1324,9 +1723,16 @@
    "official_url": "https://fostex.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://fostex.com",
+    "http_status": 200,
+    "title": "Fostex",
+    "site_name": "Fostex | Sound is the expansion of the heart",
+    "matched_terms": []
+   }
   },
   {
    "key": "fuhlen",
@@ -1344,7 +1750,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "fulin",
@@ -1364,7 +1773,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "g-wolves",
@@ -1380,9 +1792,16 @@
    "official_url": "https://g-wolves.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://g-wolves.com",
+    "http_status": 200,
+    "title": "G-Wolves Gaming",
+    "site_name": "G-Wolves",
+    "matched_terms": []
+   }
   },
   {
    "key": "gamesir",
@@ -1398,9 +1817,16 @@
    "official_url": "https://gamesir.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://gamesir.com",
+    "http_status": 200,
+    "title": "GameSir Official Store | GameSir",
+    "site_name": "GameSir",
+    "matched_terms": []
+   }
   },
   {
    "key": "ganss",
@@ -1418,7 +1844,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "genelec",
@@ -1434,9 +1863,16 @@
    "official_url": "https://genelec.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://genelec.com",
+    "http_status": 200,
+    "title": "World Leader in Studio Monitors - Genelec.com",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "gigabyte",
@@ -1456,9 +1892,13 @@
    "official_url": "https://gigabyte.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://gigabyte.com",
+    "http_status": null
+   }
   },
   {
    "key": "goldenfield",
@@ -1480,9 +1920,13 @@
    "official_url": "https://goldenfield.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://goldenfield.com.cn",
+    "http_status": null
+   }
   },
   {
    "key": "google",
@@ -1498,9 +1942,16 @@
    "official_url": "https://store.google.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://store.google.com",
+    "http_status": 200,
+    "title": "Google Store for Google Made Devices & Accessories",
+    "site_name": "Google Store",
+    "matched_terms": []
+   }
   },
   {
    "key": "grado",
@@ -1516,9 +1967,16 @@
    "official_url": "https://gradolabs.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://gradolabs.com",
+    "http_status": 200,
+    "title": "Grado Labs",
+    "site_name": "Grado",
+    "matched_terms": []
+   }
   },
   {
    "key": "gulikit",
@@ -1534,9 +1992,16 @@
    "official_url": "https://gulikit.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://gulikit.com",
+    "http_status": 200,
+    "title": "GuliKit",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "gustard",
@@ -1554,7 +2019,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "haylou",
@@ -1570,9 +2038,16 @@
    "official_url": "https://haylou.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://haylou.com",
+    "http_status": 200,
+    "title": "Power in self\n – Haylou",
+    "site_name": "Haylou",
+    "matched_terms": []
+   }
   },
   {
    "key": "hhkb",
@@ -1588,9 +2063,16 @@
    "official_url": "https://hhkb.io",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://hhkb.io",
+    "http_status": 200,
+    "title": "Home - hhkb.io",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "hifiman",
@@ -1606,9 +2088,16 @@
    "official_url": "https://hifiman.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://hifiman.com",
+    "http_status": 200,
+    "title": "HIFIMAN INNOVATING THE ART OF LISTENING",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "hivi",
@@ -1626,9 +2115,13 @@
    "official_url": "https://hivi.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://hivi.com",
+    "http_status": null
+   }
   },
   {
    "key": "hongmi",
@@ -1646,7 +2139,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "honor",
@@ -1662,9 +2158,16 @@
    "official_url": "https://honor.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://honor.com",
+    "http_status": 200,
+    "title": "HONOR",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "hori",
@@ -1680,9 +2183,13 @@
    "official_url": "https://hori.co.jp",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://hori.co.jp",
+    "http_status": null
+   }
   },
   {
    "key": "huawei",
@@ -1706,9 +2213,16 @@
    "official_url": "https://consumer.huawei.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://consumer.huawei.com",
+    "http_status": 200,
+    "title": "HUAWEI Global",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "hufu",
@@ -1726,7 +2240,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "hyperx",
@@ -1744,9 +2261,16 @@
    "official_url": "https://hyperx.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://hyperx.com",
+    "http_status": 200,
+    "title": "High Quality Gaming Gear\n – HyperX US",
+    "site_name": "HyperX US",
+    "matched_terms": []
+   }
   },
   {
    "key": "iflytek",
@@ -1762,9 +2286,13 @@
    "official_url": "https://iflytek.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://iflytek.com",
+    "http_status": null
+   }
   },
   {
    "key": "ikbc",
@@ -1780,9 +2308,13 @@
    "official_url": "https://ikbc.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://ikbc.com",
+    "http_status": null
+   }
   },
   {
    "key": "ikf",
@@ -1798,7 +2330,15 @@
    "official_url": "https://ikfaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验"
+   "status": "待人工确认",
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://ikfaudio.com",
+    "http_status": 200,
+    "title": "iKF Headphone\n – iKF Official Store",
+    "site_name": "iKF Official Store",
+    "matched_terms": []
+   }
   },
   {
    "key": "inphic",
@@ -1814,9 +2354,16 @@
    "official_url": "https://inphic.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://inphic.com",
+    "http_status": 200,
+    "title": "inphic® Official | Dancing on Fingers | Mouse and Keyboard – inphic Electronics Co., Ltd",
+    "site_name": "inphic Electronics Co., Ltd",
+    "matched_terms": []
+   }
   },
   {
    "key": "ipason",
@@ -1838,7 +2385,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "jamo",
@@ -1854,9 +2404,16 @@
    "official_url": "https://jamo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://jamo.com",
+    "http_status": 200,
+    "title": "Jamo",
+    "site_name": "Jamo",
+    "matched_terms": []
+   }
   },
   {
    "key": "jbl",
@@ -1872,9 +2429,13 @@
    "official_url": "https://jbl.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://jbl.com",
+    "http_status": null
+   }
   },
   {
    "key": "jixiang",
@@ -1892,7 +2453,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "jvc",
@@ -1910,9 +2474,16 @@
    "official_url": "https://jvc.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://jvc.com",
+    "http_status": 200,
+    "title": "JVC | JVCKENWOOD Corporation",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "kef",
@@ -1930,9 +2501,16 @@
    "official_url": "https://kef.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://kef.com",
+    "http_status": 200,
+    "title": "Official KEF US Website | HiFi Speakers, Subwoofers & Headphones",
+    "site_name": "KEF Americas",
+    "matched_terms": []
+   }
   },
   {
    "key": "kenwood",
@@ -1948,9 +2526,16 @@
    "official_url": "https://kenwood.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://kenwood.com",
+    "http_status": 200,
+    "title": "KENWOOD",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "keychron",
@@ -1968,9 +2553,16 @@
    "official_url": "https://keychron.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://keychron.com",
+    "http_status": 200,
+    "title": "Keychron | Custom Mechanical Keyboards for Mac, Windows and Phones",
+    "site_name": "Keychron",
+    "matched_terms": []
+   }
   },
   {
    "key": "klipsch",
@@ -1986,9 +2578,16 @@
    "official_url": "https://klipsch.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://klipsch.com",
+    "http_status": 200,
+    "title": "Klipsch Audio | Premium Speakers & Sound Systems Since 1946",
+    "site_name": "Klipsch",
+    "matched_terms": []
+   }
   },
   {
    "key": "kna",
@@ -2004,7 +2603,15 @@
    "official_url": "https://kna-audio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验"
+   "status": "待人工确认",
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://kna-audio.com",
+    "http_status": 200,
+    "title": "KNA官网-专业电竞外设品牌",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "kzzi",
@@ -2022,9 +2629,13 @@
    "official_url": "https://kzzi.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://kzzi.com",
+    "http_status": null
+   }
   },
   {
    "key": "lajitong",
@@ -2042,7 +2653,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "lamzu",
@@ -2058,9 +2672,16 @@
    "official_url": "https://lamzu.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://lamzu.com",
+    "http_status": 200,
+    "title": "Official LAMZU Gaming Gear | Wireless Gaming Mouse Game Changer.",
+    "site_name": "LAMZU",
+    "matched_terms": []
+   }
   },
   {
    "key": "langtu",
@@ -2078,7 +2699,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "leadjoy",
@@ -2096,7 +2720,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "lenovo",
@@ -2120,9 +2747,13 @@
    "official_url": "https://lenovo.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://lenovo.com.cn",
+    "http_status": null
+   }
   },
   {
    "key": "leopold",
@@ -2138,9 +2769,16 @@
    "official_url": "https://leopold.co.kr",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://leopold.co.kr",
+    "http_status": 200,
+    "title": "레오폴드",
+    "site_name": "레오폴드",
+    "matched_terms": []
+   }
   },
   {
    "key": "lethal",
@@ -2156,9 +2794,16 @@
    "official_url": "https://lethal.gg",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://lethal.gg",
+    "http_status": 200,
+    "title": "LGG - Gaming Mice, Skates, Grips, Keyboards, Kecyaps, Mousepads & MORE\n – LETHAL.GG",
+    "site_name": "LETHAL.GG",
+    "matched_terms": []
+   }
   },
   {
    "key": "lg",
@@ -2174,9 +2819,16 @@
    "official_url": "https://lg.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://lg.com",
+    "http_status": 200,
+    "title": "LG Electronics & Home Appliances | Shop Now | LG USA",
+    "site_name": "LG Electronics",
+    "matched_terms": []
+   }
   },
   {
    "key": "liangzhi",
@@ -2194,7 +2846,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "lingluqianyu",
@@ -2212,7 +2867,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "lingwoke",
@@ -2230,7 +2888,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "linn",
@@ -2246,9 +2907,13 @@
    "official_url": "https://linn.co.uk",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://linn.co.uk",
+    "http_status": null
+   }
   },
   {
    "key": "lofree",
@@ -2268,9 +2933,16 @@
    "official_url": "https://lofree.co",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://lofree.co",
+    "http_status": 200,
+    "title": "Lofree | Fun 2㎡ Designer for Mechanical Keyboard",
+    "site_name": "Lofree | Fun 2㎡ Designer for Mechanical Keyboard",
+    "matched_terms": []
+   }
   },
   {
    "key": "logitech",
@@ -2330,9 +3002,16 @@
    "official_url": "https://machenike.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://machenike.com",
+    "http_status": 200,
+    "title": "Machenike Official Website | Game Your Way",
+    "site_name": "Machenike Official Store",
+    "matched_terms": []
+   }
   },
   {
    "key": "maoking",
@@ -2350,7 +3029,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "marantz",
@@ -2366,9 +3048,16 @@
    "official_url": "https://marantz.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://marantz.com",
+    "http_status": 200,
+    "title": "Marantz | Reference AV Receivers, Amplifiers, Home Theater & Hi-Fi Sound",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "marshall",
@@ -2386,9 +3075,16 @@
    "official_url": "https://marshallheadphones.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://marshallheadphones.com",
+    "http_status": 200,
+    "title": "Marshall — 60 years of loud | Marshall.com",
+    "site_name": "Marshall.com",
+    "matched_terms": []
+   }
   },
   {
    "key": "matrix",
@@ -2406,7 +3102,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "mchose",
@@ -2424,9 +3123,13 @@
    "official_url": "https://mchose.net",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://mchose.net",
+    "http_status": null
+   }
   },
   {
    "key": "mcintosh",
@@ -2442,9 +3145,16 @@
    "official_url": "https://mcintoshlabs.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://mcintoshlabs.com",
+    "http_status": 200,
+    "title": "McIntosh : Home Audio Equipment for Stereo & Home Theater Systems",
+    "site_name": "McIntoshLabs",
+    "matched_terms": []
+   }
   },
   {
    "key": "meizu",
@@ -2460,9 +3170,16 @@
    "official_url": "https://meizu.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://meizu.com",
+    "http_status": 200,
+    "title": "魅族官网商城-提供魅族品牌手机、数码生活周边及子品牌产品的预约和购买",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "microlab",
@@ -2480,9 +3197,13 @@
    "official_url": "https://microlab.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://microlab.com.cn",
+    "http_status": null
+   }
   },
   {
    "key": "microsoft",
@@ -2502,9 +3223,16 @@
    "official_url": "https://microsoft.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://microsoft.com",
+    "http_status": 200,
+    "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "misiom",
@@ -2520,7 +3248,15 @@
    "official_url": "https://misiom.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验"
+   "status": "待人工确认",
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://misiom.cn",
+    "http_status": 200,
+    "title": "觅声Mísiom",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "mission",
@@ -2536,9 +3272,16 @@
    "official_url": "https://mission.co.uk",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://mission.co.uk",
+    "http_status": 200,
+    "title": "Mission – Music is the master, Technology Follows",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "mobapad",
@@ -2554,9 +3297,16 @@
    "official_url": "https://mobapad.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://mobapad.com",
+    "http_status": 200,
+    "title": "Optimize Your Switch Gaming: Explore Mobapad's Premium Controllers!\n – mobapad",
+    "site_name": "mobapad",
+    "matched_terms": []
+   }
   },
   {
    "key": "mojiang",
@@ -2574,7 +3324,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "monitor-audio",
@@ -2590,9 +3343,16 @@
    "official_url": "https://monitoraudio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://monitoraudio.com",
+    "http_status": 200,
+    "title": "Monitor Audio | Hi-Fi, Cinema & Architectural Speakers",
+    "site_name": "Monitor Audio",
+    "matched_terms": []
+   }
   },
   {
    "key": "moondrop",
@@ -2608,9 +3368,16 @@
    "official_url": "https://moondroplab.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://moondroplab.com",
+    "http_status": 200,
+    "title": "MOONDROP Official Website | Discover the Latest Products‎",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "msi",
@@ -2632,9 +3399,13 @@
    "official_url": "https://msi.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://msi.com",
+    "http_status": null
+   }
   },
   {
    "key": "nacon",
@@ -2650,9 +3421,16 @@
    "official_url": "https://nacon.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://nacon.com",
+    "http_status": 200,
+    "title": "503 Service Unavailable",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "naim",
@@ -2668,9 +3446,16 @@
    "official_url": "https://naimaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://naimaudio.com",
+    "http_status": 200,
+    "title": "British High-End Audio | Naim Audio",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "nank",
@@ -2688,7 +3473,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "neumann",
@@ -2704,9 +3492,16 @@
    "official_url": "https://neumann.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://neumann.com",
+    "http_status": 200,
+    "title": "Neumann Homepage – the reference since 1928",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "newmen",
@@ -2724,7 +3519,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "newsmy",
@@ -2744,9 +3542,13 @@
    "official_url": "https://newsmy.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://newsmy.com.cn",
+    "http_status": null
+   }
   },
   {
    "key": "nf-audio",
@@ -2762,9 +3564,13 @@
    "official_url": "https://nfaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://nfaudio.com",
+    "http_status": null
+   }
   },
   {
    "key": "nintendo",
@@ -2780,9 +3586,16 @@
    "official_url": "https://nintendo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://nintendo.com",
+    "http_status": 200,
+    "title": "Nintendo - Official Site: Consoles, Games, News, and More",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "nubia",
@@ -2800,9 +3613,16 @@
    "official_url": "https://nubia.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://nubia.com",
+    "http_status": 200,
+    "title": "nubia Store (Global) | Mobile Photography Expert - Nubia Store (Global)",
+    "site_name": "Nubia Store (Global)",
+    "matched_terms": []
+   }
   },
   {
    "key": "onkyo",
@@ -2820,9 +3640,16 @@
    "official_url": "https://onkyo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://onkyo.com",
+    "http_status": 200,
+    "title": "AV Receivers, Amplifiers, and Hi-Fi Home Audio | Onkyo",
+    "site_name": "Onkyo",
+    "matched_terms": []
+   }
   },
   {
    "key": "oppo",
@@ -2838,9 +3665,16 @@
    "official_url": "https://oppo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://oppo.com",
+    "http_status": 200,
+    "title": "OPPO Official Site | OPPO Global",
+    "site_name": "OPPO",
+    "matched_terms": []
+   }
   },
   {
    "key": "panasonic",
@@ -2858,9 +3692,13 @@
    "official_url": "https://panasonic.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://panasonic.com",
+    "http_status": null
+   }
   },
   {
    "key": "pdp",
@@ -2876,9 +3714,16 @@
    "official_url": "https://pdp.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://pdp.com",
+    "http_status": 200,
+    "title": "Where’s PDP? | Discover PDP Gaming Now on Turtle Beach | Turtle Beach",
+    "site_name": "Turtle Beach",
+    "matched_terms": []
+   }
   },
   {
    "key": "philips",
@@ -2896,9 +3741,16 @@
    "official_url": "https://philips.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://philips.com",
+    "http_status": 200,
+    "title": "Philips - United States | Philips",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "pioneer",
@@ -2916,9 +3768,16 @@
    "official_url": "https://pioneerelectronics.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://pioneerelectronics.com",
+    "http_status": 200,
+    "title": "Pioneer Electronics | Car Audio, Amplifiers & Dash Cameras",
+    "site_name": "Pioneer Electronics",
+    "matched_terms": []
+   }
   },
   {
    "key": "pisen",
@@ -2936,9 +3795,16 @@
    "official_url": "https://pisen.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://pisen.com.cn",
+    "http_status": 200,
+    "title": "四川品胜品牌管理有限公司",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "powera",
@@ -2954,9 +3820,16 @@
    "official_url": "https://powera.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://powera.com",
+    "http_status": 200,
+    "title": "PowerA | Accessories for Xbox, PlayStation, Nintendo, and more",
+    "site_name": "PowerA",
+    "matched_terms": []
+   }
   },
   {
    "key": "pulsar",
@@ -2972,9 +3845,16 @@
    "official_url": "https://pulsargaming.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://pulsargaming.com",
+    "http_status": 200,
+    "title": "Pulsar Gaming",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "pxn",
@@ -2990,9 +3870,13 @@
    "official_url": "https://pxn.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://pxn.com",
+    "http_status": null
+   }
   },
   {
    "key": "qcy",
@@ -3008,9 +3892,16 @@
    "official_url": "https://qcy.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://qcy.com",
+    "http_status": 200,
+    "title": "QCY Official | Wireless Headphones & Bluetooth Earbuds",
+    "site_name": "QCY Official",
+    "matched_terms": []
+   }
   },
   {
    "key": "qingqibing",
@@ -3028,7 +3919,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "qingsui",
@@ -3046,7 +3940,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "qls",
@@ -3064,7 +3961,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "quaoar",
@@ -3082,7 +3982,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "rapoo",
@@ -3104,9 +4007,16 @@
    "official_url": "https://rapoo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://rapoo.com",
+    "http_status": 200,
+    "title": "Rapoo Official Website",
+    "site_name": "RAPOO",
+    "matched_terms": []
+   }
   },
   {
    "key": "razer",
@@ -3128,9 +4038,16 @@
    "official_url": "https://razer.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://razer.com",
+    "http_status": 200,
+    "title": "Razer United States | For Gamers. By Gamers.",
+    "site_name": "Razer",
+    "matched_terms": []
+   }
   },
   {
    "key": "realforce",
@@ -3146,9 +4063,16 @@
    "official_url": "https://realforce.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://realforce.com",
+    "http_status": 200,
+    "title": "Realforce - The control panel for real estate marketing",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "redmi",
@@ -3166,7 +4090,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "rk",
@@ -3184,7 +4111,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "roccat",
@@ -3202,9 +4132,16 @@
    "official_url": "https://roccat.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://roccat.com",
+    "http_status": 200,
+    "title": "Turtle Beach® #1 Gaming Headsets - Hear Everything. Defeat Everyone.",
+    "site_name": "Turtle Beach",
+    "matched_terms": []
+   }
   },
   {
    "key": "rose-technics",
@@ -3222,7 +4159,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "samsung",
@@ -3240,9 +4180,16 @@
    "official_url": "https://samsung.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://samsung.com",
+    "http_status": 200,
+    "title": "Samsung US | Mobile | TV | Home Electronics | Home Appliances | Samsung US",
+    "site_name": "Samsung",
+    "matched_terms": []
+   }
   },
   {
    "key": "sanag",
@@ -3260,7 +4207,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "sansui",
@@ -3278,7 +4228,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "scuf",
@@ -3294,9 +4247,16 @@
    "official_url": "https://scufgaming.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://scufgaming.com",
+    "http_status": 200,
+    "title": "SCUF® Custom Controllers | Best PS5, Xbox, & PC Controllers",
+    "site_name": "SCUF GAMING",
+    "matched_terms": []
+   }
   },
   {
    "key": "sennheiser",
@@ -3312,9 +4272,16 @@
    "official_url": "https://sennheiser.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://sennheiser.com",
+    "http_status": 200,
+    "title": "Sennheiser — Headphones, Microphones, Wireless Systems",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "shanling",
@@ -3332,9 +4299,16 @@
    "official_url": "https://shanling.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://shanling.com",
+    "http_status": 200,
+    "title": "深圳山灵数码科技发展有限公司",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "shanshui-cn",
@@ -3354,7 +4328,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "shenghui",
@@ -3372,7 +4349,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "shokz",
@@ -3388,9 +4368,16 @@
    "official_url": "https://shokz.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://shokz.com",
+    "http_status": 200,
+    "title": "Open-Ear & Bone Conduction Headphones | Shokz Official",
+    "site_name": "Shokz",
+    "matched_terms": []
+   }
   },
   {
    "key": "shouxi-player",
@@ -3408,7 +4395,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "shure",
@@ -3424,9 +4414,16 @@
    "official_url": "https://shure.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://shure.com",
+    "http_status": 200,
+    "title": "Shure: Microphones, Wireless microphones, in-ear monitoring, earphones, headphones - Shure USA",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "simgot",
@@ -3442,9 +4439,13 @@
    "official_url": "https://simgotaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://simgotaudio.com",
+    "http_status": null
+   }
   },
   {
    "key": "smsl",
@@ -3460,9 +4461,16 @@
    "official_url": "https://smsl-audio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://smsl-audio.com",
+    "http_status": 200,
+    "title": "双木三林官网-SMSL中文|佛山双木三林科技有限公司",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "soaiy",
@@ -3484,7 +4492,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "somic",
@@ -3502,7 +4513,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "sonus-faber",
@@ -3518,9 +4532,16 @@
    "official_url": "https://sonusfaber.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://sonusfaber.com",
+    "http_status": 200,
+    "title": "Sonus faber | Artisan of Sound, Made in Italy",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "sony",
@@ -3562,9 +4583,16 @@
    "official_url": "https://soundcore.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://soundcore.com",
+    "http_status": 200,
+    "title": "Soundcore Headphones & Speakers - Hear it, Feel it - soundcore US",
+    "site_name": "soundcore",
+    "matched_terms": []
+   }
   },
   {
    "key": "steelseries",
@@ -3586,9 +4614,13 @@
    "official_url": "https://steelseries.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://steelseries.com",
+    "http_status": null
+   }
   },
   {
    "key": "subor",
@@ -3604,9 +4636,13 @@
    "official_url": "https://subor.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://subor.com.cn",
+    "http_status": null
+   }
   },
   {
    "key": "takstar",
@@ -3622,9 +4658,16 @@
    "official_url": "https://takstar.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://takstar.com",
+    "http_status": 200,
+    "title": "Guangdong Takstar Electronic Co., Ltd",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "tangzu",
@@ -3642,7 +4685,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "tannoy",
@@ -3658,9 +4704,16 @@
    "official_url": "https://tannoy.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://tannoy.com",
+    "http_status": 200,
+    "title": "Empower Tribe | Tannoy",
+    "site_name": "Tannoy",
+    "matched_terms": []
+   }
   },
   {
    "key": "teac",
@@ -3676,9 +4729,13 @@
    "official_url": "https://teac-audio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://teac-audio.com",
+    "http_status": null
+   }
   },
   {
    "key": "teclast",
@@ -3696,9 +4753,16 @@
    "official_url": "https://teclast.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://teclast.com",
+    "http_status": 200,
+    "title": "台电 - 让更多人享受数字生活",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "tesoro",
@@ -3716,9 +4780,16 @@
    "official_url": "https://tesorotec.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://tesorotec.com",
+    "http_status": 200,
+    "title": "Home | Tesoro",
+    "site_name": "Tesoro",
+    "matched_terms": []
+   }
   },
   {
    "key": "tfz",
@@ -3736,7 +4807,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "thermaltake",
@@ -3756,9 +4830,16 @@
    "official_url": "https://thermaltake.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://thermaltake.com",
+    "http_status": 200,
+    "title": "Thermaltake Global",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "thrustmaster",
@@ -3774,9 +4855,16 @@
    "official_url": "https://thrustmaster.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://thrustmaster.com",
+    "http_status": 200,
+    "title": "Thrustmaster | Wheels, Joysticks and Gamepads for video games",
+    "site_name": "Thrustmaster",
+    "matched_terms": []
+   }
   },
   {
    "key": "thunderobot",
@@ -3798,9 +4886,16 @@
    "official_url": "https://thunderobot.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://thunderobot.com",
+    "http_status": 200,
+    "title": "THUNDEROBOT | Born For Gaming",
+    "site_name": "THUNDEROBOT Global",
+    "matched_terms": []
+   }
   },
   {
    "key": "tianlu",
@@ -3818,7 +4913,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "tianyi",
@@ -3836,7 +4934,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "tmall-genie",
@@ -3852,9 +4953,16 @@
    "official_url": "https://aligenie.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://aligenie.com",
+    "http_status": 200,
+    "title": "天猫精灵开放平台首页",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "topping",
@@ -3872,7 +4980,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "torras",
@@ -3888,9 +4999,16 @@
    "official_url": "https://torras.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://torras.com",
+    "http_status": 200,
+    "title": "TORRAS | Moda de lujo en piel y punto para hombre y mujer\n      \n      | TORRAS",
+    "site_name": "Torras",
+    "matched_terms": []
+   }
   },
   {
    "key": "triangle",
@@ -3906,9 +5024,16 @@
    "official_url": "https://trianglehifi.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://trianglehifi.com",
+    "http_status": 200,
+    "title": "TRIANGLE HIFI - French High-End Speakers Manufacturer",
+    "site_name": "Manufacture TRIANGLE Hi-Fi",
+    "matched_terms": []
+   }
   },
   {
    "key": "turtlebeach",
@@ -3926,9 +5051,16 @@
    "official_url": "https://turtlebeach.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://turtlebeach.com",
+    "http_status": 200,
+    "title": "Turtle Beach® #1 Gaming Headsets - Hear Everything. Defeat Everyone.",
+    "site_name": "Turtle Beach",
+    "matched_terms": []
+   }
   },
   {
    "key": "ugreen",
@@ -3948,9 +5080,16 @@
    "official_url": "https://ugreen.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://ugreen.com",
+    "http_status": 200,
+    "title": "UGREEN Official Site",
+    "site_name": "UGREEN Official Site",
+    "matched_terms": []
+   }
   },
   {
    "key": "varmilo",
@@ -3966,9 +5105,16 @@
    "official_url": "https://varmilo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://varmilo.com",
+    "http_status": 200,
+    "title": "Varmilo Official Website",
+    "site_name": "Varmilo",
+    "matched_terms": []
+   }
   },
   {
    "key": "vaxee",
@@ -3986,9 +5132,13 @@
    "official_url": "https://vaxee.co",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://vaxee.co",
+    "http_status": null
+   }
   },
   {
    "key": "vgn",
@@ -4008,7 +5158,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "victrix",
@@ -4024,9 +5177,16 @@
    "official_url": "https://victrixpro.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://victrixpro.com",
+    "http_status": 200,
+    "title": "Victrix Lineup | Turtle Beach | Turtle Beach",
+    "site_name": "Turtle Beach",
+    "matched_terms": []
+   }
   },
   {
    "key": "vivo",
@@ -4042,9 +5202,16 @@
    "official_url": "https://vivo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://vivo.com",
+    "http_status": 200,
+    "title": "vivo Official Site",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "vortex",
@@ -4060,9 +5227,13 @@
    "official_url": "https://vortexgear.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://vortexgear.com",
+    "http_status": null
+   }
   },
   {
    "key": "vxe",
@@ -4080,7 +5251,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "westone",
@@ -4096,9 +5270,16 @@
    "official_url": "https://westone.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://westone.com",
+    "http_status": 200,
+    "title": "Westone Laboratories",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "wharfedale",
@@ -4114,9 +5295,16 @@
    "official_url": "https://wharfedale.co.uk",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://wharfedale.co.uk",
+    "http_status": 200,
+    "title": "Wharfedale | Britain's Most Famous Loudspeakers",
+    "site_name": "Wharfedale",
+    "matched_terms": []
+   }
   },
   {
    "key": "wob",
@@ -4134,7 +5322,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "wooting",
@@ -4150,9 +5341,16 @@
    "official_url": "https://wooting.io",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://wooting.io",
+    "http_status": 200,
+    "title": "Wooting Keyboards",
+    "site_name": "Wooting",
+    "matched_terms": []
+   }
   },
   {
    "key": "xduoo",
@@ -4170,9 +5368,16 @@
    "official_url": "https://xduoo.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://xduoo.com",
+    "http_status": 200,
+    "title": "深圳市乂度科技有限公司 官方网站",
+    "site_name": "深圳市乂度科技有限公司 官方网站",
+    "matched_terms": []
+   }
   },
   {
    "key": "xiaoai",
@@ -4190,7 +5395,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "xiaodu",
@@ -4206,9 +5414,13 @@
    "official_url": "https://xiaodu.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://xiaodu.com",
+    "http_status": null
+   }
   },
   {
    "key": "xiaomi",
@@ -4230,9 +5442,13 @@
    "official_url": "https://mi.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://mi.com",
+    "http_status": null
+   }
   },
   {
    "key": "xinmeng",
@@ -4250,7 +5466,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "yamaha",
@@ -4268,9 +5487,13 @@
    "official_url": "https://yamaha.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://yamaha.com",
+    "http_status": null
+   }
   },
   {
    "key": "yisuma",
@@ -4288,7 +5511,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "yulong",
@@ -4304,9 +5530,13 @@
    "official_url": "https://yulongaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "核验失败",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://yulongaudio.com",
+    "http_status": null
+   }
   },
   {
    "key": "yunzii",
@@ -4324,9 +5554,16 @@
    "official_url": "https://yunzii.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://yunzii.com",
+    "http_status": 200,
+    "title": "YUNZII Keyboard Best Mechanical Keyboard – YUNZII KEYBOARD",
+    "site_name": "YUNZII KEYBOARD",
+    "matched_terms": []
+   }
   },
   {
    "key": "yuyou",
@@ -4344,7 +5581,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "zhenhuo",
@@ -4362,7 +5602,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "zhidong",
@@ -4380,7 +5623,10 @@
    "verified": false,
    "status": "待核验",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "error": "未发现官网候选"
+   }
   },
   {
    "key": "zowie",
@@ -4398,9 +5644,16 @@
    "official_url": "https://zowie.com",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://zowie.com",
+    "http_status": 200,
+    "title": "zowie.com - This website is for sale! - Geschenke Resources and Information.",
+    "site_name": "",
+    "matched_terms": []
+   }
   },
   {
    "key": "zte",
@@ -4416,9 +5669,16 @@
    "official_url": "https://zte.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待核验",
+   "status": "待人工确认",
    "verified_at": null,
-   "evidence": null
+   "evidence": {
+    "checked_at": "2026-09-16",
+    "url": "https://zte.com.cn",
+    "http_status": 200,
+    "title": "ZTE - ZTE Offical Website | Leading 5G Innovations The world's leading communications service provider",
+    "site_name": "",
+    "matched_terms": []
+   }
   }
  ]
 }
