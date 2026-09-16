@@ -1,0 +1,65 @@
+{
+ "site": "外设水库",
+ "generated_at": "2026-09-16T08:40:53Z",
+ "brands": {
+  "total": 231,
+  "verified": 1,
+  "by_status": {
+   "待核验": 229,
+   "已核验": 1,
+   "核验失败": 1
+  },
+  "with_products": 88,
+  "no_products": 143,
+  "verified_no_products": 0
+ },
+ "products": {
+  "total": 352,
+  "by_category": {
+   "未分类": 92,
+   "键盘": 75,
+   "鼠标": 67,
+   "耳机": 49,
+   "音响": 32,
+   "手柄": 23,
+   "鼠标垫": 14
+  },
+  "data_status": {
+   "seed": 152,
+   "unverified": 200
+  },
+  "with_image": 0,
+  "with_description": 244,
+  "with_specs": 154,
+  "with_official_link": 198,
+  "image_coverage": 0.0,
+  "spec_coverage": 43.8
+ },
+ "integrity": {
+  "dup_ids": 0,
+  "dup_canonical_names": 0,
+  "orphan_products": 0
+ },
+ "brands_no_products_sample": [
+  "3nod",
+  "a4tech",
+  "aigo",
+  "amazon",
+  "aojiashi",
+  "astrotec",
+  "atc",
+  "audeze",
+  "baishipai",
+  "baize",
+  "baseus",
+  "beats",
+  "burmester",
+  "campfire",
+  "canton",
+  "cayin",
+  "changba",
+  "chario",
+  "chike",
+  "chongjibo"
+ ]
+}

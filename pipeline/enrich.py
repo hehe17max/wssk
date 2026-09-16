@@ -1,54 +1,166 @@
 # -*- coding: utf-8 -*-
-"""enrich.py · 自动补全数据信息
-================================
-对缺描述或未分类的新产品，自动抓取品牌官网产品页的 <title> 与 meta description，
-回填描述并重新分类——对应「自动补充填充数据信息」环节。
+"""enrich.py · 自动补全数据信息（并行版）
+========================================
+对缺描述/未分类/缺图片/缺参数的产品，自动抓取品牌官网产品页：
+  - <title> 与 meta description → 回填描述
+  - og:image / 首张产品图 → 回填 image（真实产品图 URL）
+  - 页面规格表 → 抽取真实参数写入 specs（仅当原 specs 为空时）
+无官方链接且品牌已核验的产品，先经搜索引擎发现产品页再抓取。
 """
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import urljoin
 
-from . import classify, utils
+from bs4 import BeautifulSoup
+
+from . import classify, utils, verify
 
 _TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
 _DESC_RE = re.compile(
     r'<meta[^>]+name=["\']description["\'][^>]+content=["\'](.*?)["\']', re.I | re.S
 )
+_OG_IMAGE_RE = re.compile(
+    r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\'](.*?)["\']', re.I | re.S
+)
+_OG_IMAGE_RE2 = re.compile(
+    r'<meta[^>]+content=["\'](.*?)["\'][^>]+property=["\']og:image["\']', re.I | re.S
+)
+
+# 页面图片候选（产品图常见选择器，按优先级）
+_IMG_SELECTORS = [
+    "img.product-image", "img[data-src*='product']", "img[src*='product']",
+    "img[src*='prod']", ".product img", "main img", "#content img",
+]
+_IMG_SKIP = ("logo", "icon", "banner", "sprite", "avatar", "loading", "placeholder")
 
 
-def extract_page_meta(url, cfg, timeout=12):
-    """抓取产品页标题与描述。失败返回 None。"""
+def _clean(s):
+    return re.sub(r"\s+", " ", s or "").strip()
+
+
+def extract_page_meta(url, cfg, timeout=15):
+    """抓取产品页标题/描述/产品图/规格行。失败返回 None。"""
     status, html = utils.http_get(url, cfg, timeout=timeout)
     if not html:
         return None
     t = _TITLE_RE.search(html)
     d = _DESC_RE.search(html)
+    og = _OG_IMAGE_RE.search(html) or _OG_IMAGE_RE2.search(html)
+    image = ""
+    if og:
+        image = _clean(og.group(1))
+    if image and image.startswith("//"):
+        image = "https:" + image
+    elif image:
+        image = urljoin(url, image)
+    if not image:
+        soup = BeautifulSoup(html, "html.parser")
+        for sel in _IMG_SELECTORS:
+            img = soup.select_one(sel)
+            if img:
+                src = img.get("src") or img.get("data-src") or ""
+                if src and not any(k in src.lower() for k in _IMG_SKIP):
+                    image = urljoin(url, src) if not src.startswith(("http", "//")) else ("https:" + src if src.startswith("//") else src)
+                    break
+    rows = verify.extract_spec_rows(html)
     return {
-        "title": re.sub(r"\s+", " ", t.group(1)).strip() if t else "",
-        "description": re.sub(r"\s+", " ", d.group(1)).strip() if d else "",
+        "title": _clean(t.group(1)) if t else "",
+        "description": _clean(d.group(1)) if d else "",
+        "image": _clean(image),
+        "rows": rows,
     }
 
 
-def enrich_unverified(data, cfg, limit=30):
-    """为缺描述/未分类的产品补全官方页信息。返回 (补全数, 重新分类数)。"""
-    http_cfg = cfg.get("http", {})
+def _fill_specs_from_rows(product, rows):
+    """把页面规格行映射为我们的参数键（仅填 specs 为空的产品）。"""
+    if product.get("specs"):
+        return False
+    # 页签 → 参数键 反向匹配（SPEC_ALIASES 值命中页签则归属该键）
+    filled = {}
+    for label, value in rows:
+        for our_key, aliases in verify.SPEC_ALIASES.items():
+            if our_key in filled:
+                continue
+            if any(utils.norm_num(a) is not None or a.lower() in label.lower() for a in aliases):
+                if any(a.lower() in label.lower() for a in aliases):
+                    filled[our_key] = value
+                    break
+    if filled:
+        product["specs"] = filled
+        return True
+    return False
+
+
+def _discover_page_url(product, brand, cfg):
+    """无官方链接时经搜索引擎找产品页。返回 URL 或 None。"""
+    q = "%s %s" % (brand.get("name_en") or brand.get("name"), product.get("name", ""))
+    results = verify.search_web(q, cfg)
+    for _t, url, _s in results:
+        if url and "http" in url:
+            return url
+    return None
+
+
+def _enrich_one(product, brands_by_key, cfg):
+    """补全单个产品。返回 (product_id, 变更标记, 分类变更标记)。"""
+    changed = False
+    cat_changed = False
+    url = (product.get("links") or {}).get("official")
+    brand = brands_by_key.get(product.get("brand"), {})
+    if not url and brand.get("verified"):
+        url = _discover_page_url(product, brand, cfg)
+        if url and product.get("links") is None:
+            product["links"] = {}
+        if url:
+            product["links"]["official"] = url
+    if not url:
+        return product.get("id"), changed, cat_changed
+    info = extract_page_meta(url, cfg)
+    if not info or not info.get("title"):
+        return product.get("id"), changed, cat_changed
+    if not (product.get("description") or "").strip():
+        product["description"] = (info.get("description") or info["title"])[:300]
+        changed = True
+    if info.get("image") and not product.get("image"):
+        product["image"] = info["image"]
+        changed = True
+    if _fill_specs_from_rows(product, info.get("rows") or []):
+        changed = True
+    old = product.get("category")
+    classify.classify_product(product)
+    if product.get("category") != old:
+        changed = True
+        cat_changed = True
+    return product.get("id"), changed, cat_changed
+
+
+def enrich_unverified(data, brands_data, cfg, limit=None, workers=None):
+    """批量补全：优先缺图片/描述/参数的产品。返回 (补全数, 新分类数, 失败数)。"""
+    brands_by_key = {b["key"]: b for b in brands_data["brands"]}
     products = data["products"]
+    limit = limit or cfg.get("enrich", {}).get("per_run_limit", 3000)
+    workers = workers or cfg.get("enrich", {}).get("workers", 14)
     targets = [
         p for p in products
-        if (not (p.get("description") or "").strip() or p.get("category") == "unclassified")
-        and (p.get("links") or {}).get("official")
-    ]
-    enriched = 0
+        if (not p.get("image") or not (p.get("description") or "").strip() or not p.get("specs"))
+        and ((p.get("links") or {}).get("official") or brands_by_key.get(p.get("brand"), {}).get("verified"))
+    ][:limit]
+    done = 0
     reclassified = 0
-    for p in targets[:limit]:
-        info = extract_page_meta(p["links"]["official"], cfg, timeout=http_cfg.get("timeout", 12))
-        if not info or not info.get("title"):
-            continue
-        if not (p.get("description") or "").strip():
-            p["description"] = (info.get("description") or info["title"])[:300]
-        old = p.get("category")
-        classify.classify_product(p)
-        if p.get("category") != old:
-            reclassified += 1
-        enriched += 1
-        time.sleep(0.4)
-    return enriched, reclassified
+    failed = 0
+    start = time.time()
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futs = {ex.submit(_enrich_one, p, brands_by_key, cfg): p for p in targets}
+        for fut in as_completed(futs):
+            try:
+                _pid, changed, cat_changed = fut.result()
+                if changed:
+                    done += 1
+                if cat_changed:
+                    reclassified += 1
+            except Exception:  # noqa: BLE001
+                failed += 1
+    utils.logger.info("补全: 目标 %d, 完成 %d, 重新分类 %d, 失败 %d, 耗时 %.0fs",
+                      len(targets), done, reclassified, failed, time.time() - start)
+    return done, reclassified, failed

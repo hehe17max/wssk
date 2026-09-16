@@ -44,6 +44,7 @@ SPEC = [
     ("earphone", "传统音频", [
         ("edifier", "漫步者", "Edifier"), ("hivi", "惠威", "HiVi"), ("somic", "硕美科", "Somic"),
         ("shanshui-cn", "山水（国内授权）", "SANSUI CN"), ("fenda", "奋达", "Fenda"),
+        ("ikf", "iKF", "iKF"), ("misiom", "觅声", "Misiom"), ("kna", "KNA", "KNA"),
         ("microlab", "麦博", "Microlab"), ("3nod", "三诺", "3NOD"), ("aigo", "爱国者", "aigo"),
         ("newsmy", "纽曼", "Newsmy"), ("teclast", "台电", "Teclast"), ("soaiy", "索爱", "Soaiy"),
     ]),
@@ -292,6 +293,7 @@ CURATED = {
     "rapoo": ["rapoo.com"], "dareu": ["dareu.com"], "a4tech": ["a4tech.com"], "bloody": ["bloody.com"],
     "thunderobot": ["thunderobot.com"], "machenike": ["machenike.com"], "colorful": ["colorful.cn"],
     "goldenfield": ["goldenfield.com.cn"], "takstar": ["takstar.com"], "apple": ["apple.com"],
+    "ikf": ["ikfaudio.com"], "misiom": ["misiom.cn"], "kna": ["kna-audio.com"],
     "beats": ["beatsbydre.com"], "bose": ["bose.com"], "jbl": ["jbl.com"], "shure": ["shure.com"],
     "grado": ["gradolabs.com"], "audeze": ["audeze.com"], "etymotic": ["etymotic.com"],
     "westone": ["westone.com"], "campfire": ["campfireaudio.com"], "klipsch": ["klipsch.com"],

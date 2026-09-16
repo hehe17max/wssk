@@ -173,6 +173,7 @@
     const isNew = p.discovered_at && (Date.now() - new Date(p.discovered_at).getTime()) / 86400000 <= 7;
     const added = getSelected().includes(p.id);
     return `<div class="card" data-id="${p.id}">
+      ${p.image ? `<div class="card-img"><img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="this.closest('.card-img').classList.add('noimg')"><span class="img-ph">${escapeHtml(b.name)}</span></div>` : ""}
       <div class="card-top">
         <span class="brand-badge">${escapeHtml(b.name)}</span>
         <span class="type-badge">${escapeHtml(catLabel)}</span>
@@ -226,6 +227,7 @@
     if (p.links && p.links.reviews) p.links.reviews.forEach(u => links.push(`<a href="${escapeHtml(u)}" target="_blank" rel="noopener">测评来源 ↗</a>`));
     el.modalBody.innerHTML = `
       <button class="close">✕</button>
+      ${p.image ? `<div class="modal-img"><img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.name)}" onerror="this.style.display='none'"></div>` : ""}
       <div class="brand-line">${escapeHtml(b.name)} <span class="type-badge">${escapeHtml((Filters.CATEGORIES[p.category] || {}).label || "")}</span> <span class="type-badge">${escapeHtml(p.subtype || "")}</span></div>
       <h2>${escapeHtml(p.name)}</h2>
       <p class="desc">${escapeHtml(p.description || "暂无描述")}</p>

@@ -10,10 +10,15 @@
   },
   "discovery": {
     "max_new_products_per_run": 200,
+    "mass_total_cap": 5000,
     "check_sitemap": true,
     "check_shopify_json": true,
     "check_product_listing": true,
     "product_url_patterns": ["/product", "/products/", "/p/", "/goods/", "/item/"]
+  },
+  "enrich": {
+    "workers": 14,
+    "per_run_limit": 3000
   },
   "verification": {
     "brand_title_keywords": ["official", "官网", "official site", "home", "首页", "welcome"],

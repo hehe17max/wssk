@@ -8,7 +8,8 @@ pipeline/run.py · 流水线 CLI 编排
     python -m pipeline.run verify --limit-brands 6   品牌真实性核验（前 6 个）
     python -m pipeline.run verify-products --limit 5 产品参数多源核验（前 5 个）
     python -m pipeline.run discover --brands logitech,sony   指定品牌新品发现
-    python -m pipeline.run enrich --limit 30                官方页信息补全（描述/分类）
+    python -m pipeline.run enrich --limit 500              官方页信息/图片/参数补全
+    python -m pipeline.run mass                            全量模式（全部品牌）
     python -m pipeline.run ingest                             合并入库
     python -m pipeline.run full --limit-brands 6 --limit 5   全链路
 """
@@ -111,12 +112,83 @@ def cmd_discover(args):
 
 def cmd_enrich(args):
     cfg = utils.load_config()
-    data, _, _ = ingest.load_all()
-    enriched, reclassified = enrich.enrich_unverified(data, cfg, limit=args.limit or 30)
+    data, brands_data, _ = ingest.load_all()
+    done, reclassified, failed = enrich.enrich_unverified(data, brands_data, cfg, limit=args.limit or 500)
     utils.save_json(utils.data_path("products.json"), data)
     report = ingest.run_ingest(cfg=cfg)
-    print("页面补全：%d 个，重新分类 %d 个" % (enriched, reclassified))
+    print("页面补全：完成 %d，重新分类 %d，失败 %d" % (done, reclassified, failed))
     print("报告:", report)
+
+
+def _verify_brands_parallel(brands, cfg, workers=14):
+    """并发核验品牌真实性。返回 (确认数, 总数)。"""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    ok = 0
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futs = [ex.submit(verify.verify_brand, b, cfg) for b in brands]
+        for fut in as_completed(futs):
+            b = fut.result()
+            if b.get("verified"):
+                ok += 1
+    return ok, len(brands)
+
+
+def cmd_mass(args):
+    """全量模式：分类 → 核验全部品牌 → 全品牌新品发现 → 入库 → 页面/图片/参数补全 → 产品核验 → 审计。"""
+    cfg = utils.load_config()
+    data, brands_data, _ = ingest.load_all()
+    brands = brands_data["brands"]
+
+    print("== 1/7 全库分类 ==")
+    n = classify.classify_all(data["products"])
+    print("分类变更:", n)
+
+    print("== 2/7 核验全部品牌（并发） ==")
+    pending = [b for b in brands if not b.get("verified")]
+    ok, total = _verify_brands_parallel(pending, cfg)
+    utils.save_json(utils.data_path("brands.json"), brands_data)
+    print("品牌核验：%d/%d 确认" % (ok, total))
+
+    print("== 3/7 全品牌新品发现 ==")
+    verified = [b for b in brands_data["brands"] if b.get("verified")]
+    existing = {p["id"] for p in data["products"]}
+    existing_names = {utils.slug(p["brand"] + utils.canonical_name(p["name"])) for p in data["products"]}
+    all_candidates = []
+    cap = cfg.get("discovery", {}).get("mass_total_cap", 5000)
+    for b in verified:
+        utils.logger.info("发现新品: %s", b["key"])
+        cands = discover.discover_brand_products(b, cfg, existing_names=existing_names)
+        all_candidates.extend(cands)
+        if cands:
+            utils.logger.info("  +%d 个候选（累计 %d）", len(cands), len(all_candidates))
+        if len(all_candidates) >= cap:
+            print("已达候选上限 %d，停止发现" % cap)
+            break
+    print("候选总数:", len(all_candidates))
+
+    print("== 4/7 入库 ==")
+    report = ingest.run_ingest(candidates=all_candidates, cfg=cfg)
+    print("入库:", report)
+
+    print("== 5/7 页面/图片/参数补全 ==")
+    data, brands_data, _ = ingest.load_all()
+    done, reclassified, failed = enrich.enrich_unverified(
+        data, brands_data, cfg, limit=args.limit or 3000)
+    utils.save_json(utils.data_path("products.json"), data)
+    ingest.run_ingest(cfg=cfg)
+    print("补全：完成 %d，重新分类 %d，失败 %d" % (done, reclassified, failed))
+
+    print("== 6/7 产品数据多源核验（限量） ==")
+    import argparse as _ap
+    args2 = _ap.Namespace(**vars(args))
+    args2.limit = min(args.limit or 150, 150)  # 多源核验仅抽样前 150 款
+    cmd_verify_products(args2)
+
+    print("== 7/7 数据审计 ==")
+    import subprocess
+    subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                                                 "scripts", "audit_data.py")], check=False)
+    print("全量流程完成。")
 
 
 def cmd_full(args):
@@ -144,7 +216,7 @@ def cmd_full(args):
 
 def main():
     ap = argparse.ArgumentParser(description="外设水库自动化流水线")
-    ap.add_argument("mode", choices=["seed", "classify", "verify", "verify-products", "discover", "enrich", "ingest", "full"])
+    ap.add_argument("mode", choices=["seed", "classify", "verify", "verify-products", "discover", "enrich", "ingest", "full", "mass"])
     ap.add_argument("--limit-brands", type=int, default=6)
     ap.add_argument("--limit", type=int, default=5)
     ap.add_argument("--brands", type=str, default=None)
@@ -163,6 +235,8 @@ def main():
         cmd_discover(args)
     elif args.mode == "enrich":
         cmd_enrich(args)
+    elif args.mode == "mass":
+        cmd_mass(args)
     elif args.mode == "ingest":
         report = ingest.run_ingest()
         print("入库完成:", report)

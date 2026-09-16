@@ -37,7 +37,7 @@
     let html = `<table class="cmp"><thead><tr><th class="fixed">参数</th>`;
     for (const p of products) {
       const b = Data.brandOf(p.brand);
-      html += `<th><div style="font-weight:700;color:var(--accent2)">${escapeHtml(b.name)}</div>
+      html += `<th>${p.image ? `<img src="${escapeHtml(p.image)}" class="cmp-thumb" alt="" onerror="this.style.display='none'">` : ""}<div style="font-weight:700;color:var(--accent2)">${escapeHtml(b.name)}</div>
         <div>${escapeHtml(p.name)}</div>
         <div style="font-size:11px;color:var(--muted);margin-top:4px">${escapeHtml((Filters.CATEGORIES[p.category] || {}).label || "")} · ${escapeHtml(p.subtype || "")}</div>
         <button class="icon-btn col-rm" data-rm="${p.id}" style="margin-top:6px">移除</button></th>`;

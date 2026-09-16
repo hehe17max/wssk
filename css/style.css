@@ -342,3 +342,13 @@ table.cmp .col-rm { cursor: pointer; color: var(--danger); font-size: 12px; }
   animation: spin 0.8s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
+
+/* 产品图 */
+.card-img { position: relative; height: 150px; overflow: hidden; border-radius: 10px; margin: -10px -10px 10px; background: #0d1a30; display:flex; align-items:center; justify-content:center; }
+.card-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card-img.noimg img { display: none; }
+.card-img .img-ph { display: none; }
+.card-img.noimg .img-ph { display: block; color: #1e3a5f; font-size: 15px; font-weight: 700; letter-spacing: 1px; }
+.modal-img { max-width: 320px; margin: 0 auto 12px; border-radius: 10px; overflow: hidden; background:#0d1a30; }
+.modal-img img { width: 100%; display: block; object-fit: cover; }
+.cmp-thumb { width: 96px; height: 72px; object-fit: cover; border-radius: 8px; margin-bottom: 8px; display:block; margin-left:auto; margin-right:auto; background:#0d1a30; }

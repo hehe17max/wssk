@@ -1,11 +1,14 @@
-# 外设水库 · 定时自动化流水线
-# 无人值守：定时（或手动触发）执行 分类→品牌核验→产品核验→新品发现→入库，
-# 有数据变更则自动提交，触发 GitHub Pages 重新部署。
+# 外设水库 · 自动化流水线
+# push 到 main（非 data/）→ 全量模式 mass（核验全部品牌+全量发现+图片参数补全）
+# 定时触发 → 增量模式 full；数据由机器人提交，data/ 变更不会再次触发（防循环）
 name: Sync peripheral database
 
 on:
   schedule:
     - cron: "30 */6 * * *"   # 每 6 小时一次（可按需改，如 "0 3 * * *" 每天凌晨）
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]
   workflow_dispatch: {}
 
 permissions:
@@ -26,11 +29,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run full pipeline (classify → verify → discover → ingest)
+      - name: Run pipeline (push → mass / schedule → incremental)
         env:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-        run: python -m pipeline.run full --limit-brands 30 --limit 20
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python -m pipeline.run mass --limit 3000
+          else
+            python -m pipeline.run full --limit-brands 30 --limit 20
+          fi
 
       - name: Commit data updates
         run: |

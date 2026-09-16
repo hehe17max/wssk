@@ -2,11 +2,11 @@
  "site": "外设水库",
  "site_key": "waishui-shuiku",
  "schema_version": 1,
- "generated_at": "2026-09-16T08:40:53Z",
+ "generated_at": "2026-09-16T09:50:43Z",
  "brands": {
-  "total": 228,
+  "total": 231,
   "verified": 1,
-  "pending": 227
+  "pending": 230
  },
  "products": {
   "total": 352,
@@ -26,7 +26,7 @@
  },
  "last_sync": "2026-09-16",
  "pipeline": {
-  "ran_at": "2026-09-16T08:40:53Z",
+  "ran_at": "2026-09-16T09:50:43Z",
   "products_total": 352,
   "products_added": 0,
   "products_enriched": 0,
