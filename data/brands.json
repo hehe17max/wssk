@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-16",
+ "generated_at": "2026-09-16T11:05:12Z",
  "brands": [
   {
    "key": "1more",
-   "zh": "万魔",
-   "en": "1MORE",
+   "name": "万魔",
+   "name_en": "1MORE",
    "categories": [
     "earphone"
    ],
@@ -16,8 +16,8 @@
    "official_url": "https://1more.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://1more.com",
@@ -26,8 +26,8 @@
   },
   {
    "key": "3nod",
-   "zh": "三诺",
-   "en": "3NOD",
+   "name": "三诺",
+   "name_en": "3NOD",
    "categories": [
     "earphone",
     "speaker"
@@ -40,8 +40,8 @@
    "official_url": "https://3nod.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://3nod.com.cn",
@@ -53,8 +53,8 @@
   },
   {
    "key": "8bitdo",
-   "zh": "八位堂",
-   "en": "8BitDo",
+   "name": "八位堂",
+   "name_en": "8BitDo",
    "categories": [
     "gamepad"
    ],
@@ -65,8 +65,8 @@
    "official_url": "https://8bitdo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://8bitdo.com",
@@ -78,8 +78,8 @@
   },
   {
    "key": "a4tech",
-   "zh": "双飞燕",
-   "en": "A4Tech",
+   "name": "双飞燕",
+   "name_en": "A4Tech",
    "categories": [
     "earphone",
     "mouse",
@@ -96,8 +96,8 @@
    "official_url": "https://a4tech.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://a4tech.com",
@@ -109,8 +109,8 @@
   },
   {
    "key": "aigo",
-   "zh": "爱国者",
-   "en": "aigo",
+   "name": "爱国者",
+   "name_en": "aigo",
    "categories": [
     "earphone"
    ],
@@ -121,8 +121,8 @@
    "official_url": "https://aigo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://aigo.com",
@@ -134,8 +134,8 @@
   },
   {
    "key": "ajazz",
-   "zh": "黑爵",
-   "en": "AJAZZ",
+   "name": "黑爵",
+   "name_en": "AJAZZ",
    "categories": [
     "mouse",
     "keyboard"
@@ -148,8 +148,8 @@
    "official_url": "https://a-jazz.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://a-jazz.com",
@@ -161,8 +161,8 @@
   },
   {
    "key": "akg",
-   "zh": "AKG",
-   "en": "AKG",
+   "name": "AKG",
+   "name_en": "AKG",
    "categories": [
     "earphone"
    ],
@@ -173,8 +173,8 @@
    "official_url": "https://akg.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://akg.com",
@@ -183,8 +183,8 @@
   },
   {
    "key": "alienware",
-   "zh": "外星人",
-   "en": "Alienware",
+   "name": "外星人",
+   "name_en": "Alienware",
    "categories": [
     "earphone",
     "keyboard",
@@ -199,8 +199,8 @@
    "official_url": "https://alienware.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://alienware.com",
@@ -212,8 +212,8 @@
   },
   {
    "key": "amazon",
-   "zh": "亚马逊 Echo",
-   "en": "Amazon Echo",
+   "name": "亚马逊 Echo",
+   "name_en": "Amazon Echo",
    "categories": [
     "speaker"
    ],
@@ -224,18 +224,21 @@
    "official_url": "https://amazon.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://amazon.com",
-    "http_status": null
+    "http_status": 200,
+    "title": "Amazon.com. Spend less. Smile more.",
+    "site_name": "",
+    "matched_terms": []
    }
   },
   {
    "key": "angrymiao",
-   "zh": "怒喵",
-   "en": "AngryMiao",
+   "name": "怒喵",
+   "name_en": "AngryMiao",
    "categories": [
     "keyboard"
    ],
@@ -246,8 +249,8 @@
    "official_url": "https://angrymiao.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://angrymiao.com",
@@ -259,8 +262,8 @@
   },
   {
    "key": "aojiashi",
-   "zh": "澳加狮",
-   "en": "Aojiashi",
+   "name": "澳加狮",
+   "name_en": "Aojiashi",
    "categories": [
     "gamepad"
    ],
@@ -271,8 +274,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -280,8 +283,8 @@
   },
   {
    "key": "apple",
-   "zh": "苹果",
-   "en": "Apple",
+   "name": "苹果",
+   "name_en": "Apple",
    "categories": [
     "earphone",
     "mouse",
@@ -296,8 +299,8 @@
    "official_url": "https://apple.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://apple.com",
@@ -309,8 +312,8 @@
   },
   {
    "key": "artisan",
-   "zh": "剑匠",
-   "en": "Artisan",
+   "name": "剑匠",
+   "name_en": "Artisan",
    "categories": [
     "mousepad"
    ],
@@ -321,8 +324,8 @@
    "official_url": "https://artisan-jp.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://artisan-jp.com",
@@ -334,8 +337,8 @@
   },
   {
    "key": "astrotec",
-   "zh": "阿思翠",
-   "en": "Astrotec",
+   "name": "阿思翠",
+   "name_en": "Astrotec",
    "categories": [
     "earphone"
    ],
@@ -346,8 +349,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -355,8 +358,8 @@
   },
   {
    "key": "asus-rog",
-   "zh": "华硕 ROG",
-   "en": "ASUS ROG",
+   "name": "华硕 ROG",
+   "name_en": "ASUS ROG",
    "categories": [
     "earphone",
     "mouse",
@@ -375,8 +378,8 @@
    "official_url": "https://rog.asus.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://rog.asus.com",
@@ -388,8 +391,8 @@
   },
   {
    "key": "atc",
-   "zh": "ATC",
-   "en": "ATC",
+   "name": "ATC",
+   "name_en": "ATC",
    "categories": [
     "speaker"
    ],
@@ -400,8 +403,8 @@
    "official_url": "https://atc.audio",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://atc.audio",
@@ -413,8 +416,8 @@
   },
   {
    "key": "atk",
-   "zh": "ATK",
-   "en": "ATK",
+   "name": "ATK",
+   "name_en": "ATK",
    "categories": [
     "mouse"
    ],
@@ -425,8 +428,8 @@
    "official_url": "https://atkgear.com.cn",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://atkgear.com.cn",
@@ -435,8 +438,8 @@
   },
   {
    "key": "audeze",
-   "zh": "Audeze",
-   "en": "Audeze",
+   "name": "Audeze",
+   "name_en": "Audeze",
    "categories": [
     "earphone"
    ],
@@ -447,8 +450,8 @@
    "official_url": "https://audeze.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://audeze.com",
@@ -460,8 +463,8 @@
   },
   {
    "key": "audio-technica",
-   "zh": "铁三角",
-   "en": "Audio-Technica",
+   "name": "铁三角",
+   "name_en": "Audio-Technica",
    "categories": [
     "earphone"
    ],
@@ -472,8 +475,8 @@
    "official_url": "https://audio-technica.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://audio-technica.com",
@@ -485,8 +488,8 @@
   },
   {
    "key": "aula",
-   "zh": "狼蛛",
-   "en": "AULA",
+   "name": "狼蛛",
+   "name_en": "AULA",
    "categories": [
     "earphone",
     "mouse",
@@ -503,8 +506,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -512,8 +515,8 @@
   },
   {
    "key": "baishipai",
-   "zh": "佰世派",
-   "en": "BaiShiPai",
+   "name": "佰世派",
+   "name_en": "BaiShiPai",
    "categories": [
     "gamepad"
    ],
@@ -524,8 +527,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -533,8 +536,8 @@
   },
   {
    "key": "baize",
-   "zh": "白泽",
-   "en": "BaiZe",
+   "name": "白泽",
+   "name_en": "BaiZe",
    "categories": [
     "mousepad"
    ],
@@ -545,8 +548,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -554,8 +557,8 @@
   },
   {
    "key": "bang-olufsen",
-   "zh": "B&O",
-   "en": "Bang & Olufsen",
+   "name": "B&O",
+   "name_en": "Bang & Olufsen",
    "categories": [
     "earphone",
     "speaker"
@@ -568,8 +571,8 @@
    "official_url": "https://bang-olufsen.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://bang-olufsen.com",
@@ -581,8 +584,8 @@
   },
   {
    "key": "baseus",
-   "zh": "倍思",
-   "en": "Baseus",
+   "name": "倍思",
+   "name_en": "Baseus",
    "categories": [
     "earphone",
     "speaker",
@@ -597,8 +600,8 @@
    "official_url": "https://baseus.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://baseus.com",
@@ -610,8 +613,8 @@
   },
   {
    "key": "beats",
-   "zh": "Beats",
-   "en": "Beats",
+   "name": "Beats",
+   "name_en": "Beats",
    "categories": [
     "earphone"
    ],
@@ -622,8 +625,8 @@
    "official_url": "https://beatsbydre.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://beatsbydre.com",
@@ -635,8 +638,8 @@
   },
   {
    "key": "betop",
-   "zh": "北通",
-   "en": "Betop",
+   "name": "北通",
+   "name_en": "Betop",
    "categories": [
     "gamepad"
    ],
@@ -647,8 +650,8 @@
    "official_url": "https://betopgame.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://betopgame.com",
@@ -657,8 +660,8 @@
   },
   {
    "key": "beyerdynamic",
-   "zh": "拜亚动力",
-   "en": "beyerdynamic",
+   "name": "拜亚动力",
+   "name_en": "beyerdynamic",
    "categories": [
     "earphone"
    ],
@@ -669,8 +672,8 @@
    "official_url": "https://beyerdynamic.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://beyerdynamic.com",
@@ -682,8 +685,8 @@
   },
   {
    "key": "blackcanyon",
-   "zh": "黑峡谷",
-   "en": "BlackCanyon",
+   "name": "黑峡谷",
+   "name_en": "BlackCanyon",
    "categories": [
     "keyboard"
    ],
@@ -694,8 +697,8 @@
    "official_url": "https://blackcanyon.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://blackcanyon.com",
@@ -707,8 +710,8 @@
   },
   {
    "key": "bloody",
-   "zh": "血手幽灵",
-   "en": "Bloody",
+   "name": "血手幽灵",
+   "name_en": "Bloody",
    "categories": [
     "earphone",
     "mouse",
@@ -723,8 +726,8 @@
    "official_url": "https://bloody.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://bloody.com",
@@ -736,8 +739,8 @@
   },
   {
    "key": "bose",
-   "zh": "Bose",
-   "en": "Bose",
+   "name": "Bose",
+   "name_en": "Bose",
    "categories": [
     "earphone"
    ],
@@ -748,8 +751,8 @@
    "official_url": "https://bose.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://bose.com",
@@ -761,8 +764,8 @@
   },
   {
    "key": "bowers-wilkins",
-   "zh": "宝华韦健",
-   "en": "Bowers & Wilkins",
+   "name": "宝华韦健",
+   "name_en": "Bowers & Wilkins",
    "categories": [
     "earphone",
     "speaker"
@@ -775,8 +778,8 @@
    "official_url": "https://bowerswilkins.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://bowerswilkins.com",
@@ -788,8 +791,8 @@
   },
   {
    "key": "burmester",
-   "zh": "柏林之声",
-   "en": "Burmester",
+   "name": "柏林之声",
+   "name_en": "Burmester",
    "categories": [
     "speaker"
    ],
@@ -800,8 +803,8 @@
    "official_url": "https://burmester.de",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://burmester.de",
@@ -813,8 +816,8 @@
   },
   {
    "key": "campfire",
-   "zh": "Campfire Audio",
-   "en": "Campfire Audio",
+   "name": "Campfire Audio",
+   "name_en": "Campfire Audio",
    "categories": [
     "earphone"
    ],
@@ -825,8 +828,8 @@
    "official_url": "https://campfireaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://campfireaudio.com",
@@ -838,8 +841,8 @@
   },
   {
    "key": "canton",
-   "zh": "金榜",
-   "en": "Canton",
+   "name": "金榜",
+   "name_en": "Canton",
    "categories": [
     "speaker"
    ],
@@ -850,8 +853,8 @@
    "official_url": "https://canton.de",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://canton.de",
@@ -863,8 +866,8 @@
   },
   {
    "key": "cayin",
-   "zh": "凯音",
-   "en": "Cayin",
+   "name": "凯音",
+   "name_en": "Cayin",
    "categories": [
     "earphone",
     "speaker"
@@ -877,8 +880,8 @@
    "official_url": "https://cayin.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://cayin.com",
@@ -890,8 +893,8 @@
   },
   {
    "key": "changba",
-   "zh": "唱吧",
-   "en": "Changba",
+   "name": "唱吧",
+   "name_en": "Changba",
    "categories": [
     "speaker"
    ],
@@ -902,8 +905,8 @@
    "official_url": "https://changba.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://changba.com",
@@ -915,8 +918,8 @@
   },
   {
    "key": "chario",
-   "zh": "卓丽",
-   "en": "Chario",
+   "name": "卓丽",
+   "name_en": "Chario",
    "categories": [
     "speaker"
    ],
@@ -927,8 +930,8 @@
    "official_url": "https://chario.it",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://chario.it",
@@ -940,8 +943,8 @@
   },
   {
    "key": "cherry",
-   "zh": "樱桃",
-   "en": "Cherry",
+   "name": "樱桃",
+   "name_en": "Cherry",
    "categories": [
     "mouse",
     "keyboard"
@@ -954,8 +957,8 @@
    "official_url": "https://cherry.de",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://cherry.de",
@@ -967,8 +970,8 @@
   },
   {
    "key": "chike",
-   "zh": "炽壳",
-   "en": "Chike",
+   "name": "炽壳",
+   "name_en": "Chike",
    "categories": [
     "gamepad"
    ],
@@ -979,8 +982,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -988,8 +991,8 @@
   },
   {
    "key": "chongjibo",
-   "zh": "冲击波",
-   "en": "ChongJiBo",
+   "name": "冲击波",
+   "name_en": "ChongJiBo",
    "categories": [
     "speaker"
    ],
@@ -1000,8 +1003,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -1009,8 +1012,8 @@
   },
   {
    "key": "colorful",
-   "zh": "七彩虹",
-   "en": "Colorful",
+   "name": "七彩虹",
+   "name_en": "Colorful",
    "categories": [
     "earphone",
     "mouse",
@@ -1027,8 +1030,8 @@
    "official_url": "https://colorful.cn",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://colorful.cn",
@@ -1037,8 +1040,8 @@
   },
   {
    "key": "coolermaster",
-   "zh": "酷冷至尊",
-   "en": "Cooler Master",
+   "name": "酷冷至尊",
+   "name_en": "Cooler Master",
    "categories": [
     "mouse",
     "keyboard",
@@ -1053,8 +1056,8 @@
    "official_url": "https://coolermaster.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://coolermaster.com",
@@ -1066,8 +1069,8 @@
   },
   {
    "key": "coopreme",
-   "zh": "Coopreme",
-   "en": "Coopreme",
+   "name": "Coopreme",
+   "name_en": "Coopreme",
    "categories": [
     "gamepad"
    ],
@@ -1078,8 +1081,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -1087,8 +1090,8 @@
   },
   {
    "key": "corsair",
-   "zh": "海盗船",
-   "en": "Corsair",
+   "name": "海盗船",
+   "name_en": "Corsair",
    "categories": [
     "earphone",
     "mouse",
@@ -1105,8 +1108,8 @@
    "official_url": "https://corsair.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://corsair.com",
@@ -1118,8 +1121,8 @@
   },
   {
    "key": "creative",
-   "zh": "创新",
-   "en": "Creative",
+   "name": "创新",
+   "name_en": "Creative",
    "categories": [
     "earphone",
     "speaker"
@@ -1132,8 +1135,8 @@
    "official_url": "https://creative.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://creative.com",
@@ -1142,8 +1145,8 @@
   },
   {
    "key": "d-glow",
-   "zh": "D-glow",
-   "en": "D-glow",
+   "name": "D-glow",
+   "name_en": "D-glow",
    "categories": [
     "mousepad"
    ],
@@ -1154,8 +1157,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -1163,8 +1166,8 @@
   },
   {
    "key": "dali",
-   "zh": "达尼",
-   "en": "DALI",
+   "name": "达尼",
+   "name_en": "DALI",
    "categories": [
     "speaker"
    ],
@@ -1175,8 +1178,8 @@
    "official_url": "https://daliloudspeakers.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://daliloudspeakers.com",
@@ -1185,8 +1188,8 @@
   },
   {
    "key": "dareu",
-   "zh": "达尔优",
-   "en": "DAREU",
+   "name": "达尔优",
+   "name_en": "DAREU",
    "categories": [
     "earphone",
     "mouse",
@@ -1203,8 +1206,8 @@
    "official_url": "https://dareu.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://dareu.com",
@@ -1216,8 +1219,8 @@
   },
   {
    "key": "delux",
-   "zh": "多彩",
-   "en": "Delux",
+   "name": "多彩",
+   "name_en": "Delux",
    "categories": [
     "mouse"
    ],
@@ -1228,8 +1231,8 @@
    "official_url": "https://deluxworld.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://deluxworld.com",
@@ -1241,8 +1244,8 @@
   },
   {
    "key": "denon",
-   "zh": "天龙",
-   "en": "Denon",
+   "name": "天龙",
+   "name_en": "Denon",
    "categories": [
     "earphone",
     "speaker"
@@ -1255,8 +1258,8 @@
    "official_url": "https://denon.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://denon.com",
@@ -1268,8 +1271,8 @@
   },
   {
    "key": "devialet",
-   "zh": "帝瓦雷",
-   "en": "Devialet",
+   "name": "帝瓦雷",
+   "name_en": "Devialet",
    "categories": [
     "earphone",
     "speaker"
@@ -1282,8 +1285,8 @@
    "official_url": "https://devialet.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://devialet.com",
@@ -1292,8 +1295,8 @@
   },
   {
    "key": "dingdong",
-   "zh": "叮咚",
-   "en": "DingDong",
+   "name": "叮咚",
+   "name_en": "DingDong",
    "categories": [
     "speaker"
    ],
@@ -1304,8 +1307,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -1313,8 +1316,8 @@
   },
   {
    "key": "divoom",
-   "zh": "Divoom 点音",
-   "en": "Divoom",
+   "name": "Divoom 点音",
+   "name_en": "Divoom",
    "categories": [
     "speaker"
    ],
@@ -1325,8 +1328,8 @@
    "official_url": "https://divoom.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://divoom.com",
@@ -1338,8 +1341,8 @@
   },
   {
    "key": "ducky",
-   "zh": "Ducky",
-   "en": "Ducky",
+   "name": "Ducky",
+   "name_en": "Ducky",
    "categories": [
     "keyboard"
    ],
@@ -1350,8 +1353,8 @@
    "official_url": "https://duckychannel.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://duckychannel.com",
@@ -1360,8 +1363,8 @@
   },
   {
    "key": "dunu",
-   "zh": "达音科",
-   "en": "DUNU",
+   "name": "达音科",
+   "name_en": "DUNU",
    "categories": [
     "earphone"
    ],
@@ -1372,8 +1375,8 @@
    "official_url": "https://duni.com.cn",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://duni.com.cn",
@@ -1382,8 +1385,8 @@
   },
   {
    "key": "durgod",
-   "zh": "杜伽",
-   "en": "Durgod",
+   "name": "杜伽",
+   "name_en": "Durgod",
    "categories": [
     "keyboard"
    ],
@@ -1394,8 +1397,8 @@
    "official_url": "https://durgod.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://durgod.com",
@@ -1407,8 +1410,8 @@
   },
   {
    "key": "dynaudio",
-   "zh": "丹拿",
-   "en": "Dynaudio",
+   "name": "丹拿",
+   "name_en": "Dynaudio",
    "categories": [
     "speaker"
    ],
@@ -1419,8 +1422,8 @@
    "official_url": "https://dynaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://dynaudio.com",
@@ -1432,8 +1435,8 @@
   },
   {
    "key": "edifier",
-   "zh": "漫步者",
-   "en": "Edifier",
+   "name": "漫步者",
+   "name_en": "Edifier",
    "categories": [
     "earphone",
     "speaker"
@@ -1446,8 +1449,8 @@
    "official_url": "https://edifier.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://edifier.com",
@@ -1459,8 +1462,8 @@
   },
   {
    "key": "elac",
-   "zh": "意力",
-   "en": "ELAC",
+   "name": "意力",
+   "name_en": "ELAC",
    "categories": [
     "speaker"
    ],
@@ -1471,8 +1474,8 @@
    "official_url": "https://elac.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://elac.com",
@@ -1484,8 +1487,8 @@
   },
   {
    "key": "endgame-gear",
-   "zh": "Endgame Gear",
-   "en": "Endgame Gear",
+   "name": "Endgame Gear",
+   "name_en": "Endgame Gear",
    "categories": [
     "mouse"
    ],
@@ -1496,8 +1499,8 @@
    "official_url": "https://endgamegear.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://endgamegear.com",
@@ -1509,8 +1512,8 @@
   },
   {
    "key": "etymotic",
-   "zh": "音特美",
-   "en": "Etymotic",
+   "name": "音特美",
+   "name_en": "Etymotic",
    "categories": [
     "earphone"
    ],
@@ -1521,8 +1524,8 @@
    "official_url": "https://etymotic.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://etymotic.com",
@@ -1534,8 +1537,8 @@
   },
   {
    "key": "fenda",
-   "zh": "奋达",
-   "en": "Fenda",
+   "name": "奋达",
+   "name_en": "Fenda",
    "categories": [
     "earphone",
     "speaker"
@@ -1548,8 +1551,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -1557,8 +1560,8 @@
   },
   {
    "key": "fiio",
-   "zh": "飞傲",
-   "en": "FiiO",
+   "name": "飞傲",
+   "name_en": "FiiO",
    "categories": [
     "earphone",
     "speaker"
@@ -1571,8 +1574,8 @@
    "official_url": "https://fiio.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://fiio.com",
@@ -1584,8 +1587,8 @@
   },
   {
    "key": "filco",
-   "zh": "斐尔可",
-   "en": "FILCO",
+   "name": "斐尔可",
+   "name_en": "FILCO",
    "categories": [
     "keyboard"
    ],
@@ -1596,8 +1599,8 @@
    "official_url": "https://diatec.co.jp",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://diatec.co.jp",
@@ -1606,8 +1609,8 @@
   },
   {
    "key": "final",
-   "zh": "Final",
-   "en": "Final",
+   "name": "Final",
+   "name_en": "Final",
    "categories": [
     "earphone"
    ],
@@ -1618,8 +1621,8 @@
    "official_url": "https://final-inc.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://final-inc.com",
@@ -1631,8 +1634,8 @@
   },
   {
    "key": "finalmouse",
-   "zh": "Finalmouse",
-   "en": "Finalmouse",
+   "name": "Finalmouse",
+   "name_en": "Finalmouse",
    "categories": [
     "mouse"
    ],
@@ -1643,8 +1646,8 @@
    "official_url": "https://finalmouse.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://finalmouse.com",
@@ -1656,8 +1659,8 @@
   },
   {
    "key": "flydigi",
-   "zh": "飞智",
-   "en": "Flydigi",
+   "name": "飞智",
+   "name_en": "Flydigi",
    "categories": [
     "gamepad"
    ],
@@ -1668,8 +1671,8 @@
    "official_url": "https://flydigi.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://flydigi.com",
@@ -1681,8 +1684,8 @@
   },
   {
    "key": "focal",
-   "zh": "劲浪",
-   "en": "Focal",
+   "name": "劲浪",
+   "name_en": "Focal",
    "categories": [
     "earphone",
     "speaker"
@@ -1695,8 +1698,8 @@
    "official_url": "https://focal.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://focal.com",
@@ -1708,8 +1711,8 @@
   },
   {
    "key": "fostex",
-   "zh": "丰达",
-   "en": "Fostex",
+   "name": "丰达",
+   "name_en": "Fostex",
    "categories": [
     "earphone"
    ],
@@ -1720,18 +1723,21 @@
    "official_url": "https://fostex.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://fostex.com",
-    "http_status": null
+    "http_status": 200,
+    "title": "Fostex",
+    "site_name": "Fostex | Sound is the expansion of the heart",
+    "matched_terms": []
    }
   },
   {
    "key": "fuhlen",
-   "zh": "富勒",
-   "en": "Fuhlen",
+   "name": "富勒",
+   "name_en": "Fuhlen",
    "categories": [
     "mouse"
    ],
@@ -1742,8 +1748,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -1751,8 +1757,8 @@
   },
   {
    "key": "fulin",
-   "zh": "腹灵",
-   "en": "FULIN",
+   "name": "腹灵",
+   "name_en": "FULIN",
    "categories": [
     "mouse",
     "keyboard"
@@ -1765,8 +1771,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -1774,8 +1780,8 @@
   },
   {
    "key": "g-wolves",
-   "zh": "游狼",
-   "en": "G-Wolves",
+   "name": "游狼",
+   "name_en": "G-Wolves",
    "categories": [
     "mouse"
    ],
@@ -1786,8 +1792,8 @@
    "official_url": "https://g-wolves.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://g-wolves.com",
@@ -1799,8 +1805,8 @@
   },
   {
    "key": "gamesir",
-   "zh": "盖世小鸡",
-   "en": "GameSir",
+   "name": "盖世小鸡",
+   "name_en": "GameSir",
    "categories": [
     "gamepad"
    ],
@@ -1811,8 +1817,8 @@
    "official_url": "https://gamesir.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://gamesir.com",
@@ -1824,8 +1830,8 @@
   },
   {
    "key": "ganss",
-   "zh": "高斯",
-   "en": "GANSS",
+   "name": "高斯",
+   "name_en": "GANSS",
    "categories": [
     "keyboard"
    ],
@@ -1836,8 +1842,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -1845,8 +1851,8 @@
   },
   {
    "key": "genelec",
-   "zh": "真力",
-   "en": "Genelec",
+   "name": "真力",
+   "name_en": "Genelec",
    "categories": [
     "speaker"
    ],
@@ -1857,8 +1863,8 @@
    "official_url": "https://genelec.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://genelec.com",
@@ -1870,8 +1876,8 @@
   },
   {
    "key": "gigabyte",
-   "zh": "技嘉",
-   "en": "GIGABYTE",
+   "name": "技嘉",
+   "name_en": "GIGABYTE",
    "categories": [
     "earphone",
     "mouse",
@@ -1886,8 +1892,8 @@
    "official_url": "https://gigabyte.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://gigabyte.com",
@@ -1896,8 +1902,8 @@
   },
   {
    "key": "goldenfield",
-   "zh": "金河田",
-   "en": "Goldenfield",
+   "name": "金河田",
+   "name_en": "Goldenfield",
    "categories": [
     "earphone",
     "mouse",
@@ -1914,8 +1920,8 @@
    "official_url": "https://goldenfield.com.cn",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://goldenfield.com.cn",
@@ -1924,8 +1930,8 @@
   },
   {
    "key": "google",
-   "zh": "谷歌 Nest",
-   "en": "Google Nest",
+   "name": "谷歌 Nest",
+   "name_en": "Google Nest",
    "categories": [
     "speaker"
    ],
@@ -1936,8 +1942,8 @@
    "official_url": "https://store.google.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://store.google.com",
@@ -1949,8 +1955,8 @@
   },
   {
    "key": "grado",
-   "zh": "歌德",
-   "en": "Grado",
+   "name": "歌德",
+   "name_en": "Grado",
    "categories": [
     "earphone"
    ],
@@ -1961,8 +1967,8 @@
    "official_url": "https://gradolabs.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://gradolabs.com",
@@ -1974,8 +1980,8 @@
   },
   {
    "key": "gulikit",
-   "zh": "谷粒",
-   "en": "GuliKit",
+   "name": "谷粒",
+   "name_en": "GuliKit",
    "categories": [
     "gamepad"
    ],
@@ -1986,8 +1992,8 @@
    "official_url": "https://gulikit.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://gulikit.com",
@@ -1999,8 +2005,8 @@
   },
   {
    "key": "gustard",
-   "zh": "歌诗德",
-   "en": "Gustard",
+   "name": "歌诗德",
+   "name_en": "Gustard",
    "categories": [
     "speaker"
    ],
@@ -2011,8 +2017,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2020,8 +2026,8 @@
   },
   {
    "key": "haylou",
-   "zh": "嘿喽",
-   "en": "Haylou",
+   "name": "嘿喽",
+   "name_en": "Haylou",
    "categories": [
     "earphone"
    ],
@@ -2032,8 +2038,8 @@
    "official_url": "https://haylou.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://haylou.com",
@@ -2045,8 +2051,8 @@
   },
   {
    "key": "hhkb",
-   "zh": "HHKB",
-   "en": "HHKB",
+   "name": "HHKB",
+   "name_en": "HHKB",
    "categories": [
     "keyboard"
    ],
@@ -2057,8 +2063,8 @@
    "official_url": "https://hhkb.io",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://hhkb.io",
@@ -2070,8 +2076,8 @@
   },
   {
    "key": "hifiman",
-   "zh": "头领科技",
-   "en": "HIFIMAN",
+   "name": "头领科技",
+   "name_en": "HIFIMAN",
    "categories": [
     "earphone"
    ],
@@ -2082,8 +2088,8 @@
    "official_url": "https://hifiman.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://hifiman.com",
@@ -2095,8 +2101,8 @@
   },
   {
    "key": "hivi",
-   "zh": "惠威",
-   "en": "HiVi",
+   "name": "惠威",
+   "name_en": "HiVi",
    "categories": [
     "earphone",
     "speaker"
@@ -2109,8 +2115,8 @@
    "official_url": "https://hivi.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://hivi.com",
@@ -2119,8 +2125,8 @@
   },
   {
    "key": "hongmi",
-   "zh": "虹觅",
-   "en": "HongMi",
+   "name": "虹觅",
+   "name_en": "HongMi",
    "categories": [
     "earphone"
    ],
@@ -2131,8 +2137,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2140,8 +2146,8 @@
   },
   {
    "key": "honor",
-   "zh": "荣耀",
-   "en": "HONOR",
+   "name": "荣耀",
+   "name_en": "HONOR",
    "categories": [
     "earphone"
    ],
@@ -2152,8 +2158,8 @@
    "official_url": "https://honor.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://honor.com",
@@ -2165,8 +2171,8 @@
   },
   {
    "key": "hori",
-   "zh": "HORI",
-   "en": "HORI",
+   "name": "HORI",
+   "name_en": "HORI",
    "categories": [
     "gamepad"
    ],
@@ -2177,8 +2183,8 @@
    "official_url": "https://hori.co.jp",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://hori.co.jp",
@@ -2187,8 +2193,8 @@
   },
   {
    "key": "huawei",
-   "zh": "华为",
-   "en": "Huawei",
+   "name": "华为",
+   "name_en": "Huawei",
    "categories": [
     "earphone",
     "mouse",
@@ -2207,8 +2213,8 @@
    "official_url": "https://consumer.huawei.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://consumer.huawei.com",
@@ -2220,8 +2226,8 @@
   },
   {
    "key": "hufu",
-   "zh": "虎符",
-   "en": "HuFu",
+   "name": "虎符",
+   "name_en": "HuFu",
    "categories": [
     "mousepad"
    ],
@@ -2232,8 +2238,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2241,8 +2247,8 @@
   },
   {
    "key": "hyperx",
-   "zh": "HyperX",
-   "en": "HyperX",
+   "name": "HyperX",
+   "name_en": "HyperX",
    "categories": [
     "earphone",
     "mousepad"
@@ -2255,8 +2261,8 @@
    "official_url": "https://hyperx.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://hyperx.com",
@@ -2268,8 +2274,8 @@
   },
   {
    "key": "iflytek",
-   "zh": "科大讯飞",
-   "en": "iFlytek",
+   "name": "科大讯飞",
+   "name_en": "iFlytek",
    "categories": [
     "speaker"
    ],
@@ -2280,8 +2286,8 @@
    "official_url": "https://iflytek.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://iflytek.com",
@@ -2290,8 +2296,8 @@
   },
   {
    "key": "ikbc",
-   "zh": "ikbc",
-   "en": "ikbc",
+   "name": "ikbc",
+   "name_en": "ikbc",
    "categories": [
     "keyboard"
    ],
@@ -2302,8 +2308,8 @@
    "official_url": "https://ikbc.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://ikbc.com",
@@ -2312,8 +2318,8 @@
   },
   {
    "key": "ikf",
-   "zh": "iKF",
-   "en": "iKF",
+   "name": "iKF",
+   "name_en": "iKF",
    "categories": [
     "earphone"
    ],
@@ -2324,6 +2330,7 @@
    "official_url": "https://ikfaudio.com",
    "curated": true,
    "verified": false,
+   "verified_at": null,
    "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
@@ -2336,8 +2343,8 @@
   },
   {
    "key": "inphic",
-   "zh": "英菲克",
-   "en": "inphic",
+   "name": "英菲克",
+   "name_en": "inphic",
    "categories": [
     "mouse"
    ],
@@ -2348,8 +2355,8 @@
    "official_url": "https://inphic.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://inphic.com",
@@ -2361,8 +2368,8 @@
   },
   {
    "key": "ipason",
-   "zh": "攀升",
-   "en": "IPASON",
+   "name": "攀升",
+   "name_en": "IPASON",
    "categories": [
     "mouse",
     "keyboard",
@@ -2377,8 +2384,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2386,8 +2393,8 @@
   },
   {
    "key": "jamo",
-   "zh": "尊宝",
-   "en": "Jamo",
+   "name": "尊宝",
+   "name_en": "Jamo",
    "categories": [
     "speaker"
    ],
@@ -2398,8 +2405,8 @@
    "official_url": "https://jamo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://jamo.com",
@@ -2411,8 +2418,8 @@
   },
   {
    "key": "jbl",
-   "zh": "JBL",
-   "en": "JBL",
+   "name": "JBL",
+   "name_en": "JBL",
    "categories": [
     "earphone"
    ],
@@ -2423,8 +2430,8 @@
    "official_url": "https://jbl.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://jbl.com",
@@ -2433,8 +2440,8 @@
   },
   {
    "key": "jixiang",
-   "zh": "极想",
-   "en": "JiXiang",
+   "name": "极想",
+   "name_en": "JiXiang",
    "categories": [
     "gamepad"
    ],
@@ -2445,8 +2452,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2454,8 +2461,8 @@
   },
   {
    "key": "jvc",
-   "zh": "JVC",
-   "en": "JVC",
+   "name": "JVC",
+   "name_en": "JVC",
    "categories": [
     "earphone",
     "speaker"
@@ -2468,8 +2475,8 @@
    "official_url": "https://jvc.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://jvc.com",
@@ -2481,8 +2488,8 @@
   },
   {
    "key": "kef",
-   "zh": "KEF",
-   "en": "KEF",
+   "name": "KEF",
+   "name_en": "KEF",
    "categories": [
     "earphone",
     "speaker"
@@ -2495,8 +2502,8 @@
    "official_url": "https://kef.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://kef.com",
@@ -2508,8 +2515,8 @@
   },
   {
    "key": "kenwood",
-   "zh": "建伍",
-   "en": "Kenwood",
+   "name": "建伍",
+   "name_en": "Kenwood",
    "categories": [
     "speaker"
    ],
@@ -2520,8 +2527,8 @@
    "official_url": "https://kenwood.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://kenwood.com",
@@ -2533,8 +2540,8 @@
   },
   {
    "key": "keychron",
-   "zh": "Keychron",
-   "en": "Keychron",
+   "name": "Keychron",
+   "name_en": "Keychron",
    "categories": [
     "mouse",
     "keyboard"
@@ -2547,8 +2554,8 @@
    "official_url": "https://keychron.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://keychron.com",
@@ -2560,8 +2567,8 @@
   },
   {
    "key": "klipsch",
-   "zh": "杰士",
-   "en": "Klipsch",
+   "name": "杰士",
+   "name_en": "Klipsch",
    "categories": [
     "earphone"
    ],
@@ -2572,8 +2579,8 @@
    "official_url": "https://klipsch.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://klipsch.com",
@@ -2585,8 +2592,8 @@
   },
   {
    "key": "kna",
-   "zh": "KNA",
-   "en": "KNA",
+   "name": "KNA",
+   "name_en": "KNA",
    "categories": [
     "earphone"
    ],
@@ -2597,6 +2604,7 @@
    "official_url": "https://kna-audio.com",
    "curated": true,
    "verified": false,
+   "verified_at": null,
    "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
@@ -2609,8 +2617,8 @@
   },
   {
    "key": "kzzi",
-   "zh": "珂芝",
-   "en": "KZZI",
+   "name": "珂芝",
+   "name_en": "KZZI",
    "categories": [
     "mouse",
     "keyboard"
@@ -2623,8 +2631,8 @@
    "official_url": "https://kzzi.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://kzzi.com",
@@ -2633,8 +2641,8 @@
   },
   {
    "key": "lajitong",
-   "zh": "垃圾桶",
-   "en": "LaJiTong",
+   "name": "垃圾桶",
+   "name_en": "LaJiTong",
    "categories": [
     "mousepad"
    ],
@@ -2645,8 +2653,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2654,8 +2662,8 @@
   },
   {
    "key": "lamzu",
-   "zh": "兰族",
-   "en": "Lamzu",
+   "name": "兰族",
+   "name_en": "Lamzu",
    "categories": [
     "mouse"
    ],
@@ -2666,8 +2674,8 @@
    "official_url": "https://lamzu.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://lamzu.com",
@@ -2679,8 +2687,8 @@
   },
   {
    "key": "langtu",
-   "zh": "狼途",
-   "en": "Langtu",
+   "name": "狼途",
+   "name_en": "Langtu",
    "categories": [
     "keyboard"
    ],
@@ -2691,8 +2699,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2700,8 +2708,8 @@
   },
   {
    "key": "leadjoy",
-   "zh": "Leadjoy",
-   "en": "Leadjoy",
+   "name": "Leadjoy",
+   "name_en": "Leadjoy",
    "categories": [
     "gamepad"
    ],
@@ -2712,8 +2720,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2721,8 +2729,8 @@
   },
   {
    "key": "lenovo",
-   "zh": "联想",
-   "en": "Lenovo",
+   "name": "联想",
+   "name_en": "Lenovo",
    "categories": [
     "earphone",
     "mouse",
@@ -2741,8 +2749,8 @@
    "official_url": "https://lenovo.com.cn",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://lenovo.com.cn",
@@ -2751,8 +2759,8 @@
   },
   {
    "key": "leopold",
-   "zh": "Leopold",
-   "en": "Leopold",
+   "name": "Leopold",
+   "name_en": "Leopold",
    "categories": [
     "keyboard"
    ],
@@ -2763,8 +2771,8 @@
    "official_url": "https://leopold.co.kr",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://leopold.co.kr",
@@ -2776,8 +2784,8 @@
   },
   {
    "key": "lethal",
-   "zh": "Lethal Gaming Gear",
-   "en": "Lethal Gaming Gear",
+   "name": "Lethal Gaming Gear",
+   "name_en": "Lethal Gaming Gear",
    "categories": [
     "mousepad"
    ],
@@ -2788,8 +2796,8 @@
    "official_url": "https://lethal.gg",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://lethal.gg",
@@ -2801,8 +2809,8 @@
   },
   {
    "key": "lg",
-   "zh": "LG",
-   "en": "LG",
+   "name": "LG",
+   "name_en": "LG",
    "categories": [
     "speaker"
    ],
@@ -2813,8 +2821,8 @@
    "official_url": "https://lg.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://lg.com",
@@ -2826,8 +2834,8 @@
   },
   {
    "key": "liangzhi",
-   "zh": "良值",
-   "en": "Liangzhi",
+   "name": "良值",
+   "name_en": "Liangzhi",
    "categories": [
     "gamepad"
    ],
@@ -2838,8 +2846,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2847,8 +2855,8 @@
   },
   {
    "key": "lingluqianyu",
-   "zh": "铃鹿千羽",
-   "en": "LingLuQianYu",
+   "name": "铃鹿千羽",
+   "name_en": "LingLuQianYu",
    "categories": [
     "mousepad"
    ],
@@ -2859,8 +2867,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2868,8 +2876,8 @@
   },
   {
    "key": "lingwoke",
-   "zh": "凌沃克",
-   "en": "LingWoKe",
+   "name": "凌沃克",
+   "name_en": "LingWoKe",
    "categories": [
     "mousepad"
    ],
@@ -2880,8 +2888,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -2889,8 +2897,8 @@
   },
   {
    "key": "linn",
-   "zh": "Linn",
-   "en": "Linn",
+   "name": "Linn",
+   "name_en": "Linn",
    "categories": [
     "speaker"
    ],
@@ -2901,8 +2909,8 @@
    "official_url": "https://linn.co.uk",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://linn.co.uk",
@@ -2911,8 +2919,8 @@
   },
   {
    "key": "lofree",
-   "zh": "洛斐",
-   "en": "LOFREE",
+   "name": "洛斐",
+   "name_en": "LOFREE",
    "categories": [
     "mouse",
     "keyboard",
@@ -2927,8 +2935,8 @@
    "official_url": "https://lofree.co",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://lofree.co",
@@ -2940,8 +2948,8 @@
   },
   {
    "key": "logitech",
-   "zh": "罗技",
-   "en": "Logitech",
+   "name": "罗技",
+   "name_en": "Logitech",
    "categories": [
     "earphone",
     "mouse",
@@ -2960,8 +2968,8 @@
    "official_url": "https://logitech.com",
    "curated": true,
    "verified": true,
-   "status": "已核验",
    "verified_at": "2026-09-16",
+   "status": "已核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://logitech.com",
@@ -2976,8 +2984,8 @@
   },
   {
    "key": "machenike",
-   "zh": "机械师",
-   "en": "Machenike",
+   "name": "机械师",
+   "name_en": "Machenike",
    "categories": [
     "earphone",
     "mouse",
@@ -2996,8 +3004,8 @@
    "official_url": "https://machenike.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://machenike.com",
@@ -3009,8 +3017,8 @@
   },
   {
    "key": "maoking",
-   "zh": "猫王",
-   "en": "MaoKing",
+   "name": "猫王",
+   "name_en": "MaoKing",
    "categories": [
     "speaker"
    ],
@@ -3021,8 +3029,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -3030,8 +3038,8 @@
   },
   {
    "key": "marantz",
-   "zh": "马兰士",
-   "en": "Marantz",
+   "name": "马兰士",
+   "name_en": "Marantz",
    "categories": [
     "speaker"
    ],
@@ -3042,8 +3050,8 @@
    "official_url": "https://marantz.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://marantz.com",
@@ -3055,8 +3063,8 @@
   },
   {
    "key": "marshall",
-   "zh": "马歇尔",
-   "en": "Marshall",
+   "name": "马歇尔",
+   "name_en": "Marshall",
    "categories": [
     "earphone",
     "speaker"
@@ -3069,8 +3077,8 @@
    "official_url": "https://marshallheadphones.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://marshallheadphones.com",
@@ -3082,8 +3090,8 @@
   },
   {
    "key": "matrix",
-   "zh": "矩声",
-   "en": "Matrix Audio",
+   "name": "矩声",
+   "name_en": "Matrix Audio",
    "categories": [
     "speaker"
    ],
@@ -3094,8 +3102,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -3103,8 +3111,8 @@
   },
   {
    "key": "mchose",
-   "zh": "迈从",
-   "en": "MCHOSE",
+   "name": "迈从",
+   "name_en": "MCHOSE",
    "categories": [
     "mouse",
     "keyboard"
@@ -3117,8 +3125,8 @@
    "official_url": "https://mchose.net",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://mchose.net",
@@ -3127,8 +3135,8 @@
   },
   {
    "key": "mcintosh",
-   "zh": "麦景图",
-   "en": "McIntosh",
+   "name": "麦景图",
+   "name_en": "McIntosh",
    "categories": [
     "speaker"
    ],
@@ -3139,8 +3147,8 @@
    "official_url": "https://mcintoshlabs.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://mcintoshlabs.com",
@@ -3152,8 +3160,8 @@
   },
   {
    "key": "meizu",
-   "zh": "魅族",
-   "en": "MEIZU",
+   "name": "魅族",
+   "name_en": "MEIZU",
    "categories": [
     "earphone"
    ],
@@ -3164,8 +3172,8 @@
    "official_url": "https://meizu.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://meizu.com",
@@ -3177,8 +3185,8 @@
   },
   {
    "key": "microlab",
-   "zh": "麦博",
-   "en": "Microlab",
+   "name": "麦博",
+   "name_en": "Microlab",
    "categories": [
     "earphone",
     "speaker"
@@ -3191,8 +3199,8 @@
    "official_url": "https://microlab.com.cn",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://microlab.com.cn",
@@ -3201,8 +3209,8 @@
   },
   {
    "key": "microsoft",
-   "zh": "微软",
-   "en": "Microsoft",
+   "name": "微软",
+   "name_en": "Microsoft",
    "categories": [
     "mouse",
     "keyboard",
@@ -3217,8 +3225,8 @@
    "official_url": "https://microsoft.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://microsoft.com",
@@ -3230,8 +3238,8 @@
   },
   {
    "key": "misiom",
-   "zh": "觅声",
-   "en": "Misiom",
+   "name": "觅声",
+   "name_en": "Misiom",
    "categories": [
     "earphone"
    ],
@@ -3242,6 +3250,7 @@
    "official_url": "https://misiom.cn",
    "curated": true,
    "verified": false,
+   "verified_at": null,
    "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
@@ -3254,8 +3263,8 @@
   },
   {
    "key": "mission",
-   "zh": "美声",
-   "en": "Mission",
+   "name": "美声",
+   "name_en": "Mission",
    "categories": [
     "speaker"
    ],
@@ -3266,8 +3275,8 @@
    "official_url": "https://mission.co.uk",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://mission.co.uk",
@@ -3279,8 +3288,8 @@
   },
   {
    "key": "mobapad",
-   "zh": "魔派",
-   "en": "Mobapad",
+   "name": "魔派",
+   "name_en": "Mobapad",
    "categories": [
     "gamepad"
    ],
@@ -3291,8 +3300,8 @@
    "official_url": "https://mobapad.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://mobapad.com",
@@ -3304,8 +3313,8 @@
   },
   {
    "key": "mojiang",
-   "zh": "墨将",
-   "en": "MoJiang",
+   "name": "墨将",
+   "name_en": "MoJiang",
    "categories": [
     "gamepad"
    ],
@@ -3316,8 +3325,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -3325,8 +3334,8 @@
   },
   {
    "key": "monitor-audio",
-   "zh": "猛牌",
-   "en": "Monitor Audio",
+   "name": "猛牌",
+   "name_en": "Monitor Audio",
    "categories": [
     "speaker"
    ],
@@ -3337,8 +3346,8 @@
    "official_url": "https://monitoraudio.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://monitoraudio.com",
@@ -3350,8 +3359,8 @@
   },
   {
    "key": "moondrop",
-   "zh": "水月雨",
-   "en": "Moondrop",
+   "name": "水月雨",
+   "name_en": "Moondrop",
    "categories": [
     "earphone"
    ],
@@ -3362,8 +3371,8 @@
    "official_url": "https://moondroplab.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://moondroplab.com",
@@ -3375,8 +3384,8 @@
   },
   {
    "key": "msi",
-   "zh": "微星",
-   "en": "MSI",
+   "name": "微星",
+   "name_en": "MSI",
    "categories": [
     "earphone",
     "mouse",
@@ -3393,8 +3402,8 @@
    "official_url": "https://msi.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://msi.com",
@@ -3403,8 +3412,8 @@
   },
   {
    "key": "nacon",
-   "zh": "Nacon",
-   "en": "Nacon",
+   "name": "Nacon",
+   "name_en": "Nacon",
    "categories": [
     "gamepad"
    ],
@@ -3415,8 +3424,8 @@
    "official_url": "https://nacon.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://nacon.com",
@@ -3428,8 +3437,8 @@
   },
   {
    "key": "naim",
-   "zh": "Naim",
-   "en": "Naim",
+   "name": "Naim",
+   "name_en": "Naim",
    "categories": [
     "speaker"
    ],
@@ -3440,8 +3449,8 @@
    "official_url": "https://naimaudio.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://naimaudio.com",
@@ -3453,8 +3462,8 @@
   },
   {
    "key": "nank",
-   "zh": "南卡",
-   "en": "NANK",
+   "name": "南卡",
+   "name_en": "NANK",
    "categories": [
     "earphone"
    ],
@@ -3465,8 +3474,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -3474,8 +3483,8 @@
   },
   {
    "key": "neumann",
-   "zh": "纽曼",
-   "en": "Neumann",
+   "name": "纽曼",
+   "name_en": "Neumann",
    "categories": [
     "earphone"
    ],
@@ -3486,8 +3495,8 @@
    "official_url": "https://neumann.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://neumann.com",
@@ -3499,8 +3508,8 @@
   },
   {
    "key": "newmen",
-   "zh": "新贵",
-   "en": "Newmen",
+   "name": "新贵",
+   "name_en": "Newmen",
    "categories": [
     "mouse"
    ],
@@ -3511,8 +3520,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -3520,8 +3529,8 @@
   },
   {
    "key": "newsmy",
-   "zh": "纽曼",
-   "en": "Newsmy",
+   "name": "纽曼",
+   "name_en": "Newsmy",
    "categories": [
     "earphone",
     "speaker",
@@ -3536,8 +3545,8 @@
    "official_url": "https://newsmy.com.cn",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://newsmy.com.cn",
@@ -3546,8 +3555,8 @@
   },
   {
    "key": "nf-audio",
-   "zh": "宁梵声学",
-   "en": "NF Audio",
+   "name": "宁梵声学",
+   "name_en": "NF Audio",
    "categories": [
     "earphone"
    ],
@@ -3558,8 +3567,8 @@
    "official_url": "https://nfaudio.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://nfaudio.com",
@@ -3568,8 +3577,8 @@
   },
   {
    "key": "nintendo",
-   "zh": "任天堂",
-   "en": "Nintendo",
+   "name": "任天堂",
+   "name_en": "Nintendo",
    "categories": [
     "gamepad"
    ],
@@ -3580,8 +3589,8 @@
    "official_url": "https://nintendo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://nintendo.com",
@@ -3593,8 +3602,8 @@
   },
   {
    "key": "nubia",
-   "zh": "努比亚",
-   "en": "nubia",
+   "name": "努比亚",
+   "name_en": "nubia",
    "categories": [
     "earphone",
     "gamepad"
@@ -3607,8 +3616,8 @@
    "official_url": "https://nubia.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://nubia.com",
@@ -3620,8 +3629,8 @@
   },
   {
    "key": "onkyo",
-   "zh": "安桥",
-   "en": "Onkyo",
+   "name": "安桥",
+   "name_en": "Onkyo",
    "categories": [
     "earphone",
     "speaker"
@@ -3634,8 +3643,8 @@
    "official_url": "https://onkyo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://onkyo.com",
@@ -3647,8 +3656,8 @@
   },
   {
    "key": "oppo",
-   "zh": "OPPO",
-   "en": "OPPO",
+   "name": "OPPO",
+   "name_en": "OPPO",
    "categories": [
     "earphone"
    ],
@@ -3659,8 +3668,8 @@
    "official_url": "https://oppo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://oppo.com",
@@ -3672,8 +3681,8 @@
   },
   {
    "key": "panasonic",
-   "zh": "松下",
-   "en": "Panasonic",
+   "name": "松下",
+   "name_en": "Panasonic",
    "categories": [
     "earphone",
     "speaker"
@@ -3686,8 +3695,8 @@
    "official_url": "https://panasonic.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://panasonic.com",
@@ -3696,8 +3705,8 @@
   },
   {
    "key": "pdp",
-   "zh": "PDP",
-   "en": "PDP",
+   "name": "PDP",
+   "name_en": "PDP",
    "categories": [
     "gamepad"
    ],
@@ -3708,8 +3717,8 @@
    "official_url": "https://pdp.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://pdp.com",
@@ -3721,8 +3730,8 @@
   },
   {
    "key": "philips",
-   "zh": "飞利浦",
-   "en": "Philips",
+   "name": "飞利浦",
+   "name_en": "Philips",
    "categories": [
     "earphone",
     "speaker"
@@ -3735,8 +3744,8 @@
    "official_url": "https://philips.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://philips.com",
@@ -3748,8 +3757,8 @@
   },
   {
    "key": "pioneer",
-   "zh": "先锋",
-   "en": "Pioneer",
+   "name": "先锋",
+   "name_en": "Pioneer",
    "categories": [
     "earphone",
     "speaker"
@@ -3762,8 +3771,8 @@
    "official_url": "https://pioneerelectronics.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://pioneerelectronics.com",
@@ -3775,8 +3784,8 @@
   },
   {
    "key": "pisen",
-   "zh": "品胜",
-   "en": "PISEN",
+   "name": "品胜",
+   "name_en": "PISEN",
    "categories": [
     "earphone",
     "mousepad"
@@ -3789,8 +3798,8 @@
    "official_url": "https://pisen.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://pisen.com.cn",
@@ -3802,8 +3811,8 @@
   },
   {
    "key": "powera",
-   "zh": "PowerA",
-   "en": "PowerA",
+   "name": "PowerA",
+   "name_en": "PowerA",
    "categories": [
     "gamepad"
    ],
@@ -3814,8 +3823,8 @@
    "official_url": "https://powera.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://powera.com",
@@ -3827,8 +3836,8 @@
   },
   {
    "key": "pulsar",
-   "zh": "Pulsar",
-   "en": "Pulsar",
+   "name": "Pulsar",
+   "name_en": "Pulsar",
    "categories": [
     "mouse"
    ],
@@ -3839,8 +3848,8 @@
    "official_url": "https://pulsargaming.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://pulsargaming.com",
@@ -3852,8 +3861,8 @@
   },
   {
    "key": "pxn",
-   "zh": "莱仕达",
-   "en": "PXN",
+   "name": "莱仕达",
+   "name_en": "PXN",
    "categories": [
     "gamepad"
    ],
@@ -3864,8 +3873,8 @@
    "official_url": "https://pxn.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://pxn.com",
@@ -3874,8 +3883,8 @@
   },
   {
    "key": "qcy",
-   "zh": "QCY",
-   "en": "QCY",
+   "name": "QCY",
+   "name_en": "QCY",
    "categories": [
     "earphone"
    ],
@@ -3886,8 +3895,8 @@
    "official_url": "https://qcy.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://qcy.com",
@@ -3899,8 +3908,8 @@
   },
   {
    "key": "qingqibing",
-   "zh": "轻骑兵",
-   "en": "QingQiBing",
+   "name": "轻骑兵",
+   "name_en": "QingQiBing",
    "categories": [
     "speaker"
    ],
@@ -3911,8 +3920,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -3920,8 +3929,8 @@
   },
   {
    "key": "qingsui",
-   "zh": "青穗",
-   "en": "QingSui",
+   "name": "青穗",
+   "name_en": "QingSui",
    "categories": [
     "mousepad"
    ],
@@ -3932,8 +3941,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -3941,8 +3950,8 @@
   },
   {
    "key": "qls",
-   "zh": "乾龙盛",
-   "en": "QLS",
+   "name": "乾龙盛",
+   "name_en": "QLS",
    "categories": [
     "speaker"
    ],
@@ -3953,8 +3962,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -3962,8 +3971,8 @@
   },
   {
    "key": "quaoar",
-   "zh": "夸瓦",
-   "en": "QUAOAR",
+   "name": "夸瓦",
+   "name_en": "QUAOAR",
    "categories": [
     "mousepad"
    ],
@@ -3974,8 +3983,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -3983,8 +3992,8 @@
   },
   {
    "key": "rapoo",
-   "zh": "雷柏",
-   "en": "Rapoo",
+   "name": "雷柏",
+   "name_en": "Rapoo",
    "categories": [
     "earphone",
     "mouse",
@@ -4001,8 +4010,8 @@
    "official_url": "https://rapoo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://rapoo.com",
@@ -4014,8 +4023,8 @@
   },
   {
    "key": "razer",
-   "zh": "雷蛇",
-   "en": "Razer",
+   "name": "雷蛇",
+   "name_en": "Razer",
    "categories": [
     "mouse",
     "keyboard",
@@ -4032,8 +4041,8 @@
    "official_url": "https://razer.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://razer.com",
@@ -4045,8 +4054,8 @@
   },
   {
    "key": "realforce",
-   "zh": "Realforce（燃风）",
-   "en": "Realforce",
+   "name": "Realforce（燃风）",
+   "name_en": "Realforce",
    "categories": [
     "keyboard"
    ],
@@ -4057,8 +4066,8 @@
    "official_url": "https://realforce.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://realforce.com",
@@ -4070,8 +4079,8 @@
   },
   {
    "key": "redmi",
-   "zh": "红米",
-   "en": "Redmi",
+   "name": "红米",
+   "name_en": "Redmi",
    "categories": [
     "earphone"
    ],
@@ -4082,8 +4091,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4091,8 +4100,8 @@
   },
   {
    "key": "rk",
-   "zh": "雷咖泽",
-   "en": "RK",
+   "name": "雷咖泽",
+   "name_en": "RK",
    "categories": [
     "keyboard"
    ],
@@ -4103,8 +4112,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4112,8 +4121,8 @@
   },
   {
    "key": "roccat",
-   "zh": "冰豹",
-   "en": "ROCCAT",
+   "name": "冰豹",
+   "name_en": "ROCCAT",
    "categories": [
     "mouse",
     "mousepad"
@@ -4126,8 +4135,8 @@
    "official_url": "https://roccat.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://roccat.com",
@@ -4139,8 +4148,8 @@
   },
   {
    "key": "rose-technics",
-   "zh": "弱水时砂",
-   "en": "Rose Technics",
+   "name": "弱水时砂",
+   "name_en": "Rose Technics",
    "categories": [
     "earphone"
    ],
@@ -4151,8 +4160,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4160,8 +4169,8 @@
   },
   {
    "key": "samsung",
-   "zh": "三星",
-   "en": "Samsung",
+   "name": "三星",
+   "name_en": "Samsung",
    "categories": [
     "earphone",
     "speaker"
@@ -4174,8 +4183,8 @@
    "official_url": "https://samsung.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://samsung.com",
@@ -4187,8 +4196,8 @@
   },
   {
    "key": "sanag",
-   "zh": "塞那",
-   "en": "SANAG",
+   "name": "塞那",
+   "name_en": "SANAG",
    "categories": [
     "earphone"
    ],
@@ -4199,8 +4208,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4208,8 +4217,8 @@
   },
   {
    "key": "sansui",
-   "zh": "山水 Sansui",
-   "en": "SANSUI",
+   "name": "山水 Sansui",
+   "name_en": "SANSUI",
    "categories": [
     "speaker"
    ],
@@ -4220,8 +4229,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4229,8 +4238,8 @@
   },
   {
    "key": "scuf",
-   "zh": "SCUF",
-   "en": "SCUF",
+   "name": "SCUF",
+   "name_en": "SCUF",
    "categories": [
     "gamepad"
    ],
@@ -4241,8 +4250,8 @@
    "official_url": "https://scufgaming.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://scufgaming.com",
@@ -4254,8 +4263,8 @@
   },
   {
    "key": "sennheiser",
-   "zh": "森海塞尔",
-   "en": "Sennheiser",
+   "name": "森海塞尔",
+   "name_en": "Sennheiser",
    "categories": [
     "earphone"
    ],
@@ -4266,8 +4275,8 @@
    "official_url": "https://sennheiser.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://sennheiser.com",
@@ -4279,8 +4288,8 @@
   },
   {
    "key": "shanling",
-   "zh": "山灵",
-   "en": "SHANLING",
+   "name": "山灵",
+   "name_en": "SHANLING",
    "categories": [
     "earphone",
     "speaker"
@@ -4293,8 +4302,8 @@
    "official_url": "https://shanling.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://shanling.com",
@@ -4306,8 +4315,8 @@
   },
   {
    "key": "shanshui-cn",
-   "zh": "山水（国内授权）",
-   "en": "SANSUI CN",
+   "name": "山水（国内授权）",
+   "name_en": "SANSUI CN",
    "categories": [
     "earphone",
     "speaker"
@@ -4320,8 +4329,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4329,8 +4338,8 @@
   },
   {
    "key": "shenghui",
-   "zh": "声荟",
-   "en": "ShengHui",
+   "name": "声荟",
+   "name_en": "ShengHui",
    "categories": [
     "speaker"
    ],
@@ -4341,8 +4350,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4350,8 +4359,8 @@
   },
   {
    "key": "shokz",
-   "zh": "韶音",
-   "en": "Shokz",
+   "name": "韶音",
+   "name_en": "Shokz",
    "categories": [
     "earphone"
    ],
@@ -4362,8 +4371,8 @@
    "official_url": "https://shokz.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://shokz.com",
@@ -4375,8 +4384,8 @@
   },
   {
    "key": "shouxi-player",
-   "zh": "首席玩家",
-   "en": "Chief Player",
+   "name": "首席玩家",
+   "name_en": "Chief Player",
    "categories": [
     "keyboard"
    ],
@@ -4387,8 +4396,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4396,8 +4405,8 @@
   },
   {
    "key": "shure",
-   "zh": "舒尔",
-   "en": "Shure",
+   "name": "舒尔",
+   "name_en": "Shure",
    "categories": [
     "earphone"
    ],
@@ -4408,8 +4417,8 @@
    "official_url": "https://shure.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://shure.com",
@@ -4421,8 +4430,8 @@
   },
   {
    "key": "simgot",
-   "zh": "兴戈",
-   "en": "Simgot",
+   "name": "兴戈",
+   "name_en": "Simgot",
    "categories": [
     "earphone"
    ],
@@ -4433,8 +4442,8 @@
    "official_url": "https://simgotaudio.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://simgotaudio.com",
@@ -4443,8 +4452,8 @@
   },
   {
    "key": "smsl",
-   "zh": "双木三林",
-   "en": "SMSL",
+   "name": "双木三林",
+   "name_en": "SMSL",
    "categories": [
     "speaker"
    ],
@@ -4455,8 +4464,8 @@
    "official_url": "https://smsl-audio.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://smsl-audio.com",
@@ -4468,8 +4477,8 @@
   },
   {
    "key": "soaiy",
-   "zh": "索爱",
-   "en": "Soaiy",
+   "name": "索爱",
+   "name_en": "Soaiy",
    "categories": [
     "earphone",
     "speaker",
@@ -4484,8 +4493,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4493,8 +4502,8 @@
   },
   {
    "key": "somic",
-   "zh": "硕美科",
-   "en": "Somic",
+   "name": "硕美科",
+   "name_en": "Somic",
    "categories": [
     "earphone"
    ],
@@ -4505,8 +4514,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4514,8 +4523,8 @@
   },
   {
    "key": "sonus-faber",
-   "zh": "世霸",
-   "en": "Sonus Faber",
+   "name": "世霸",
+   "name_en": "Sonus Faber",
    "categories": [
     "speaker"
    ],
@@ -4526,8 +4535,8 @@
    "official_url": "https://sonusfaber.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://sonusfaber.com",
@@ -4539,8 +4548,8 @@
   },
   {
    "key": "sony",
-   "zh": "索尼",
-   "en": "Sony",
+   "name": "索尼",
+   "name_en": "Sony",
    "categories": [
     "earphone",
     "gamepad",
@@ -4555,8 +4564,8 @@
    "official_url": "https://sony.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://sony.com",
@@ -4565,8 +4574,8 @@
   },
   {
    "key": "soundcore",
-   "zh": "声阔",
-   "en": "Soundcore",
+   "name": "声阔",
+   "name_en": "Soundcore",
    "categories": [
     "earphone"
    ],
@@ -4577,8 +4586,8 @@
    "official_url": "https://soundcore.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://soundcore.com",
@@ -4590,8 +4599,8 @@
   },
   {
    "key": "steelseries",
-   "zh": "赛睿",
-   "en": "SteelSeries",
+   "name": "赛睿",
+   "name_en": "SteelSeries",
    "categories": [
     "earphone",
     "mouse",
@@ -4608,8 +4617,8 @@
    "official_url": "https://steelseries.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://steelseries.com",
@@ -4618,8 +4627,8 @@
   },
   {
    "key": "subor",
-   "zh": "小霸王",
-   "en": "Subor",
+   "name": "小霸王",
+   "name_en": "Subor",
    "categories": [
     "gamepad"
    ],
@@ -4630,8 +4639,8 @@
    "official_url": "https://subor.com.cn",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://subor.com.cn",
@@ -4640,8 +4649,8 @@
   },
   {
    "key": "takstar",
-   "zh": "得胜",
-   "en": "Takstar",
+   "name": "得胜",
+   "name_en": "Takstar",
    "categories": [
     "earphone"
    ],
@@ -4652,8 +4661,8 @@
    "official_url": "https://takstar.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://takstar.com",
@@ -4665,8 +4674,8 @@
   },
   {
    "key": "tangzu",
-   "zh": "天使吉米",
-   "en": "TANGZU",
+   "name": "天使吉米",
+   "name_en": "TANGZU",
    "categories": [
     "earphone"
    ],
@@ -4677,8 +4686,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4686,8 +4695,8 @@
   },
   {
    "key": "tannoy",
-   "zh": "天朗",
-   "en": "Tannoy",
+   "name": "天朗",
+   "name_en": "Tannoy",
    "categories": [
     "speaker"
    ],
@@ -4698,8 +4707,8 @@
    "official_url": "https://tannoy.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://tannoy.com",
@@ -4711,8 +4720,8 @@
   },
   {
    "key": "teac",
-   "zh": "TEAC",
-   "en": "TEAC",
+   "name": "TEAC",
+   "name_en": "TEAC",
    "categories": [
     "speaker"
    ],
@@ -4723,8 +4732,8 @@
    "official_url": "https://teac-audio.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://teac-audio.com",
@@ -4733,8 +4742,8 @@
   },
   {
    "key": "teclast",
-   "zh": "台电",
-   "en": "Teclast",
+   "name": "台电",
+   "name_en": "Teclast",
    "categories": [
     "earphone",
     "speaker"
@@ -4747,8 +4756,8 @@
    "official_url": "https://teclast.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://teclast.com",
@@ -4760,8 +4769,8 @@
   },
   {
    "key": "tesoro",
-   "zh": "铁修罗",
-   "en": "Tesoro",
+   "name": "铁修罗",
+   "name_en": "Tesoro",
    "categories": [
     "mouse",
     "keyboard"
@@ -4774,8 +4783,8 @@
    "official_url": "https://tesorotec.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://tesorotec.com",
@@ -4787,8 +4796,8 @@
   },
   {
    "key": "tfz",
-   "zh": "锦瑟香也",
-   "en": "TFZ",
+   "name": "锦瑟香也",
+   "name_en": "TFZ",
    "categories": [
     "earphone"
    ],
@@ -4799,8 +4808,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4808,8 +4817,8 @@
   },
   {
    "key": "thermaltake",
-   "zh": "曜越 Tt",
-   "en": "Thermaltake",
+   "name": "曜越 Tt",
+   "name_en": "Thermaltake",
    "categories": [
     "mouse",
     "keyboard",
@@ -4824,8 +4833,8 @@
    "official_url": "https://thermaltake.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://thermaltake.com",
@@ -4837,8 +4846,8 @@
   },
   {
    "key": "thrustmaster",
-   "zh": "图马思特",
-   "en": "Thrustmaster",
+   "name": "图马思特",
+   "name_en": "Thrustmaster",
    "categories": [
     "gamepad"
    ],
@@ -4849,8 +4858,8 @@
    "official_url": "https://thrustmaster.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://thrustmaster.com",
@@ -4862,8 +4871,8 @@
   },
   {
    "key": "thunderobot",
-   "zh": "雷神",
-   "en": "ThundeRobot",
+   "name": "雷神",
+   "name_en": "ThundeRobot",
    "categories": [
     "earphone",
     "mouse",
@@ -4880,8 +4889,8 @@
    "official_url": "https://thunderobot.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://thunderobot.com",
@@ -4893,8 +4902,8 @@
   },
   {
    "key": "tianlu",
-   "zh": "天路",
-   "en": "TianLu",
+   "name": "天路",
+   "name_en": "TianLu",
    "categories": [
     "mousepad"
    ],
@@ -4905,8 +4914,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4914,8 +4923,8 @@
   },
   {
    "key": "tianyi",
-   "zh": "天逸",
-   "en": "TianYi",
+   "name": "天逸",
+   "name_en": "TianYi",
    "categories": [
     "speaker"
    ],
@@ -4926,8 +4935,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4935,8 +4944,8 @@
   },
   {
    "key": "tmall-genie",
-   "zh": "天猫精灵",
-   "en": "Tmall Genie",
+   "name": "天猫精灵",
+   "name_en": "Tmall Genie",
    "categories": [
     "speaker"
    ],
@@ -4947,8 +4956,8 @@
    "official_url": "https://aligenie.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://aligenie.com",
@@ -4960,8 +4969,8 @@
   },
   {
    "key": "topping",
-   "zh": "拓品",
-   "en": "Topping",
+   "name": "拓品",
+   "name_en": "Topping",
    "categories": [
     "speaker"
    ],
@@ -4972,8 +4981,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -4981,8 +4990,8 @@
   },
   {
    "key": "torras",
-   "zh": "图拉斯",
-   "en": "Torras",
+   "name": "图拉斯",
+   "name_en": "Torras",
    "categories": [
     "earphone"
    ],
@@ -4993,8 +5002,8 @@
    "official_url": "https://torras.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://torras.com",
@@ -5006,8 +5015,8 @@
   },
   {
    "key": "triangle",
-   "zh": "三角",
-   "en": "Triangle",
+   "name": "三角",
+   "name_en": "Triangle",
    "categories": [
     "speaker"
    ],
@@ -5018,8 +5027,8 @@
    "official_url": "https://trianglehifi.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://trianglehifi.com",
@@ -5031,8 +5040,8 @@
   },
   {
    "key": "turtlebeach",
-   "zh": "乌龟海岸",
-   "en": "Turtle Beach",
+   "name": "乌龟海岸",
+   "name_en": "Turtle Beach",
    "categories": [
     "mouse",
     "gamepad"
@@ -5045,8 +5054,8 @@
    "official_url": "https://turtlebeach.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://turtlebeach.com",
@@ -5058,8 +5067,8 @@
   },
   {
    "key": "ugreen",
-   "zh": "绿联",
-   "en": "UGREEN",
+   "name": "绿联",
+   "name_en": "UGREEN",
    "categories": [
     "earphone",
     "speaker",
@@ -5074,8 +5083,8 @@
    "official_url": "https://ugreen.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://ugreen.com",
@@ -5087,8 +5096,8 @@
   },
   {
    "key": "varmilo",
-   "zh": "阿米洛",
-   "en": "Varmilo",
+   "name": "阿米洛",
+   "name_en": "Varmilo",
    "categories": [
     "keyboard"
    ],
@@ -5099,8 +5108,8 @@
    "official_url": "https://varmilo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://varmilo.com",
@@ -5112,8 +5121,8 @@
   },
   {
    "key": "vaxee",
-   "zh": "VAXEE",
-   "en": "VAXEE",
+   "name": "VAXEE",
+   "name_en": "VAXEE",
    "categories": [
     "mouse",
     "mousepad"
@@ -5126,8 +5135,8 @@
    "official_url": "https://vaxee.co",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://vaxee.co",
@@ -5136,8 +5145,8 @@
   },
   {
    "key": "vgn",
-   "zh": "VGN",
-   "en": "VGN",
+   "name": "VGN",
+   "name_en": "VGN",
    "categories": [
     "mouse",
     "keyboard"
@@ -5150,8 +5159,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -5159,8 +5168,8 @@
   },
   {
    "key": "victrix",
-   "zh": "Victrix",
-   "en": "Victrix",
+   "name": "Victrix",
+   "name_en": "Victrix",
    "categories": [
     "gamepad"
    ],
@@ -5171,8 +5180,8 @@
    "official_url": "https://victrixpro.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://victrixpro.com",
@@ -5184,8 +5193,8 @@
   },
   {
    "key": "vivo",
-   "zh": "vivo",
-   "en": "vivo",
+   "name": "vivo",
+   "name_en": "vivo",
    "categories": [
     "earphone"
    ],
@@ -5196,8 +5205,8 @@
    "official_url": "https://vivo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://vivo.com",
@@ -5209,8 +5218,8 @@
   },
   {
    "key": "vortex",
-   "zh": "Vortex",
-   "en": "Vortex",
+   "name": "Vortex",
+   "name_en": "Vortex",
    "categories": [
     "keyboard"
    ],
@@ -5221,8 +5230,8 @@
    "official_url": "https://vortexgear.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://vortexgear.com",
@@ -5231,8 +5240,8 @@
   },
   {
    "key": "vxe",
-   "zh": "VXE",
-   "en": "VXE",
+   "name": "VXE",
+   "name_en": "VXE",
    "categories": [
     "mouse"
    ],
@@ -5243,8 +5252,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -5252,8 +5261,8 @@
   },
   {
    "key": "westone",
-   "zh": "威士顿",
-   "en": "Westone",
+   "name": "威士顿",
+   "name_en": "Westone",
    "categories": [
     "earphone"
    ],
@@ -5264,8 +5273,8 @@
    "official_url": "https://westone.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://westone.com",
@@ -5277,8 +5286,8 @@
   },
   {
    "key": "wharfedale",
-   "zh": "乐富豪",
-   "en": "Wharfedale",
+   "name": "乐富豪",
+   "name_en": "Wharfedale",
    "categories": [
     "speaker"
    ],
@@ -5289,8 +5298,8 @@
    "official_url": "https://wharfedale.co.uk",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://wharfedale.co.uk",
@@ -5302,8 +5311,8 @@
   },
   {
    "key": "wob",
-   "zh": "WOB",
-   "en": "WOB",
+   "name": "WOB",
+   "name_en": "WOB",
    "categories": [
     "keyboard"
    ],
@@ -5314,8 +5323,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -5323,8 +5332,8 @@
   },
   {
    "key": "wooting",
-   "zh": "Wooting",
-   "en": "Wooting",
+   "name": "Wooting",
+   "name_en": "Wooting",
    "categories": [
     "keyboard"
    ],
@@ -5335,8 +5344,8 @@
    "official_url": "https://wooting.io",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://wooting.io",
@@ -5348,8 +5357,8 @@
   },
   {
    "key": "xduoo",
-   "zh": "乂度",
-   "en": "xDuoo",
+   "name": "乂度",
+   "name_en": "xDuoo",
    "categories": [
     "earphone",
     "speaker"
@@ -5362,8 +5371,8 @@
    "official_url": "https://xduoo.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://xduoo.com",
@@ -5375,8 +5384,8 @@
   },
   {
    "key": "xiaoai",
-   "zh": "小爱同学",
-   "en": "XiaoAI",
+   "name": "小爱同学",
+   "name_en": "XiaoAI",
    "categories": [
     "speaker"
    ],
@@ -5387,8 +5396,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -5396,8 +5405,8 @@
   },
   {
    "key": "xiaodu",
-   "zh": "小度",
-   "en": "Xiaodu",
+   "name": "小度",
+   "name_en": "Xiaodu",
    "categories": [
     "speaker"
    ],
@@ -5408,8 +5417,8 @@
    "official_url": "https://xiaodu.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://xiaodu.com",
@@ -5418,8 +5427,8 @@
   },
   {
    "key": "xiaomi",
-   "zh": "小米",
-   "en": "Xiaomi",
+   "name": "小米",
+   "name_en": "Xiaomi",
    "categories": [
     "earphone",
     "mouse",
@@ -5436,8 +5445,8 @@
    "official_url": "https://mi.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://mi.com",
@@ -5446,8 +5455,8 @@
   },
   {
    "key": "xinmeng",
-   "zh": "新盟",
-   "en": "Xinmeng",
+   "name": "新盟",
+   "name_en": "Xinmeng",
    "categories": [
     "keyboard"
    ],
@@ -5458,8 +5467,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -5467,8 +5476,8 @@
   },
   {
    "key": "yamaha",
-   "zh": "雅马哈",
-   "en": "Yamaha",
+   "name": "雅马哈",
+   "name_en": "Yamaha",
    "categories": [
     "earphone",
     "speaker"
@@ -5481,8 +5490,8 @@
    "official_url": "https://yamaha.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://yamaha.com",
@@ -5491,8 +5500,8 @@
   },
   {
    "key": "yisuma",
-   "zh": "易速马",
-   "en": "YiSuMa",
+   "name": "易速马",
+   "name_en": "YiSuMa",
    "categories": [
     "gamepad"
    ],
@@ -5503,8 +5512,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -5512,8 +5521,8 @@
   },
   {
    "key": "yulong",
-   "zh": "钰龙",
-   "en": "Yulong",
+   "name": "钰龙",
+   "name_en": "Yulong",
    "categories": [
     "speaker"
    ],
@@ -5524,8 +5533,8 @@
    "official_url": "https://yulongaudio.com",
    "curated": true,
    "verified": false,
-   "status": "核验失败",
    "verified_at": null,
+   "status": "核验失败",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://yulongaudio.com",
@@ -5534,8 +5543,8 @@
   },
   {
    "key": "yunzii",
-   "zh": "御斧",
-   "en": "Yunzii",
+   "name": "御斧",
+   "name_en": "Yunzii",
    "categories": [
     "mouse",
     "keyboard"
@@ -5548,8 +5557,8 @@
    "official_url": "https://yunzii.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://yunzii.com",
@@ -5561,8 +5570,8 @@
   },
   {
    "key": "yuyou",
-   "zh": "御游",
-   "en": "YuYou",
+   "name": "御游",
+   "name_en": "YuYou",
    "categories": [
     "gamepad"
    ],
@@ -5573,8 +5582,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -5582,8 +5591,8 @@
   },
   {
    "key": "zhenhuo",
-   "zh": "臻火",
-   "en": "ZhenHuo",
+   "name": "臻火",
+   "name_en": "ZhenHuo",
    "categories": [
     "mousepad"
    ],
@@ -5594,8 +5603,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -5603,8 +5612,8 @@
   },
   {
    "key": "zhidong",
-   "zh": "致动",
-   "en": "ZhiDong",
+   "name": "致动",
+   "name_en": "ZhiDong",
    "categories": [
     "gamepad"
    ],
@@ -5615,8 +5624,8 @@
    "official_url": null,
    "curated": false,
    "verified": false,
-   "status": "待核验",
    "verified_at": null,
+   "status": "待核验",
    "evidence": {
     "checked_at": "2026-09-16",
     "error": "未发现官网候选"
@@ -5624,8 +5633,8 @@
   },
   {
    "key": "zowie",
-   "zh": "卓威",
-   "en": "ZOWIE",
+   "name": "卓威",
+   "name_en": "ZOWIE",
    "categories": [
     "mouse",
     "mousepad"
@@ -5638,8 +5647,8 @@
    "official_url": "https://zowie.com",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://zowie.com",
@@ -5651,8 +5660,8 @@
   },
   {
    "key": "zte",
-   "zh": "中兴",
-   "en": "ZTE",
+   "name": "中兴",
+   "name_en": "ZTE",
    "categories": [
     "earphone"
    ],
@@ -5663,8 +5672,8 @@
    "official_url": "https://zte.com.cn",
    "curated": true,
    "verified": false,
-   "status": "待人工确认",
    "verified_at": null,
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://zte.com.cn",
