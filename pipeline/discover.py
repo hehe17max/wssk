@@ -3,7 +3,7 @@
 pipeline/discover.py · 新品发现
 ================================
 从品牌官网自动发现新产品：
-  1. sitemap.xml / sitemap_index.xml 中的产品 URL
+  1. sitemap.xml / sitemap_index.xml 中的产品 URL（跟随子 sitemap，宽松过滤）
   2. Shopify /products.json
   3. 首页中符合产品 URL 模式的链接
 发现的候选产品写入 ingest 流程，经分类后入库（状态 = 待核验）。
@@ -15,42 +15,144 @@ import requests
 
 from . import utils
 
+# 非产品栏目路径段（整段匹配，用于 sitemap/首页过滤）
+NON_PRODUCT_SEGMENTS = {
+    "support", "help", "about", "blog", "news", "press", "events", "company",
+    "careers", "jobs", "legal", "privacy", "terms", "contact", "login", "cart",
+    "account", "wishlist", "faq", "download", "downloads", "drivers", "driver",
+    "software", "firmware", "warranty", "registration", "register", "search",
+    "sitemap", "robots", "cdn-cgi", "wp-content", "wp-includes", "wp-json",
+    "collections", "pages", "policies", "policy", "compare", "checkout",
+    "gift-cards", "giftcard", "redeem", "rewards", "newsletter", "subscription",
+    "investors", "investor", "sustainability", "environment", "security",
+    "vulnerability", "developers", "developer", "partners", "partner",
+    "resellers", "reseller", "where-to-buy", "stores", "store-locator",
+    "pro-shops", "affiliates", "affiliate", "community", "forum", "forums",
+    "player-support", "games", "game", "esports", "esports-team", "app",
+    "mobile-app", "apps", "tools", "tool", "b2b", "enterprise", "business",
+    "shop", "store",
+}
+# 产品名中的非产品词（用于判断名称是否只是栏目/类别词）
+NON_PRODUCT_NAME_WORDS = {
+    "products", "product", "mice", "mouse", "keyboards", "keyboard", "headsets",
+    "headset", "speakers", "speaker", "accessories", "accessory", "support",
+    "contact", "about", "search", "cart", "login", "account", "wishlist", "faq",
+    "blog", "news", "deals", "gaming", "creators", "business", "home", "index",
+    "catalog", "categories", "category", "shop", "store", "buy", "compare",
+    "help", "new", "featured", "all", "collection", "collections", "gear",
+    "audio", "wireless", "wired", "official", "site", "us", "global", "en",
+    "zh", "de", "fr", "jp", "uk", "series", "line", "family", "overview",
+    "explore", "discover", "chairs", "chair", "mats", "mat", "pads", "pad",
+    "customize", "custom", "configure", "configurator", "specs",
+    "specifications", "reviews", "gallery", "bundles", "bundle", "kits", "kit",
+    "parts", "part", "stands", "stand", "arms", "arm", "mounts", "mount",
+    "cases", "case", "bags", "bag", "caps", "cap", "clothing", "apparel",
+    "merch", "merchandise", "swag", "gift", "pc", "streaming", "smart",
+    "mobile", "laptop", "desktop", "console", "tablet", "monitor", "tv",
+    "television", "video", "cameras", "camera", "projectors", "projector",
+    "printers", "printer", "servers", "server", "storage", "networking",
+}
+# 非外设品类词（含则跳过该候选，保持数据库聚焦外设）
+NON_PERIPHERAL_WORDS = {
+    "chair", "chairs", "apparel", "hoodie", "hoodies", "t-shirt", "tshirt",
+    "shirt", "shirts", "jacket", "jackets", "backpack", "backpacks", "cap",
+    "caps", "socks", "pants", "shoes", "shorts", "beanie", "beanies", "mask",
+    "masks", "towel", "towels", "bottle", "bottles", "mug", "mugs", "sticker",
+    "stickers", "keychain", "keychains", "lanyard", "lanyards", "poster",
+    "posters", "puzzle", "puzzles", "sleeve", "sleeves", "glove", "gloves",
+    "sweatshirt", "sweatshirts", "tank", "tanks", "underwear",
+}
+# 忽略的静态/非页面扩展名
+SKIP_EXTENSIONS = {
+    ".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".avif", ".ico", ".css",
+    ".js", ".json", ".pdf", ".zip", ".rar", ".7z", ".xml", ".txt", ".mp4",
+    ".webm", ".mp3", ".wav", ".woff", ".woff2", ".ttf", ".eot", ".xls", ".xlsx",
+    ".doc", ".docx", ".csv", ".gz", ".map", ".ts",
+}
+
 
 def _is_product_url(url, patterns):
     u = url.lower()
     return any(p in u for p in patterns)
 
 
+def _has_non_product_segment(path):
+    segs = [s for s in path.split("/") if s]
+    for s in segs:
+        s = s.lower().strip()
+        if s in NON_PRODUCT_SEGMENTS:
+            return True
+        if s.startswith("page-") or s.startswith("?page"):
+            return True
+    return False
+
+
+def _has_skip_extension(url):
+    path = urlparse(url).path.lower()
+    return any(path.endswith(ext) for ext in SKIP_EXTENSIONS)
+
+
+def _looks_like_product_url(url, patterns, min_segments=3):
+    """宽松产品 URL 判定：命中严格模式，或路径≥3段且无栏目段/静态扩展。"""
+    if _is_product_url(url, patterns):
+        return True
+    if _has_skip_extension(url):
+        return False
+    if _has_non_product_segment(urlparse(url).path):
+        return False
+    segs = [s for s in urlparse(url).path.split("/") if s and not s.lower().startswith(("en-", "us-", "en/"))]
+    # 去掉纯语言前缀段后仍有足够层级
+    segs = [s for s in segs if s.lower() not in ("en", "us", "zh", "de", "fr", "jp", "uk", "intl", "global")]
+    return len(segs) >= min_segments
+
+
 def discover_from_sitemap(brand, cfg):
-    """解析 sitemap，返回产品 URL 列表。"""
+    """解析 sitemap（含索引→子 sitemap），返回产品 URL 列表（宽松过滤）。"""
     base = brand.get("official_url", "")
     if not base:
         return []
     sitemap_candidates = [
         urljoin(base, "sitemap.xml"),
         urljoin(base, "sitemap_index.xml"),
+        urljoin(base, "sitemap-index.xml"),
         urljoin(base, "sitemap/sitemap.xml"),
+        urljoin(base, "sitemap/sitemap-index.xml"),
     ]
-    found = []
     patterns = cfg.get("discovery", {}).get("product_url_patterns", [])
+    max_children = cfg.get("discovery", {}).get("max_sitemap_children", 25)
+    found = []
+
+    def _collect(html):
+        urls = re.findall(r"<loc>\s*([^<]+?)\s*</loc>", html)
+        return [u.strip() for u in urls if u.strip().lower().startswith("http")]
+
     for sm in sitemap_candidates:
         status, html = utils.http_get(sm, cfg)
         if status != 200:
             continue
-        urls = re.findall(r"<loc>\s*([^<]+?)\s*</loc>", html)
-        if urls and _is_product_url(urls[0], patterns):
-            found = [u for u in urls if _is_product_url(u, patterns)]
-            utils.logger.info("%s sitemap 发现产品 URL %d 个", brand.get("key"), len(found))
-            return found
-        # 子 sitemap：优先英文版（避免多语言重复）
-        subs = re.findall(r"<loc>\s*([^<]+?\.xml)\s*</loc>", html)
-        subs.sort(key=lambda u: (0 if re.search(r"/(en-us|en-gb|en|us-en)/", u) else 1, u))
-        for sub in subs[:5]:
-            s2, h2 = utils.http_get(sub, cfg)
-            if s2 == 200:
-                u2 = re.findall(r"<loc>\s*([^<]+?)\s*</loc>", h2)
-                found.extend(u for u in u2 if _is_product_url(u, patterns))
+        locs = _collect(html)
+        if not locs:
+            continue
+        # 判断是否为 sitemap 索引（子项为 .xml）
+        child_xml = [u for u in locs if re.search(r"\.xml($|\?)", u, re.I)]
+        if child_xml:
+            # 优先英文版子 sitemap
+            child_xml.sort(key=lambda u: (0 if re.search(r"/(en|en-us|en-gb|us-en|english)/", u, re.I) else 1, u))
+            for sub in child_xml[:max_children]:
+                s2, h2 = utils.http_get(sub, cfg)
+                if s2 == 200:
+                    for u in _collect(h2):
+                        if _looks_like_product_url(u, patterns):
+                            found.append(u)
+        else:
+            for u in locs:
+                if _looks_like_product_url(u, patterns):
+                    found.append(u)
+        # 去重保序
+        seen = set()
+        found = [u for u in found if not (u in seen or seen.add(u))]
         if found:
+            utils.logger.info("%s sitemap 发现产品 URL %d 个", brand.get("key"), len(found))
             return found
     return found
 
@@ -97,48 +199,40 @@ def discover_from_homepage(brand, cfg):
         if h.startswith(("#", "javascript:", "mailto:", "tel:")):
             continue
         full = urljoin(base, h)
-        if not _is_product_url(full, patterns):
-            continue
         if full in seen:
             continue
         seen.add(full)
+        # 首页链接：命中严格模式 或 宽松判定（≥3 段）都可作为候选
+        if not (_is_product_url(full, patterns) or _looks_like_product_url(full, patterns)):
+            continue
         out.append(full)
     return out
 
 
+def _segment_is_category(seg):
+    """判断 URL 段是否仅为栏目/类别词（如 gaming-mice）。"""
+    words = [w for w in re.split(r"[\s\-_]+", seg.lower()) if w]
+    return bool(words) and all(w in NON_PRODUCT_NAME_WORDS for w in words)
+
+
 def name_from_url(url):
-    """从 URL 提取产品名（slugs 合并）。"""
+    """从 URL 提取产品名（跳过栏目/语言段，取最后 1-2 个产品段）。"""
     path = urlparse(url).path
     segs = [s for s in path.split("/") if s and not s.lower().startswith(("product", "p", "item", "goods", "id"))]
     if not segs:
         return ""
-    last = segs[-1]
-    last = re.sub(r"\.(html|shtml|php)$", "", last, flags=re.I)
-    return last.replace("-", " ").replace("_", " ").strip()
-
-
-# 非产品页关键词（整体匹配 / 子串匹配）
-STOPWORDS = {
-    "products", "product", "mice", "keyboards", "keyboard", "headsets", "headset",
-    "speakers", "speaker", "accessories", "support", "contact", "about", "search",
-    "cart", "login", "account", "wishlist", "faq", "blog", "news", "deals", "gaming",
-    "creators", "business", "home", "index", "catalog", "categories", "category",
-    "shop", "store", "buy", "compare", "help",
-}
-STOPWORD_PARTS = {"/support", "/help", "/warranty", "/download", "/driver", "/software",
-                  "/privacy", "/terms", "/legal", "collection-", "/collections/", "?page=",
-                  "buy-", "/buy/", "/shop/", "shop-", "store-"}
-
-# URL 路径段 → 类型线索（官网栏目通常比产品名更可靠）
-URL_HINT_MAP = {
-    "mice": "mouse", "mouse": "mouse", "gaming-mice": "mouse", "wireless-mice": "mouse",
-    "keyboards": "keyboard", "keyboard": "keyboard", "keyboard-accessories": "keyboard",
-    "headsets": "earphone", "headset": "earphone", "headphones": "earphone",
-    "headphone": "earphone", "audio": "earphone", "gaming-headsets": "earphone",
-    "speakers": "speaker", "speaker": "speaker", "speaker-systems": "speaker",
-    "gamepads": "gamepad", "controllers": "gamepad", "gaming-controllers": "gamepad",
-    "mousepads": "mousepad", "desk-mats": "mousepad", "mouse-pads": "mousepad",
-}
+    words = []
+    for seg in reversed(segs):
+        w = re.sub(r"\.(html|shtml|php)$", "", seg, flags=re.I)
+        w = w.replace("-", " ").replace("_", " ").replace("+", " ").strip()
+        if not w or _segment_is_category(w):
+            if words:
+                break
+            continue
+        words.insert(0, w)
+        if len(words) >= 2:
+            break
+    return " ".join(words) if words else ""
 
 
 def url_hints(url):
@@ -157,9 +251,13 @@ def discover_brand_products(brand, cfg, existing_names=None):
         n = re.sub(r"\s+", " ", (name or "").strip())
         if not n or len(n) < 2:
             return
-        # 排除非产品页（栏目/支持/账号等）
         low = n.lower()
-        if low in STOPWORDS or any(w in low for w in STOPWORD_PARTS):
+        words = [w for w in re.split(r"[\s\-_/]+", low) if w]
+        # 名称全部由非产品词组成 → 栏目页而非产品
+        if words and all(w in NON_PRODUCT_NAME_WORDS for w in words):
+            return
+        # 含非外设品类词 → 跳过（椅子/服饰/周边等）
+        if any(w in NON_PERIPHERAL_WORDS for w in words):
             return
         key = utils.slug(brand.get("key", "") + utils.canonical_name(n))
         if key in seen or key in existing_names:
@@ -179,8 +277,20 @@ def discover_brand_products(brand, cfg, existing_names=None):
             _add(name_from_url(url), url, "", "sitemap")
         for p in discover_from_shopify(brand, cfg):
             _add(p.get("name"), p.get("url"), p.get("title"), "shopify")
-        for url in discover_from_homepage(brand, cfg)[:200]:
+        for url in discover_from_homepage(brand, cfg)[:300]:
             _add(name_from_url(url), url, "", "homepage")
 
     max_new = cfg.get("discovery", {}).get("max_new_products_per_run", 200)
     return candidates[:max_new]
+
+
+# URL 路径段 → 类型线索（官网栏目通常比产品名更可靠）
+URL_HINT_MAP = {
+    "mice": "mouse", "mouse": "mouse", "gaming-mice": "mouse", "wireless-mice": "mouse",
+    "keyboards": "keyboard", "keyboard": "keyboard", "keyboard-accessories": "keyboard",
+    "headsets": "earphone", "headset": "earphone", "headphones": "earphone",
+    "headphone": "earphone", "audio": "earphone", "gaming-headsets": "earphone",
+    "speakers": "speaker", "speaker": "speaker", "speaker-systems": "speaker",
+    "gamepads": "gamepad", "controllers": "gamepad", "gaming-controllers": "gamepad",
+    "mousepads": "mousepad", "desk-mats": "mousepad", "mouse-pads": "mousepad",
+}

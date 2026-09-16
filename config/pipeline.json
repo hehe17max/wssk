@@ -9,8 +9,8 @@
     "delay_seconds": 1.0
   },
   "discovery": {
-    "max_new_products_per_run": 200,
-    "mass_total_cap": 5000,
+    "max_new_products_per_run": 500,
+    "mass_total_cap": 8000,
     "check_sitemap": true,
     "check_shopify_json": true,
     "check_product_listing": true,
