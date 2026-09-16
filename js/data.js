@@ -63,6 +63,7 @@ const Data = (() => {
   const STATUS_LABEL = {
     multi_source: { text: "多源核验一致", cls: "ok" },
     official_verified: { text: "官方来源确认", cls: "ok" },
+    official_source: { text: "官方来源", cls: "ok" },
     auto_verified: { text: "自动核验通过", cls: "ok" },
     conflict: { text: "来源冲突待复核", cls: "warn" },
     seed: { text: "种子数据待核验", cls: "mid" },

@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: sync-db
+  cancel-in-progress: false   # 同时只跑一个同步任务，新触发排队等待，避免提交冲突
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -49,5 +53,6 @@ jobs:
             echo "no data changes"
           else
             git commit -m "chore(data): auto sync $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main || true
             git push
           fi

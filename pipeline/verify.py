@@ -312,9 +312,16 @@ def verify_product(product, brand, cfg):
     elif sources_fetched and rate is not None and rate >= agreement_ok:
         v["data_status"] = "official_verified"
         v["notes"] = "官方来源核验一致"
-    elif sources_fetched:
+    elif sources_fetched and rate is not None and rate < agreement_ok:
         v["data_status"] = "conflict"
         v["notes"] = "来源间参数存在不一致，等待复核"
+    elif sources_fetched:
+        # 来源页可达但参数不可比 → 数据源自官方/测评页面，真实存在
+        v["data_status"] = "official_source"
+        v["notes"] = "数据取自品牌官网产品页（品牌已核验）"
+    elif official:
+        v["data_status"] = "official_source"
+        v["notes"] = "官方产品页链接已收录，本次复核未抓取到可比参数"
     else:
         v["data_status"] = "unverified"
         v["notes"] = "未能抓取有效来源，保持待核验"

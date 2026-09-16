@@ -134,71 +134,107 @@ def _verify_brands_parallel(brands, cfg, workers=14):
 
 
 def cmd_mass(args):
-    """全量模式：分类 → 核验全部品牌 → 全品牌新品发现 → 入库 → 页面/图片/参数补全 → 产品核验 → 审计。"""
+    """全量模式：分类 → 核验全部品牌 → 全品牌新品发现 → 入库 → 页面/图片/参数补全 → 产品核验 → 审计。
+    每步独立容错：单步失败记录后继续，最后统一保存（保证部分结果可提交）。"""
+    import traceback
+    import json as _json
+
     cfg = utils.load_config()
     data, brands_data, _ = ingest.load_all()
     brands = brands_data["brands"]
+    step_errors = []
 
-    print("== 1/7 全库分类 ==")
-    n = classify.classify_all(data["products"])
-    print("分类变更:", n)
+    def _step(name, fn):
+        print("== %s ==" % name)
+        try:
+            fn()
+        except Exception:  # noqa: BLE001
+            msg = traceback.format_exc(limit=3)
+            print("[步骤失败] %s: %s" % (name, msg))
+            step_errors.append((name, msg))
+        finally:
+            utils.save_json(utils.data_path("products.json"), data)
+            utils.save_json(utils.data_path("brands.json"), brands_data)
 
-    print("== 2/7 核验全部品牌（并发） ==")
-    pending = [b for b in brands if not b.get("verified")]
-    ok, total = _verify_brands_parallel(pending, cfg)
-    utils.save_json(utils.data_path("brands.json"), brands_data)
-    print("品牌核验：%d/%d 确认" % (ok, total))
+    def _s1():
+        n = classify.classify_all(data["products"])
+        print("分类变更:", n)
 
-    print("== 3/7 全品牌新品发现（并发） ==")
-    verified = [b for b in brands_data["brands"] if b.get("verified")]
-    existing = {p["id"] for p in data["products"]}
-    existing_names = {utils.slug(p["brand"] + utils.canonical_name(p["name"])) for p in data["products"]}
-    cap = cfg.get("discovery", {}).get("mass_total_cap", 5000)
-    all_candidates = []
+    def _s2():
+        pending = [b for b in brands if not b.get("verified")]
+        ok, total = _verify_brands_parallel(pending, cfg)
+        print("品牌核验：%d/%d 确认" % (ok, total))
 
-    def _discover_one(b):
-        utils.logger.info("发现新品: %s", b["key"])
-        cands = discover.discover_brand_products(b, cfg, existing_names=existing_names)
-        return b["key"], cands
+    def _s3():
+        verified = [b for b in brands_data["brands"] if b.get("verified")]
+        existing_names = {utils.slug(p["brand"] + utils.canonical_name(p["name"])) for p in data["products"]}
+        cap = cfg.get("discovery", {}).get("mass_total_cap", 5000)
+        cands_all = []
 
-    from concurrent.futures import ThreadPoolExecutor, as_completed as _ac
-    with ThreadPoolExecutor(max_workers=10) as ex:
-        futs = {ex.submit(_discover_one, b): b for b in verified}
-        for fut in _ac(futs):
-            key, cands = fut.result()
-            if cands:
-                all_candidates.extend(cands)
-                utils.logger.info("%s +%d 个候选（累计 %d）", key, len(cands), len(all_candidates))
-            if len(all_candidates) >= cap:
-                utils.logger.info("已达候选上限 %d，停止等待", cap)
-                for f in list(futs):
-                    f.cancel()
-                break
-    print("候选总数:", len(all_candidates))
+        def _discover_one(b):
+            utils.logger.info("发现新品: %s", b["key"])
+            return b["key"], discover.discover_brand_products(b, cfg, existing_names=existing_names)
 
-    print("== 4/7 入库 ==")
-    report = ingest.run_ingest(candidates=all_candidates, cfg=cfg)
-    print("入库:", report)
+        from concurrent.futures import ThreadPoolExecutor, as_completed as _ac
+        with ThreadPoolExecutor(max_workers=16) as ex:
+            futs = {ex.submit(_discover_one, b): b for b in verified}
+            for fut in _ac(futs):
+                key, cands = fut.result()
+                if cands:
+                    cands_all.extend(cands)
+                    utils.logger.info("%s +%d（累计 %d）", key, len(cands), len(cands_all))
+                if len(cands_all) >= cap:
+                    for f in list(futs):
+                        f.cancel()
+                    break
+        print("候选总数:", len(cands_all))
+        data["_mass_candidates"] = cands_all
 
-    print("== 5/7 页面/图片/参数补全 ==")
-    data, brands_data, _ = ingest.load_all()
-    done, reclassified, failed = enrich.enrich_unverified(
-        data, brands_data, cfg, limit=args.limit or 3000)
+    def _s4():
+        cands_all = data.pop("_mass_candidates", [])
+        report = ingest.run_ingest(candidates=cands_all, cfg=cfg)
+        print("入库:", report)
+
+    def _s5():
+        d, bd, _ = ingest.load_all()
+        done, reclassified, failed = enrich.enrich_unverified(d, bd, cfg, limit=args.limit or 3000)
+        utils.save_json(utils.data_path("products.json"), d)
+        ingest.run_ingest(cfg=cfg)
+        print("补全：完成 %d，重新分类 %d，失败 %d" % (done, reclassified, failed))
+
+    def _s6():
+        import argparse as _ap
+        args2 = _ap.Namespace(**vars(args))
+        args2.limit = min(args.limit or 150, 150)
+        cmd_verify_products(args2)
+
+    def _s7():
+        import subprocess
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                                                     "scripts", "audit_data.py")], check=False)
+
+    _step("1/7 全库分类", _s1)
+    _step("2/7 核验全部品牌（并发）", _s2)
+    _step("3/7 全品牌新品发现（并发）", _s3)
+    _step("4/7 入库", _s4)
+    _step("5/7 页面/图片/参数补全", _s5)
+    _step("6/7 产品数据多源核验（限量）", _s6)
+    _step("7/7 数据审计", _s7)
+
+    # 收尾：统一保存 + 状态记录
     utils.save_json(utils.data_path("products.json"), data)
-    ingest.run_ingest(cfg=cfg)
-    print("补全：完成 %d，重新分类 %d，失败 %d" % (done, reclassified, failed))
+    utils.save_json(utils.data_path("brands.json"), brands_data)
+    try:
+        ingest.run_ingest(cfg=cfg)
+    except Exception:  # noqa: BLE001
+        step_errors.append(("final-ingest", traceback.format_exc(limit=3)))
+    _json.dump({"mode": "mass", "finished_at": utils.today(), "step_errors": step_errors},
+               open(utils.data_path("pipeline_report.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    if step_errors:
+        print("全量流程完成，但有 %d 个步骤报错：%s" % (len(step_errors), [e[0] for e in step_errors]))
+    else:
+        print("全量流程完成，无步骤报错。")
 
-    print("== 6/7 产品数据多源核验（限量） ==")
-    import argparse as _ap
-    args2 = _ap.Namespace(**vars(args))
-    args2.limit = min(args.limit or 150, 150)  # 多源核验仅抽样前 150 款
-    cmd_verify_products(args2)
-
-    print("== 7/7 数据审计 ==")
-    import subprocess
-    subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                                                 "scripts", "audit_data.py")], check=False)
-    print("全量流程完成。")
 
 
 def cmd_full(args):
