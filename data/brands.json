@@ -238,11 +238,14 @@
    "curated": true,
    "verified": false,
    "verified_at": null,
-   "status": "核验失败",
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-16",
     "url": "https://amazon.com",
-    "http_status": null
+    "http_status": 200,
+    "title": "Amazon.com. Spend less. Smile more.",
+    "site_name": "",
+    "matched_terms": []
    }
   },
   {
