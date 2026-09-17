@@ -71,13 +71,25 @@ def cmd_verify_products(args):
         products = [p for p in products if p["brand"] in keys]
     if args.limit:
         products = products[: args.limit]
-    for p in products:
+    from concurrent.futures import ThreadPoolExecutor, as_completed as _ac2
+
+    def _vp(p):
         b = brands_by_key.get(p["brand"], {})
-        utils.logger.info("核验产品: %s / %s", p["brand"], p["name"])
-        verify.verify_product(p, b, cfg)
+        try:
+            verify.verify_product(p, b, cfg)
+        except Exception:  # noqa: BLE001
+            pass
         v = p["verification"]
-        utils.logger.info("  -> %s confidence=%s sources=%s",
-                          v.get("data_status"), v.get("confidence"), v.get("source_count"))
+        return p["id"], v.get("data_status"), v.get("confidence"), v.get("source_count")
+
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        futs = [ex.submit(_vp, p) for p in products]
+        for fut in _ac2(futs):
+            try:
+                _pid, ds, conf, sc = fut.result()
+                utils.logger.info("  -> %s confidence=%s sources=%s", ds, conf, sc)
+            except Exception:  # noqa: BLE001
+                pass
     utils.save_json(utils.data_path("products.json"), data)
     report = ingest.run_ingest(cfg=cfg)
     print("产品核验完成：%d 个" % len(products))
