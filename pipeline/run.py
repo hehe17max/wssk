@@ -120,6 +120,18 @@ def cmd_enrich(args):
     print("报告:", report)
 
 
+def cmd_prune(args):
+    """清洗垃圾条目（博客/服务/栏目页）并重新分类去重，返回清洗统计。"""
+    cfg = utils.load_config()
+    data, brands_data, _ = ingest.load_all()
+    removed, _ = ingest.prune_junk(data)
+    n = classify.classify_all(data["products"])
+    utils.save_json(utils.data_path("products.json"), data)
+    report = ingest.run_ingest(cfg=cfg)
+    print("清洗完成：移除 %d 条垃圾，分类变更 %d，剩余产品 %d" % (removed, n, len(data["products"])))
+    print("报告:", report)
+
+
 def _verify_brands_parallel(brands, cfg, workers=14):
     """并发核验品牌真实性。返回 (确认数, 总数)。"""
     from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -157,8 +169,9 @@ def cmd_mass(args):
             utils.save_json(utils.data_path("brands.json"), brands_data)
 
     def _s1():
+        removed, _ = ingest.prune_junk(data)
         n = classify.classify_all(data["products"])
-        print("分类变更:", n)
+        print("清洗垃圾:", removed, "| 分类变更:", n)
 
     def _s2():
         pending = [b for b in brands if not b.get("verified")]
@@ -262,7 +275,7 @@ def cmd_full(args):
 
 def main():
     ap = argparse.ArgumentParser(description="外设水库自动化流水线")
-    ap.add_argument("mode", choices=["seed", "classify", "verify", "verify-products", "discover", "enrich", "ingest", "full", "mass"])
+    ap.add_argument("mode", choices=["seed", "classify", "verify", "verify-products", "discover", "enrich", "ingest", "full", "mass", "prune"])
     ap.add_argument("--limit-brands", type=int, default=6)
     ap.add_argument("--limit", type=int, default=5)
     ap.add_argument("--brands", type=str, default=None)
@@ -286,6 +299,8 @@ def main():
     elif args.mode == "ingest":
         report = ingest.run_ingest()
         print("入库完成:", report)
+    elif args.mode == "prune":
+        cmd_prune(args)
     elif args.mode == "full":
         cmd_full(args)
 

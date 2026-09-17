@@ -45,16 +45,17 @@ def merge_candidates(data, candidates, cfg):
             "name": c["name"],
             "category": None,
             "subtype": None,
-            "tags": [],
+            "tags": list(c.get("tags") or []),
             "specs": {},
-            "description": (c.get("title") or "")[:300],
+            "description": (c.get("description") or c.get("title") or "")[:500],
             "release": None,
-            "price_cny": None,
+            "price_cny": c.get("price_cny"),
+            "image": c.get("image"),
             "extra": {"hints": " ".join(hints)} if hints else {},
             "links": {"official": c.get("url"), "reviews": []},
             "verification": {
                 "brand_status": "待核验",
-                "data_status": "unverified",
+                "data_status": "official" if (c.get("image") or c.get("description")) else "unverified",
                 "confidence": None,
                 "last_checked": None,
                 "notes": "自动发现（%s），待核验" % c.get("source", ""),
@@ -106,6 +107,59 @@ def apply_brand_verification(brands_data, brand_updates):
         if upd.get("official_url"):
             b["official_url"] = upd["official_url"]
     return updated
+
+
+def prune_junk(data):
+    """清洗垃圾条目：栏目/博客/服务页 URL、栏目类名称；返回移除数。"""
+    import re as _re
+    from urllib.parse import urlparse as _up
+    junk_path_parts = (
+        "/blogs/", "/blog/", "/news/", "/newsroom/", "/press/", "/media/",
+        "/servicesolutions/", "/solutions_latest/", "/katalog/", "/collections/",
+        "/pages/", "/tags/", "/search", "/about/", "/support/", "/help/",
+        "/company/", "/careers/", "/jobs/", "/legal/", "/privacy/", "/terms/",
+        "/faq/", "/account/", "/login/", "/cart/", "/wishlist/", "/compare",
+        "/contact/", "/videos/", "/video/", "/wallpapers/", "/resources/",
+        "/insights/", "/stories/", "/webinars/", "/whitepapers/", "/case-studies/",
+        "/testimonials/", "/team/", "/management/", "/corporate/", "/governance/",
+        "/cookie", "/sitemap", "/tracking", "/app/", "/store-locator/",
+        "/where-to-buy/", "/catalog/", "/category/", "/categories/", "/archive/",
+        "/author/", "/feed", "/rss", "/forums/", "/forum/", "/community/",
+    )
+    junk_name_words = (
+        "blog", "blogs", "news", "newsroom", "press", "media", "videos",
+        "wallpapers", "resources", "insights", "stories", "webinars",
+        "whitepapers", "case study", "case studies", "testimonial",
+        "servicesolutions", "solutions", "aggregation", "katalog", "category",
+        "catalogue", "services", "service level", "corporate", "governance",
+        "sustainability", "careers", "investor", "cookies", "privacy policy",
+        "terms of", "faq", "help center", "support center", "about us",
+        "community", "forum", "shop all", "view all", "shop the", "collection",
+        "apparel", "merchandise", "gift card", "giftcard", "gift cards",
+        "plushie", "plushies", "sticker", "stickers", "keychain", "lanyard",
+        "poster", "posters", "mug", "mugs", "t-shirt", "tshirt", "hoodie",
+        "socks", "beanie", "backpack", "water bottle", "towel", "tote bag",
+    )
+    before = len(data["products"])
+    kept = []
+    removed = 0
+    for p in data["products"]:
+        url = ((p.get("links") or {}).get("official") or "").lower()
+        name = (p.get("name") or "").lower()
+        path = _up(url).path if url else ""
+        junk = False
+        if url:
+            if any(jp in path for jp in junk_path_parts):
+                junk = True
+        if not junk:
+            if any(w in name for w in junk_name_words):
+                junk = True
+        if junk:
+            removed += 1
+        else:
+            kept.append(p)
+    data["products"] = kept
+    return removed, before - len(kept)
 
 
 def build_meta(data, brands_data, meta):
