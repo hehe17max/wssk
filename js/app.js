@@ -156,6 +156,14 @@
   }
 
   /* ---------- 产品卡片 ---------- */
+  // 分页渲染：默认每页 60 张卡片，「加载更多」增量追加，避免全量 DOM 卡顿
+  let PAGE = 60;
+  let lastSig = "";
+  function filterSig() {
+    const s = Filters.state;
+    return [s.q, s.category, [...s.subtypes].sort().join(","), [...s.brands].sort().join(","),
+      [...s.chips].sort().join(","), s.sort, JSON.stringify(s.struct)].join("|");
+  }
   function specPreview(p) {
     const order = Data.specFieldOrder(p.category);
     const keys = [];
@@ -193,18 +201,25 @@
   }
 
   function renderGrid() {
+    const sig = filterSig();
+    if (sig !== lastSig) { PAGE = 60; lastSig = sig; }
     const list = Filters.apply(Data.state.products);
     el.count.innerHTML = `共 <b>${list.length}</b> 款产品`;
     if (!list.length) {
       el.grid.innerHTML = `<div class="empty"><div class="big">💧</div>没有匹配的产品<br>试试放宽筛选条件</div>`;
       return;
     }
-    el.grid.innerHTML = list.map(cardHtml).join("");
+    const visible = list.slice(0, PAGE);
+    const moreHtml = list.length > PAGE
+      ? `<button class="load-more" id="loadMore">加载更多（还剩 ${list.length - PAGE} 款）</button>` : "";
+    el.grid.innerHTML = visible.map(cardHtml).join("") + moreHtml;
     $$(".card", el.grid).forEach(card => {
       const id = card.dataset.id;
       $$("button[data-act=detail]", card)[0].onclick = () => openModal(id);
       $$("button[data-act=cmp]", card)[0].onclick = () => toggleCompare(id);
     });
+    const lm = document.getElementById("loadMore");
+    if (lm) lm.onclick = () => { PAGE += 60; renderGrid(); };
   }
 
   /* ---------- 详情弹窗 ---------- */

@@ -352,3 +352,6 @@ table.cmp .col-rm { cursor: pointer; color: var(--danger); font-size: 12px; }
 .modal-img { max-width: 320px; margin: 0 auto 12px; border-radius: 10px; overflow: hidden; background:#0d1a30; }
 .modal-img img { width: 100%; display: block; object-fit: cover; }
 .cmp-thumb { width: 96px; height: 72px; object-fit: cover; border-radius: 8px; margin-bottom: 8px; display:block; margin-left:auto; margin-right:auto; background:#0d1a30; }
+
+/* ---------- 加载更多 ---------- */
+.load-more{display:block;margin:24px auto;padding:12px 28px;background:var(--panel,#111d33);border:1px solid rgba(34,211,238,.25);border-radius:10px;color:var(--accent);cursor:pointer;font-size:14px;transition:background .2s}.load-more:hover{background:var(--accent-dim)}
