@@ -94,7 +94,7 @@ BRAND_HINTS = {
         "he1000", "deva", "edifier w", "soundpeats", "baseus", "qcy", "haylou",
         "sabbat", "edifier tws", "taotronics", "tribit", "marshall major",
         "bose quiet", "sony xm", "jbl tune", "jbl live", "jbl reflect",
-        "soundcore p30", "soundcore aero", "soundcore liberty", "1more",
+        "soundcore p30", "soundcore aero", "soundcore liberty", "1more", "enco", "oppo enco", "redmi buds", "xiaomi buds", "vivo tws", "iqoo", "realme buds", "realme",
         "moondrop chu", "moondrop aria", "kz ", "trn ", "cca ", "tinhifi",
         "simgot", "fiio fd", "fiio fa", "shuoer", "tangzu", "hidisz", "letshuoer",
         "kiwi ears", "thieaudio", "64 audio", "focal bathys", "focal clear",

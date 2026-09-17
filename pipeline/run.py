@@ -252,8 +252,11 @@ def cmd_mass(args):
 
 def cmd_full(args):
     cfg = utils.load_config()
-    print("== 1/5 全库分类 ==")
+    print("== 0/5 清洗垃圾 ==")
     data, brands_data, _ = ingest.load_all()
+    removed, _ = ingest.prune_junk(data)
+    print("清洗垃圾:", removed)
+    print("== 1/5 全库分类 ==")
     n = classify.classify_all(data["products"])
     utils.save_json(utils.data_path("products.json"), data)
     print("分类变更:", n)
