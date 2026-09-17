@@ -268,7 +268,9 @@ def cmd_full(args):
     cmd_discover(args)
 
     print("== 5/5 官方页信息补全 ==")
-    cmd_enrich(args)
+    args2 = argparse.Namespace(**vars(args))
+    args2.limit = getattr(args, "enrich_limit", 0) or 1500
+    cmd_enrich(args2)
 
     print("全链路完成。")
 
@@ -278,6 +280,7 @@ def main():
     ap.add_argument("mode", choices=["seed", "classify", "verify", "verify-products", "discover", "enrich", "ingest", "full", "mass", "prune"])
     ap.add_argument("--limit-brands", type=int, default=6)
     ap.add_argument("--limit", type=int, default=5)
+    ap.add_argument("--enrich-limit", type=int, default=0)
     ap.add_argument("--brands", type=str, default=None)
     args = ap.parse_args()
 
