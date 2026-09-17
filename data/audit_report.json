@@ -1,44 +1,44 @@
 {
  "site": "外设水库",
- "generated_at": "2026-09-16T18:06:47Z",
+ "generated_at": "2026-09-17T12:38:06Z",
  "brands": {
   "total": 231,
   "verified": 126,
   "by_status": {
-   "核验失败": 39,
+   "核验失败": 38,
    "已核验": 126,
-   "待核验": 58,
-   "待人工确认": 8
+   "待人工确认": 9,
+   "待核验": 58
   },
-  "with_products": 92,
-  "no_products": 139,
-  "verified_no_products": 67
+  "with_products": 148,
+  "no_products": 83,
+  "verified_no_products": 11
  },
  "products": {
-  "total": 937,
+  "total": 18891,
   "by_category": {
-   "未分类": 443,
-   "耳机": 129,
-   "键盘": 128,
-   "鼠标": 98,
-   "音响": 80,
-   "手柄": 39,
-   "鼠标垫": 20
+   "未分类": 11639,
+   "音响": 1690,
+   "键盘": 1600,
+   "耳机": 1384,
+   "手柄": 1306,
+   "鼠标": 859,
+   "鼠标垫": 413
   },
   "data_status": {
-   "unverified": 933,
+   "unverified": 18887,
    "seed": 4
   },
-  "with_image": 453,
-  "with_description": 690,
-  "with_specs": 201,
-  "with_official_link": 783,
-  "image_coverage": 48.3,
-  "spec_coverage": 21.5
+  "with_image": 443,
+  "with_description": 1018,
+  "with_specs": 200,
+  "with_official_link": 18737,
+  "image_coverage": 2.3,
+  "spec_coverage": 1.1
  },
  "integrity": {
   "dup_ids": 0,
-  "dup_canonical_names": 0,
+  "dup_canonical_names": 10,
   "orphan_products": 0
  },
  "brands_no_products_sample": [
@@ -47,20 +47,20 @@
   "amazon",
   "aojiashi",
   "astrotec",
-  "atc",
   "baishipai",
   "baize",
   "burmester",
-  "campfire",
-  "canton",
-  "cayin",
-  "changba",
   "chario",
   "chike",
   "chongjibo",
   "colorful",
-  "coolermaster",
   "coopreme",
-  "creative"
+  "creative",
+  "d-glow",
+  "dali",
+  "devialet",
+  "dingdong",
+  "elac",
+  "fenda"
  ]
 }

@@ -238,11 +238,14 @@
    "curated": true,
    "verified": false,
    "verified_at": null,
-   "status": "核验失败",
+   "status": "待人工确认",
    "evidence": {
     "checked_at": "2026-09-17",
     "url": "https://amazon.com",
-    "http_status": null
+    "http_status": 200,
+    "title": "Amazon.com. Spend less. Smile more.",
+    "site_name": "",
+    "matched_terms": []
    }
   },
   {
@@ -2023,7 +2026,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://goldenfield.com.cn",
     "http_status": null
    }
@@ -2045,7 +2048,7 @@
    "verified_at": null,
    "status": "待人工确认",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://store.google.com",
     "http_status": 200,
     "title": "Google Store for Google Made Devices & Accessories",
@@ -2124,7 +2127,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -2229,7 +2232,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://hivi.com",
     "http_status": null
    }
@@ -2251,7 +2254,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -2299,7 +2302,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://hori.co.jp",
     "http_status": null
    }
@@ -2356,7 +2359,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -2407,7 +2410,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://iflytek.com",
     "http_status": null
    }
@@ -2429,7 +2432,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://ikbc.com",
     "http_status": null
    }
@@ -2510,7 +2513,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -2558,7 +2561,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://jbl.com",
     "http_status": null
    }
@@ -2580,7 +2583,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -2775,7 +2778,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://kzzi.com",
     "http_status": null
    }
@@ -2797,7 +2800,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -2845,7 +2848,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -2866,7 +2869,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -2895,7 +2898,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://lenovo.com.cn",
     "http_status": null
    }
@@ -2917,7 +2920,7 @@
    "verified_at": null,
    "status": "待人工确认",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://leopold.co.kr",
     "http_status": 200,
     "title": "레오폴드",
@@ -2942,7 +2945,7 @@
    "verified_at": null,
    "status": "待人工确认",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://lethal.gg",
     "http_status": 200,
     "title": "LGG - Gaming Mice, Skates, Grips, Keyboards, Kecyaps, Mousepads & MORE\n – LETHAL.GG",
@@ -2995,7 +2998,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -3016,7 +3019,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -3037,7 +3040,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -3058,7 +3061,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://linn.co.uk",
     "http_status": null
    }
@@ -3182,7 +3185,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -3259,7 +3262,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -3282,7 +3285,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://mchose.net",
     "http_status": null
    }
@@ -3360,7 +3363,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://microlab.com.cn",
     "http_status": null
    }
@@ -3494,7 +3497,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -3575,7 +3578,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://msi.com",
     "http_status": null
    }
@@ -3597,7 +3600,7 @@
    "verified_at": null,
    "status": "待人工确认",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://nacon.com",
     "http_status": 200,
     "title": "503 Service Unavailable",
@@ -3650,7 +3653,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -3698,7 +3701,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -3723,7 +3726,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://newsmy.com.cn",
     "http_status": null
    }
@@ -3745,7 +3748,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://nfaudio.com",
     "http_status": null
    }
@@ -3882,7 +3885,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://panasonic.com",
     "http_status": null
    }
@@ -4075,7 +4078,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://pxn.com",
     "http_status": null
    }
@@ -4125,7 +4128,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4146,7 +4149,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4167,7 +4170,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4188,7 +4191,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4302,7 +4305,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4323,7 +4326,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4346,7 +4349,7 @@
    "verified_at": null,
    "status": "待人工确认",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://roccat.com",
     "http_status": 200,
     "title": "Turtle Beach® #1 Gaming Headsets - Hear Everything. Defeat Everyone.",
@@ -4371,7 +4374,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4421,7 +4424,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4442,7 +4445,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4549,7 +4552,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4570,7 +4573,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4618,7 +4621,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4666,7 +4669,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://simgotaudio.com",
     "http_status": null
    }
@@ -4720,7 +4723,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4741,7 +4744,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -4793,7 +4796,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://sony.com",
     "http_status": null
    }
@@ -4848,7 +4851,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://steelseries.com",
     "http_status": null
    }
@@ -4870,7 +4873,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://subor.com.cn",
     "http_status": null
    }
@@ -4919,7 +4922,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5053,7 +5056,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5165,7 +5168,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5186,7 +5189,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5234,7 +5237,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5398,7 +5401,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://vaxee.co",
     "http_status": null
    }
@@ -5422,7 +5425,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5499,7 +5502,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://vortexgear.com",
     "http_status": null
    }
@@ -5521,7 +5524,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5596,7 +5599,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5674,7 +5677,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5695,7 +5698,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://xiaodu.com",
     "http_status": null
    }
@@ -5723,7 +5726,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://mi.com",
     "http_status": null
    }
@@ -5745,7 +5748,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5768,7 +5771,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://yamaha.com",
     "http_status": null
    }
@@ -5790,7 +5793,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5811,7 +5814,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "url": "https://yulongaudio.com",
     "http_status": null
    }
@@ -5862,7 +5865,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5883,7 +5886,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },
@@ -5904,7 +5907,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-16",
+    "checked_at": "2026-09-17",
     "error": "未发现官网候选"
    }
   },

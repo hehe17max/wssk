@@ -1,10 +1,5 @@
 {
- "ran_at": "2026-09-17T01:35:17Z",
- "products_total": 24297,
- "products_added": 0,
- "products_enriched": 0,
- "hint_backfilled": 0,
- "classify_changed": 0,
- "brands_updated": 0,
- "brands_verified_total": 126
+ "mode": "mass",
+ "finished_at": "2026-09-17",
+ "step_errors": []
 }
