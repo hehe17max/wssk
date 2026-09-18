@@ -62,8 +62,8 @@ const Filters = (() => {
   function productText(p) {
     const b = Data.brandOf(p.brand);
     return [
-      p.name || "", p.description || "", p.subtype || "", p.category || "",
-      b.name, b.name_en, (p.tags || []).join(" "),
+      p.name || "", p.name_zh || "", p.description || "", p.description_zh || "", p.subtype || "", p.category || "",
+      b.name, b.name_en, (p.tags || []).join(" "), (p.tags_zh || []).join(" "),
       ...Object.entries(p.specs || {}).map(([k, v]) => k + " " + v),
     ].join(" ").toLowerCase();
   }

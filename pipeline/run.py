@@ -144,6 +144,20 @@ def cmd_prune(args):
     print("报告:", report)
 
 
+def cmd_localize(args):
+    """全库数据中文化：生成 name_zh（中文名），描述/标签术语中文化。"""
+    from . import localize
+    cfg = utils.load_config()
+    data, brands_data, _ = ingest.load_all()
+    n = localize.localize_all(data, brands_data)
+    utils.save_json(utils.data_path("products.json"), data)
+    print("中文化完成：%d 条产品新增中文名（全库 %d 条）" % (n, len(data["products"])))
+    try:
+        ingest.run_ingest(cfg=cfg)
+    except Exception as e:
+        print("meta 更新跳过:", e)
+
+
 def _verify_brands_parallel(brands, cfg, workers=14):
     """并发核验品牌真实性。返回 (确认数, 总数)。"""
     from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -248,6 +262,7 @@ def cmd_mass(args):
     _step("3/7 全品牌新品发现（并发）", _s3)
     _step("4/7 入库", _s4)
     _step("5/7 页面/图片/参数补全", _s5)
+    _step("5.5/7 数据中文化", lambda: cmd_localize(args))
     _step("6/7 产品数据多源核验（限量）", _s6)
     _step("7/7 数据审计", _s7)
 
@@ -300,12 +315,15 @@ def cmd_full(args):
     args2.limit = getattr(args, "enrich_limit", 0) or 1500
     cmd_enrich(args2)
 
+    print("== 6/6 数据中文化 ==")
+    cmd_localize(args)
+
     print("全链路完成。")
 
 
 def main():
     ap = argparse.ArgumentParser(description="外设水库自动化流水线")
-    ap.add_argument("mode", choices=["seed", "classify", "verify", "verify-products", "discover", "enrich", "ingest", "full", "mass", "prune"])
+    ap.add_argument("mode", choices=["seed", "classify", "verify", "verify-products", "discover", "enrich", "ingest", "full", "mass", "prune", "localize"])
     ap.add_argument("--limit-brands", type=int, default=6)
     ap.add_argument("--limit", type=int, default=5)
     ap.add_argument("--enrich-limit", type=int, default=0)
@@ -332,6 +350,8 @@ def main():
         print("入库完成:", report)
     elif args.mode == "prune":
         cmd_prune(args)
+    elif args.mode == "localize":
+        cmd_localize(args)
     elif args.mode == "full":
         cmd_full(args)
 

@@ -38,7 +38,7 @@
     for (const p of products) {
       const b = Data.brandOf(p.brand);
       html += `<th>${p.image ? `<img src="${escapeHtml(p.image)}" class="cmp-thumb" alt="" onerror="this.style.display='none'">` : ""}<div style="font-weight:700;color:var(--accent2)">${escapeHtml(b.name)}</div>
-        <div>${escapeHtml(p.name)}</div>
+        <div>${escapeHtml(p.name_zh || p.name)}${p.name_zh && p.name && p.name_zh !== p.name ? `<span class="en-sub">${escapeHtml(p.name)}</span>` : ""}</div>
         <div style="font-size:11px;color:var(--muted);margin-top:4px">${escapeHtml((Filters.CATEGORIES[p.category] || {}).label || "")} · ${escapeHtml(p.subtype || "")}</div>
         <button class="icon-btn col-rm" data-rm="${p.id}" style="margin-top:6px">移除</button></th>`;
     }
@@ -102,7 +102,7 @@
     const commonRows = ["品牌", "类型", "子类型", "上市时间", "核验状态"];
     const all = [...commonRows, ...fields];
     const esc = s => `"${String(s == null ? "" : s).replace(/"/g, '""')}"`;
-    let csv = "参数," + products.map(p => esc(Data.brandOf(p.brand).name + " " + p.name)).join(",") + "\n";
+    let csv = "参数," + products.map(p => esc(Data.brandOf(p.brand).name + " " + (p.name_zh || p.name))).join(",") + "\n";
     for (const r of commonRows) {
       const get = r === "品牌" ? p => Data.brandOf(p.brand).name
         : r === "类型" ? p => (Filters.CATEGORIES[p.category] || {}).label
