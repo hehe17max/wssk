@@ -4,40 +4,77 @@
   "schema_version": 1,
   "http": {
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 waishui-shuiku-bot/1.0",
-    "timeout": 15,
-    "retries": 2,
+    "timeout": 12,
+    "retries": 1,
     "delay_seconds": 1.0
   },
   "discovery": {
     "max_new_products_per_run": 500,
-    "mass_total_cap": 8000,
+    "mass_total_cap": 4000,
     "check_sitemap": true,
     "check_shopify_json": true,
     "check_product_listing": true,
-    "product_url_patterns": ["/product", "/products/", "/p/", "/goods/", "/item/"]
+    "product_url_patterns": [
+      "/product",
+      "/products/",
+      "/p/",
+      "/goods/",
+      "/item/"
+    ],
+    "max_sitemap_children": 14
   },
   "enrich": {
     "workers": 14,
-    "per_run_limit": 3000
+    "per_run_limit": 2000
   },
   "verification": {
-    "brand_title_keywords": ["official", "官网", "official site", "home", "首页", "welcome"],
+    "brand_title_keywords": [
+      "official",
+      "官网",
+      "official site",
+      "home",
+      "首页",
+      "welcome"
+    ],
     "spec_agreement_threshold": 0.6,
     "min_sources_for_multi": 2,
     "review_sites": [
-      {"name": "中关村在线", "search": "https://so.zol.com.cn/s?k={q}"},
-      {"name": "太平洋电脑网", "search": "https://so.pconline.com.cn/s?q={q}"},
-      {"name": "Rtings", "search": "https://www.rtings.com/search?q={q}"},
-      {"name": "Tom's Hardware", "search": "https://www.tomshardware.com/search?searchTerm={q}"}
+      {
+        "name": "中关村在线",
+        "search": "https://so.zol.com.cn/s?k={q}"
+      },
+      {
+        "name": "太平洋电脑网",
+        "search": "https://so.pconline.com.cn/s?q={q}"
+      },
+      {
+        "name": "Rtings",
+        "search": "https://www.rtings.com/search?q={q}"
+      },
+      {
+        "name": "Tom's Hardware",
+        "search": "https://www.tomshardware.com/search?searchTerm={q}"
+      }
     ]
   },
   "classify": {
     "fallback_subtype": "未分类"
   },
   "search_engines": [
-    {"name": "Brave", "env_key": "BRAVE_SEARCH_API_KEY", "url": "https://api.search.brave.com/res/v1/web/search"},
-    {"name": "Serper", "env_key": "SERPER_API_KEY", "url": "https://google.serper.dev/search"},
-    {"name": "DDGS", "url": "https://duckduckgo.com/html/?q={q}"}
+    {
+      "name": "Brave",
+      "env_key": "BRAVE_SEARCH_API_KEY",
+      "url": "https://api.search.brave.com/res/v1/web/search"
+    },
+    {
+      "name": "Serper",
+      "env_key": "SERPER_API_KEY",
+      "url": "https://google.serper.dev/search"
+    },
+    {
+      "name": "DDGS",
+      "url": "https://duckduckgo.com/html/?q={q}"
+    }
   ],
   "publish": {
     "auto_commit": true,

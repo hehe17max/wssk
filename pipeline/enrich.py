@@ -57,10 +57,7 @@ def _clean(s):
 
 def extract_page_meta(url, cfg, timeout=20):
     """抓取产品页标题/描述/产品图/规格行。失败返回 None。"""
-    # 加强重试：首次失败再试，规避 CDN/限流抖动
     status, html = utils.http_get(url, cfg, timeout=timeout)
-    if not html:
-        status, html = utils.http_get(url, cfg, timeout=timeout + 5)
     if not html:
         return None
     t = _TITLE_RE.search(html)
