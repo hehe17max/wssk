@@ -26,27 +26,48 @@ _OG_IMAGE_RE = re.compile(
 _OG_IMAGE_RE2 = re.compile(
     r'<meta[^>]+content=["\'](.*?)["\'][^>]+property=["\']og:image["\']', re.I | re.S
 )
+_OG_SECURE_RE = re.compile(
+    r'<meta[^>]+property=["\']og:image:secure_url["\'][^>]+content=["\'](.*?)["\']', re.I | re.S
+)
+_OG_SECURE_RE2 = re.compile(
+    r'<meta[^>]+content=["\'](.*?)["\'][^>]+property=["\']og:image:secure_url["\']', re.I | re.S
+)
+_TWITTER_IMG_RE = re.compile(
+    r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\'](.*?)["\']', re.I | re.S
+)
+_TWITTER_IMG_RE2 = re.compile(
+    r'<meta[^>]+content=["\'](.*?)["\'][^>]+name=["\']twitter:image["\']', re.I | re.S
+)
 
 # 页面图片候选（产品图常见选择器，按优先级）
 _IMG_SELECTORS = [
     "img.product-image", "img[data-src*='product']", "img[src*='product']",
     "img[src*='prod']", ".product img", "main img", "#content img",
+    "img[data-src]", "img.lazyload", "img[loading='lazy']",
 ]
-_IMG_SKIP = ("logo", "icon", "banner", "sprite", "avatar", "loading", "placeholder")
+_IMG_SKIP = ("logo", "icon", "banner", "sprite", "avatar", "loading", "placeholder",
+             "tracking", "pixel", "transparent", "blank", "loader", "spinner",
+             "badge", "flag", "share", "social", "favicon", "paypal", "visa",
+             "mastercard", "shipping", "returns", "guarantee")
 
 
 def _clean(s):
     return re.sub(r"\s+", " ", s or "").strip()
 
 
-def extract_page_meta(url, cfg, timeout=15):
+def extract_page_meta(url, cfg, timeout=20):
     """抓取产品页标题/描述/产品图/规格行。失败返回 None。"""
+    # 加强重试：首次失败再试，规避 CDN/限流抖动
     status, html = utils.http_get(url, cfg, timeout=timeout)
+    if not html:
+        status, html = utils.http_get(url, cfg, timeout=timeout + 5)
     if not html:
         return None
     t = _TITLE_RE.search(html)
     d = _DESC_RE.search(html)
-    og = _OG_IMAGE_RE.search(html) or _OG_IMAGE_RE2.search(html)
+    og = (_OG_IMAGE_RE.search(html) or _OG_IMAGE_RE2.search(html)
+          or _OG_SECURE_RE.search(html) or _OG_SECURE_RE2.search(html)
+          or _TWITTER_IMG_RE.search(html) or _TWITTER_IMG_RE2.search(html))
     image = ""
     if og:
         image = _clean(og.group(1))
@@ -56,13 +77,39 @@ def extract_page_meta(url, cfg, timeout=15):
         image = urljoin(url, image)
     if not image:
         soup = BeautifulSoup(html, "html.parser")
+        best = None
+        best_w = 0
+        # 先试精确选择器
         for sel in _IMG_SELECTORS:
             img = soup.select_one(sel)
             if img:
-                src = img.get("src") or img.get("data-src") or ""
+                src = img.get("src") or img.get("data-src") or img.get("data-original") or ""
                 if src and not any(k in src.lower() for k in _IMG_SKIP):
-                    image = urljoin(url, src) if not src.startswith(("http", "//")) else ("https:" + src if src.startswith("//") else src)
-                    break
+                    if not src.startswith("data:"):
+                        best = urljoin(url, src) if not src.startswith(("http", "//")) else ("https:" + src if src.startswith("//") else src)
+                        break
+        if not best:
+            # 兜底：遍历所有 img，取宽度最大的产品图
+            for img in soup.find_all("img"):
+                src = img.get("src") or img.get("data-src") or img.get("data-original") or img.get("data-lazy-src") or ""
+                low = src.lower()
+                if not src or src.startswith("data:") or any(k in low for k in _IMG_SKIP):
+                    continue
+                w = 0
+                for wk in ("width", "data-width"):
+                    try:
+                        w = max(w, int(float(str(img.get(wk) or 0))))
+                    except (TypeError, ValueError):
+                        pass
+                if not w:
+                    # 无显式宽度时，取 URL 中含 product/prod/media/cdn 的大图
+                    if any(k in low for k in ("product", "/prod", "media", "cdn", "images")):
+                        w = 800
+                if w > best_w:
+                    best_w = w
+                    best = urljoin(url, src) if not src.startswith(("http", "//")) else ("https:" + src if src.startswith("//") else src)
+        if best:
+            image = best
     rows = verify.extract_spec_rows(html)
     return {
         "title": _clean(t.group(1)) if t else "",

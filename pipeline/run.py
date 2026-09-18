@@ -222,6 +222,11 @@ def cmd_mass(args):
 
     def _s5():
         d, bd, _ = ingest.load_all()
+        removed2, _ = ingest.prune_junk(d)
+        if removed2:
+            classify.classify_all(d["products"])
+        utils.save_json(utils.data_path("products.json"), d)
+        print("二次清洗移除:", removed2)
         done, reclassified, failed = enrich.enrich_unverified(d, bd, cfg, limit=args.limit or 3000)
         utils.save_json(utils.data_path("products.json"), d)
         ingest.run_ingest(cfg=cfg)
@@ -281,6 +286,14 @@ def cmd_full(args):
 
     print("== 4/5 新品发现 ==")
     cmd_discover(args)
+
+    print("== 4.5/5 二次清洗（防垃圾回灌）==")
+    data, brands_data, _ = ingest.load_all()
+    removed2, _ = ingest.prune_junk(data)
+    if removed2:
+        classify.classify_all(data["products"])
+        utils.save_json(utils.data_path("products.json"), data)
+    print("二次清洗移除:", removed2)
 
     print("== 5/5 官方页信息补全 ==")
     args2 = argparse.Namespace(**vars(args))
