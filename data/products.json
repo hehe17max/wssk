@@ -647691,6 +647691,1412 @@
    "discovered_at": "2026-09-19",
    "status": "published",
    "name_zh": "任天堂 fading echo 轴 2"
+  },
+  {
+   "id": "bose-sale-earbuds-sale",
+   "brand": "bose",
+   "name": "sale earbuds sale",
+   "category": "earphone",
+   "subtype": "TWS",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.bose.com/c/sale/earbuds-sale",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "Bose sale 耳塞 sale"
+  },
+  {
+   "id": "bose-earbuds-sale-uoe",
+   "brand": "bose",
+   "name": "earbuds sale uoe",
+   "category": "earphone",
+   "subtype": "TWS",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.bose.com/c/sale/earbuds-sale/uoe",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "Bose 耳塞 sale uoe"
+  },
+  {
+   "id": "bowers-wilkins-ct8-4-lcrs-150064",
+   "brand": "bowers-wilkins",
+   "name": "ct8 4 lcrs 150064",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.bowerswilkins.com/en-us/product/in-wall-in-ceiling-speakers/ct-800-series/ct8-4-lcrs/150064.html",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "宝华韦健 ct8 4 lcrs 150064"
+  },
+  {
+   "id": "powera-contr-leurs-filaires-nintendo-switch-wired-controller-for-nintendo-switch-zpcdkb1td0men1butac0ha",
+   "brand": "powera",
+   "name": "contrôleurs filaires nintendo switch wired controller for nintendo switch zPcDKB1td0mEN1BuTac0hA",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/commutateur-nintendo/contrôleurs-nintendo-switch/contrôleurs-filaires-nintendo-switch/wired-controller-for-nintendo-switch-zPcDKB1td0mEN1BuTac0hA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra contrôleurs filaires 任天堂Switch 有线 手柄 任天堂Switch zPcDKB1td0mEN1BuTac0hA"
+  },
+  {
+   "id": "powera-nintendo-switch-protection-slim-case-for-nintendo-switch-or-nintendo-switch-lite-pyesg4x70-4ismlsja7zg",
+   "brand": "powera",
+   "name": "nintendo switch protection slim case for nintendo switch or nintendo switch lite PyEsG4x70 4iSmLsJa7Zg",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/commutateur-nintendo/nintendo-switch-protection/slim-case-for-nintendo-switch-or-nintendo-switch-lite-_PyEsG4x70-4iSmLsJa7Zg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 专业版tection 纤薄 保护壳 任天堂Switch or 任天堂Switch 青春版 PyEsG4x70 4iSmLsJa7Zg"
+  },
+  {
+   "id": "powera-contr-leurs-filaires-nintendo-switch-enhanced-wired-controller-for-nintendo-switch-nr-cralrju2prqdj23jeyq",
+   "brand": "powera",
+   "name": "contrôleurs filaires nintendo switch enhanced wired controller for nintendo switch nr cRALrJU2PRQdj23JeyQ",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/commutateur-nintendo/contrôleurs-nintendo-switch/contrôleurs-filaires-nintendo-switch/enhanced-wired-controller-for-nintendo-switch-nr_cRALrJU2PRQdj23JeyQ/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra contrôleurs filaires 任天堂Switch enh降噪ed 有线 手柄 任天堂Switch nr cRALrJU2PRQdj23JeyQ"
+  },
+  {
+   "id": "powera-nintendo-switch-2-zubeh-r-game-card-case-xl-for-nintendo-switch-ojyvl8hjpkq0b0xqxjadfg",
+   "brand": "powera",
+   "name": "nintendo switch 2 zubehör game card case xl for nintendo switch OjyVL8Hjpkq0b0xQXjaDfg",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/de-de/p/nintendo/nintendo-switch-2/nintendo-switch-2-zubehör/game-card-case-xl-for-nintendo-switch-OjyVL8Hjpkq0b0xQXjaDfg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 zubehör game card 保护壳 xl 任天堂Switch OjyVL8Hjpkq0b0xQXjaDfg"
+  },
+  {
+   "id": "powera-game-card-case-xl-for-nintendo-switch-xdtphvwjruikgv8x-ns4uw",
+   "brand": "powera",
+   "name": "game card case xl for nintendo switch XDTphVwjRUikgv8x NS4Uw",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/en-gb/p/nintendo/nintendo-switch-2/accessories/game-card-case-xl-for-nintendo-switch-XDTphVwjRUikgv8x_NS4Uw/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra game card 保护壳 xl 任天堂Switch XDTphVwjRUikgv8x NS4Uw"
+  },
+  {
+   "id": "powera-accesorios-para-nintendo-switch-2-game-card-case-xl-for-nintendo-switch-ftx9q3nwm0kkaqjuvircqq",
+   "brand": "powera",
+   "name": "accesorios para nintendo switch 2 game card case xl for nintendo switch Ftx9Q3nwM0KkaqJUvircQQ",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/es-es/p/nintendo/nintendo-switch-2/accesorios-para-nintendo-switch-2/game-card-case-xl-for-nintendo-switch-Ftx9Q3nwM0KkaqJUvircQQ/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra accesorios para 任天堂Switch 2 game card 保护壳 xl 任天堂Switch Ftx9Q3nwM0KkaqJUvircQQ"
+  },
+  {
+   "id": "powera-accessoires-nintendo-switch-2-game-card-case-xl-for-nintendo-switch-my2iunjyce-xi5tupay8bq",
+   "brand": "powera",
+   "name": "accessoires nintendo switch 2 game card case xl for nintendo switch my2IunjycE xI5TupaY8bQ",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/nintendo-switch-2/accessoires-nintendo-switch-2/game-card-case-xl-for-nintendo-switch-my2IunjycE-xI5TupaY8bQ/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra accessoires 任天堂Switch 2 game card 保护壳 xl 任天堂Switch my2IunjycE xI5TupaY8bQ"
+  },
+  {
+   "id": "powera-accessori-per-nintendo-switch-2-game-card-case-xl-for-nintendo-switch-h1mmotpriec4yiwis-0q9g",
+   "brand": "powera",
+   "name": "accessori per nintendo switch 2 game card case xl for nintendo switch H1mMOTPrIEC4yiWIs 0Q9g",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/it-it/p/nintendo/nintendo-switch-2/accessori-per-nintendo-switch-2/game-card-case-xl-for-nintendo-switch-H1mMOTPrIEC4yiWIs_0Q9g/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra accessori per 任天堂Switch 2 game card 保护壳 xl 任天堂Switch H1mMOTPrIEC4yiWIs 0Q9g"
+  },
+  {
+   "id": "powera-manettes-sans-fil-nintendo-switch-enhanced-wireless-controller-rechargeable-for-nintendo-switch-ovcthkaci0quvli4bdalvg",
+   "brand": "powera",
+   "name": "manettes sans fil nintendo switch enhanced wireless controller rechargeable for nintendo switch OVCTHKAci0quvli4bdalVg",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/commutateur-nintendo/contrôleurs-nintendo-switch/manettes-sans-fil-nintendo-switch/enhanced-wireless-controller-rechargeable-for-nintendo-switch-OVCTHKAci0quvli4bdalVg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra manettes sans fil 任天堂Switch enh降噪ed 无线手柄 可充电 任天堂Switch OVCTHKAci0quvli4bdalVg"
+  },
+  {
+   "id": "powera-nano-mini-controller-nano-enhanced-wireless-controller-for-nintendo-switch-aio3trxzjuio25d8ernuga",
+   "brand": "powera",
+   "name": "nano mini controller nano enhanced wireless controller for nintendo switch aIo3trXZjUiO25d8ErnuGA",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/de-de/p/nano-mini-controller/nano-enhanced-wireless-controller-for-nintendo-switch-aIo3trXZjUiO25d8ErnuGA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra nano 迷你 手柄 nano enh降噪ed 无线手柄 任天堂Switch aIo3trXZjUiO25d8ErnuGA"
+  },
+  {
+   "id": "powera-nano-mini-controllers-nano-enhanced-wireless-controller-for-nintendo-switch-nr88jnsf-ua0gtobi1edcq",
+   "brand": "powera",
+   "name": "nano mini controllers nano enhanced wireless controller for nintendo switch Nr88jnSF Ua0gTobI1edCQ",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/en-gb/p/nano-mini-controllers/nano-enhanced-wireless-controller-for-nintendo-switch-Nr88jnSF-Ua0gTobI1edCQ/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra nano 迷你 手柄s nano enh降噪ed 无线手柄 任天堂Switch Nr88jnSF Ua0gTobI1edCQ"
+  },
+  {
+   "id": "powera-nano-mini-controladores-nano-enhanced-wireless-controller-for-nintendo-switch-qifkcodso02mx5-41fi7sw",
+   "brand": "powera",
+   "name": "nano mini controladores nano enhanced wireless controller for nintendo switch qifkCoDSo02Mx5 41fI7sw",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/es-es/p/nano-mini-controladores/nano-enhanced-wireless-controller-for-nintendo-switch-qifkCoDSo02Mx5-41fI7sw/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra nano 迷你 controladores nano enh降噪ed 无线手柄 任天堂Switch qifkCoDSo02MX5 41fI7sw"
+  },
+  {
+   "id": "powera-nano-mini-contr-leurs-nano-enhanced-wireless-controller-for-nintendo-switch-pgjslpicqkmtohkf4y5t2q",
+   "brand": "powera",
+   "name": "nano mini contrôleurs nano enhanced wireless controller for nintendo switch PGjslpIcqkmToHkF4Y5t2Q",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nano-mini-contrôleurs/nano-enhanced-wireless-controller-for-nintendo-switch-PGjslpIcqkmToHkF4Y5t2Q/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra nano 迷你 contrôleurs nano enh降噪ed 无线手柄 任天堂Switch PGjslpIcqkmToHkF4Y5t2Q"
+  },
+  {
+   "id": "powera-mini-controller-nano-nano-enhanced-wireless-controller-for-nintendo-switch-4b1t8j8h7kyslogepr20zg",
+   "brand": "powera",
+   "name": "mini controller nano nano enhanced wireless controller for nintendo switch 4b1T8J8H7kySlogepr20zg",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/it-it/p/mini-controller-nano/nano-enhanced-wireless-controller-for-nintendo-switch-4b1T8J8H7kySlogepr20zg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 迷你 手柄 nano nano enh降噪ed 无线手柄 任天堂Switch 4b1T8J8H7kySlogepr20zg"
+  },
+  {
+   "id": "powera-manettes-sans-fil-nintendo-switch-enhanced-wireless-controller-for-nintendo-switch-with-lumectra-fh7pni44qumpydjapusrva",
+   "brand": "powera",
+   "name": "manettes sans fil nintendo switch enhanced wireless controller for nintendo switch with lumectra FH7pnI44qUmPydjapUSrvA",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/commutateur-nintendo/contrôleurs-nintendo-switch/manettes-sans-fil-nintendo-switch/enhanced-wireless-controller-for-nintendo-switch-with-lumectra-FH7pnI44qUmPydjapUSrvA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra manettes sans fil 任天堂Switch enh降噪ed 无线手柄 任天堂Switch with lumectra FH7pnI44qUmPydjapUSrvA"
+  },
+  {
+   "id": "powera-manettes-sans-fil-nintendo-switch-wireless-controller-for-nintendo-switch-s321yt1ffecggmpcekmr5w",
+   "brand": "powera",
+   "name": "manettes sans fil nintendo switch wireless controller for nintendo switch s321yT1ffECGGmPceKMR5w",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/commutateur-nintendo/contrôleurs-nintendo-switch/manettes-sans-fil-nintendo-switch/wireless-controller-for-nintendo-switch-s321yT1ffECGGmPceKMR5w/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra manettes sans fil 任天堂Switch 无线手柄 任天堂Switch s321yT1ffECGGmPceKMR5w"
+  },
+  {
+   "id": "powera-lumectra-advantage-wired-controller-for-nintendo-switch-2-lumectra-p8koypyyq0wuqpjox9ltaw",
+   "brand": "powera",
+   "name": "lumectra advantage wired controller for nintendo switch 2 lumectra P8KOyPYyQ0WUqPJox9LTAw",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/de-de/p/lumectra/advantage-wired-controller-for-nintendo-switch-2-lumectra-P8KOyPYyQ0WUqPJox9LTAw/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra lumectra advantage 有线 手柄 任天堂Switch 2 lumectra P8KOyPYyQ0WUqPJox9LTAw"
+  },
+  {
+   "id": "powera-lumectra-advantage-wired-controller-for-nintendo-switch-2-lumectra-3in53u6aykqsrgo9cxtjnw",
+   "brand": "powera",
+   "name": "lumectra advantage wired controller for nintendo switch 2 lumectra 3In53u6aYkqSrgO9CXTJnw",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/en-gb/p/lumectra/advantage-wired-controller-for-nintendo-switch-2-lumectra-3In53u6aYkqSrgO9CXTJnw/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra lumectra advantage 有线 手柄 任天堂Switch 2 lumectra 3In53u6aYkqSrgO9CXTJnw"
+  },
+  {
+   "id": "powera-lumectra-advantage-wired-controller-for-nintendo-switch-2-lumectra-t34zx6h3aemwmrtkae7vba",
+   "brand": "powera",
+   "name": "lumectra advantage wired controller for nintendo switch 2 lumectra T34ZX6H3aEmwMrtKae7VBA",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/es-es/p/lumectra/advantage-wired-controller-for-nintendo-switch-2-lumectra-T34ZX6H3aEmwMrtKae7VBA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra lumectra advantage 有线 手柄 任天堂Switch 2 lumectra T34ZX6H3aEmwMrtKae7VBA"
+  },
+  {
+   "id": "powera-lumectra-advantage-wired-controller-for-nintendo-switch-2-lumectra-g6eiqyhate21ngp4lfcicw",
+   "brand": "powera",
+   "name": "lumectra advantage wired controller for nintendo switch 2 lumectra g6EIQYHaTE21NGP4LFCicw",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/lumectra/advantage-wired-controller-for-nintendo-switch-2-lumectra-g6EIQYHaTE21NGP4LFCicw/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra lumectra advantage 有线 手柄 任天堂Switch 2 lumectra g6EIQYHaTE21NGP4LFCicw"
+  },
+  {
+   "id": "powera-lumectra-advantage-wired-controller-for-nintendo-switch-2-lumectra-h-b6za-jreglfkprrgwhga",
+   "brand": "powera",
+   "name": "lumectra advantage wired controller for nintendo switch 2 lumectra H b6ZA JREGLFKpRrGWHGA",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/it-it/p/lumectra/advantage-wired-controller-for-nintendo-switch-2-lumectra-H_b6ZA_JREGLFKpRrGWHGA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra lumectra advantage 有线 手柄 任天堂Switch 2 lumectra H b6ZA JREGLFKpRrGWHGA"
+  },
+  {
+   "id": "powera-kabelgebundene-nintendo-controller-advantage-wired-controller-for-nintendo-switch-2-5rumhiyznkylux6gnnu5bw",
+   "brand": "powera",
+   "name": "kabelgebundene nintendo controller advantage wired controller for nintendo switch 2 5rUMHIyZNkyluX6gnnu5Bw",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/de-de/p/nintendo/nintendo-controller/kabelgebundene-nintendo-controller/advantage-wired-controller-for-nintendo-switch-2-5rUMHIyZNkyluX6gnnu5Bw/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra kabelgebundene nintendo 手柄 advantage 有线 手柄 任天堂Switch 2 5rUMHIyZNkyluX6gnnu5Bw"
+  },
+  {
+   "id": "powera-advantage-wired-controller-for-nintendo-switch-2-t6kamka1jukurfla-8snzg",
+   "brand": "powera",
+   "name": "advantage wired controller for nintendo switch 2 T6kamkA1jUKuRFla 8sNZg",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {
+    "hints": "gamepad"
+   },
+   "links": {
+    "official": "https://www.powera.com/en-gb/p/nintendo/controllers/wired/advantage-wired-controller-for-nintendo-switch-2-T6kamkA1jUKuRFla-8sNZg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra advantage 有线 手柄 任天堂Switch 2 T6kamkA1jUKuRFla 8sNZg"
+  },
+  {
+   "id": "powera-controladores-con-cable-de-nintendo-advantage-wired-controller-for-nintendo-switch-2-sjswdgfxakketjlvwztyia",
+   "brand": "powera",
+   "name": "controladores con cable de nintendo advantage wired controller for nintendo switch 2 sjSwDgfXakKetJlvWztYiA",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/es-es/p/nintendo/controladores-de-nintendo/controladores-con-cable-de-nintendo/advantage-wired-controller-for-nintendo-switch-2-sjSwDgfXakKetJlvWztYiA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra controladores con 线缆 de nintendo advantage 有线 手柄 任天堂Switch 2 sjSwDgfXakKetJlvWztYiA"
+  },
+  {
+   "id": "powera-contr-leurs-filaires-nintendo-advantage-wired-controller-for-nintendo-switch-2-l0u1liajl0-w3i1o0elsjg",
+   "brand": "powera",
+   "name": "contrôleurs filaires nintendo advantage wired controller for nintendo switch 2 L0U1liAJL0 W3i1O0ElSJg",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/contrôleurs-nintendo/contrôleurs-filaires-nintendo/advantage-wired-controller-for-nintendo-switch-2-L0U1liAJL0-W3i1O0ElSJg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra contrôleurs filaires nintendo advantage 有线 手柄 任天堂Switch 2 L0U1liAJL0 W3i1O0ElSJg"
+  },
+  {
+   "id": "powera-nintendo-wired-controllers-advantage-wired-controller-for-nintendo-switch-2-zcotoajxieq0c3ufhsswga",
+   "brand": "powera",
+   "name": "nintendo wired controllers advantage wired controller for nintendo switch 2 ZcOTOAjXiEq0C3UfHsSWgA",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/it-it/p/nintendo/nintendo-controller/nintendo-wired-controllers/advantage-wired-controller-for-nintendo-switch-2-ZcOTOAjXiEq0C3UfHsSWgA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra nintendo 有线 手柄s advantage 有线 手柄 任天堂Switch 2 ZcOTOAjXiEq0C3UfHsSWgA"
+  },
+  {
+   "id": "powera-nintendo-wireless-controller-advantage-wireless-controller-for-nintendo-switch-2-dffdpvdt8us5c-0azkheeg",
+   "brand": "powera",
+   "name": "nintendo wireless controller advantage wireless controller for nintendo switch 2 dFfdPvDT8US5c 0AZkHeeg",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/de-de/p/nintendo/nintendo-controller/nintendo-wireless-controller/advantage-wireless-controller-for-nintendo-switch-2-dFfdPvDT8US5c-0AZkHeeg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra nintendo 无线手柄 advantage 无线手柄 任天堂Switch 2 dFfdPvDT8US5c 0AZkHeeg"
+  },
+  {
+   "id": "powera-advantage-wireless-controller-for-nintendo-switch-2-bijp3-zjqusujfxgh2e6nq",
+   "brand": "powera",
+   "name": "advantage wireless controller for nintendo switch 2 bIjP3 ZJqUSUJFXGh2e6nQ",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {
+    "hints": "gamepad"
+   },
+   "links": {
+    "official": "https://www.powera.com/en-gb/p/nintendo/controllers/wireless/advantage-wireless-controller-for-nintendo-switch-2-bIjP3_ZJqUSUJFXGh2e6nQ/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra advantage 无线手柄 任天堂Switch 2 bIjP3 ZJqUSUJFXGh2e6nQ"
+  },
+  {
+   "id": "powera-controladores-inal-mbricos-de-nintendo-advantage-wireless-controller-for-nintendo-switch-2-xashwwxm-0u-b3onuxg7fw",
+   "brand": "powera",
+   "name": "controladores inalámbricos de nintendo advantage wireless controller for nintendo switch 2 XASHwwxm 0u b3oNUxg7Fw",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/es-es/p/nintendo/controladores-de-nintendo/controladores-inalámbricos-de-nintendo/advantage-wireless-controller-for-nintendo-switch-2-XASHwwxm_0u-b3oNUxg7Fw/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra controladores inalámbricos de nintendo advantage 无线手柄 任天堂Switch 2 XASHwwxm 0u b3oNUxg7Fw"
+  },
+  {
+   "id": "powera-manettes-sans-fil-nintendo-advantage-wireless-controller-for-nintendo-switch-2-yfof6z26eusa-cuu2pu03q",
+   "brand": "powera",
+   "name": "manettes sans fil nintendo advantage wireless controller for nintendo switch 2 YfOf6Z26eUSA cuU2pu03Q",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/contrôleurs-nintendo/manettes-sans-fil-nintendo/advantage-wireless-controller-for-nintendo-switch-2-YfOf6Z26eUSA_cuU2pu03Q/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra manettes sans fil nintendo advantage 无线手柄 任天堂Switch 2 YfOf6Z26eUSA cuU2pu03Q"
+  },
+  {
+   "id": "powera-controller-wireless-nintendo-advantage-wireless-controller-for-nintendo-switch-2-w7cyli9yruuu5egjnd2apa",
+   "brand": "powera",
+   "name": "controller wireless nintendo advantage wireless controller for nintendo switch 2 w7cyli9YrUuU5eGjnD2APA",
+   "category": "gamepad",
+   "subtype": "主机",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/it-it/p/nintendo/nintendo-controller/controller-wireless-nintendo/advantage-wireless-controller-for-nintendo-switch-2-w7cyli9YrUuU5eGjnD2APA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 手柄 无线 nintendo advantage 无线手柄 任天堂Switch 2 w7cyli9YrUuU5eGjnD2APA"
+  },
+  {
+   "id": "powera-casques-nintendo-switch-wired-earbuds-for-nintendo-switch-vnxtxxmcem2q4ohaetnya",
+   "brand": "powera",
+   "name": "casques nintendo switch wired earbuds for nintendo switch vNxTXXmcEm2q4oHAEtnyA",
+   "category": "earphone",
+   "subtype": "TWS",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/commutateur-nintendo/casques-nintendo-switch/wired-earbuds-for-nintendo-switch--vNxTXXmcEm2q4oHAEtnyA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra casques 任天堂Switch 有线 耳塞 任天堂Switch vNxTXXmcEm2q4oHAEtnyA"
+  },
+  {
+   "id": "powera-nintendo-switch-2-audio-wired-earbuds-for-nintendo-switch-2-yz7u8g2prkiy1sjdbsxiea",
+   "brand": "powera",
+   "name": "nintendo switch 2 audio wired earbuds for nintendo switch 2 yZ7U8G2pRkiY1sjDbSXiEA",
+   "category": "earphone",
+   "subtype": "TWS",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/de-de/p/nintendo/nintendo-switch-2/nintendo-switch-2-audio/wired-earbuds-for-nintendo-switch-2-yZ7U8G2pRkiY1sjDbSXiEA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 audio 有线 耳塞 任天堂Switch 2 yZ7U8G2pRkiY1sjDbSXiEA"
+  },
+  {
+   "id": "powera-wired-earbuds-for-nintendo-switch-2-batawb4dhekmtchisepgwa",
+   "brand": "powera",
+   "name": "wired earbuds for nintendo switch 2 BaTAwB4DHEKMTChIsepgwA",
+   "category": "earphone",
+   "subtype": "TWS",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {
+    "hints": "earphone"
+   },
+   "links": {
+    "official": "https://www.powera.com/en-gb/p/nintendo/nintendo-switch-2/audio/wired-earbuds-for-nintendo-switch-2-BaTAwB4DHEKMTChIsepgwA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 有线 耳塞 任天堂Switch 2 BaTAwB4DHEKMTChIsepgwA"
+  },
+  {
+   "id": "powera-nintendo-switch-2-audio-wired-earbuds-for-nintendo-switch-2-u8hooynaau-5kzjrpo050g",
+   "brand": "powera",
+   "name": "nintendo switch 2 audio wired earbuds for nintendo switch 2 U8HoOYnaaU 5KZjrPo050g",
+   "category": "earphone",
+   "subtype": "TWS",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/es-es/p/nintendo/nintendo-switch-2/nintendo-switch-2-audio/wired-earbuds-for-nintendo-switch-2-U8HoOYnaaU-5KZjrPo050g/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 audio 有线 耳塞 任天堂Switch 2 U8HoOYnaaU 5KZjrPo050g"
+  },
+  {
+   "id": "powera-nintendo-switch-2-audio-wired-earbuds-for-nintendo-switch-2-3jnbibqomkmgbwurvt5szg",
+   "brand": "powera",
+   "name": "nintendo switch 2 audio wired earbuds for nintendo switch 2 3jnbIbqOMkmgBwUrVT5SZg",
+   "category": "earphone",
+   "subtype": "TWS",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/nintendo-switch-2/nintendo-switch-2-audio/wired-earbuds-for-nintendo-switch-2-3jnbIbqOMkmgBwUrVT5SZg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 audio 有线 耳塞 任天堂Switch 2 3jnbIbqOMkmgBwUrVT5SZg"
+  },
+  {
+   "id": "powera-nintendo-switch-2-audio-wired-earbuds-for-nintendo-switch-2-bin0jtl6se6rlgyjtkuugg",
+   "brand": "powera",
+   "name": "nintendo switch 2 audio wired earbuds for nintendo switch 2 Bin0jTL6SE6RlgYjTKUUgg",
+   "category": "earphone",
+   "subtype": "TWS",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/it-it/p/nintendo/nintendo-switch-2/nintendo-switch-2-audio/wired-earbuds-for-nintendo-switch-2-Bin0jTL6SE6RlgYjTKUUgg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 audio 有线 耳塞 任天堂Switch 2 Bin0jTL6SE6RlgYjTKUUgg"
+  },
+  {
+   "id": "powera-nintendo-zubeh-r-nintendo-switch-joy-con-comfort-jdkv-hrnweepte1gmjjp5g",
+   "brand": "powera",
+   "name": "nintendo zubehör nintendo switch joy con comfort JdkV HRnwEepTE1GMjJp5g",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/de-de/p/nintendo/nintendo-zubehör/nintendo-switch-joy-con-comfort-JdkV-HRnwEepTE1GMjJp5g/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra nintendo zubehör 任天堂Switch joy con comfort JdkV HRnWeepTE1GMjJp5g"
+  },
+  {
+   "id": "powera-nintendo-accessories-nintendo-switch-joy-con-comfort-3z8ybigk00irsuw8far65a",
+   "brand": "powera",
+   "name": "nintendo accessories nintendo switch joy con comfort 3z8ybIgK00iRsUw8FAr65A",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/en-gb/p/nintendo/nintendo-accessories/nintendo-switch-joy-con-comfort-3z8ybIgK00iRsUw8FAr65A/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra nintendo accessories 任天堂Switch joy con comfort 3z8ybIgK00iRsUw8FAr65A"
+  },
+  {
+   "id": "powera-accesorios-nintendo-nintendo-switch-joy-con-comfort-m0f88krgmkcsy8i9okciwq",
+   "brand": "powera",
+   "name": "accesorios nintendo nintendo switch joy con comfort M0F88kRgmkCSY8I9OkCiWQ",
+   "category": "keyboard",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/es-es/p/nintendo/accesorios-nintendo/nintendo-switch-joy-con-comfort-M0F88kRgmkCSY8I9OkCiWQ/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra accesorios nintendo 任天堂Switch joy con comfort M0F88kRgmkCSY8I9OkCiWQ"
+  },
+  {
+   "id": "powera-accessoires-nintendo-nintendo-switch-joy-con-comfort-rzaq3bya1eowcukprenzfg",
+   "brand": "powera",
+   "name": "accessoires nintendo nintendo switch joy con comfort rZaQ3bYa1EOWCUkPreNZFg",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/accessoires-nintendo/nintendo-switch-joy-con-comfort-rZaQ3bYa1EOWCUkPreNZFg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra accessoires nintendo 任天堂Switch joy con comfort rZaQ3bYA1EOWCUkPreNZFg"
+  },
+  {
+   "id": "powera-accessori-nintendo-nintendo-switch-joy-con-comfort-z9vmhmt-bkuqgh88gjv6yw",
+   "brand": "powera",
+   "name": "accessori nintendo nintendo switch joy con comfort Z9vmhMT BkuqGH88gJv6Yw",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/it-it/p/nintendo/accessori-nintendo/nintendo-switch-joy-con-comfort-Z9vmhMT_BkuqGH88gJv6Yw/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra accessori nintendo 任天堂Switch joy con comfort Z9vmhMT BkuqGH88gJV6Yw"
+  },
+  {
+   "id": "powera-nintendo-switch-2-schutz-slim-case-for-nintendo-switch-2-68ncyytniueye-3aazv2va",
+   "brand": "powera",
+   "name": "nintendo switch 2 schutz slim case for nintendo switch 2 68nCYytnIUeyE 3Aazv2vA",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/de-de/p/nintendo/nintendo-switch-2/nintendo-switch-2-schutz/slim-case-for-nintendo-switch-2-68nCYytnIUeyE-3Aazv2vA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 schutz 纤薄 保护壳 任天堂Switch 2 68nCYytnIUeyE 3AazV2vA"
+  },
+  {
+   "id": "powera-nintendo-switch-2-slim-case-for-nintendo-switch-2-c5ad1-omukudgjpze9-dnq",
+   "brand": "powera",
+   "name": "nintendo switch 2 slim case for nintendo switch 2 C5AD1 OmukudgJpze9 dnQ",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/en-gb/p/nintendo/nintendo-switch-2/protection/slim-case-for-nintendo-switch-2-C5AD1_OmukudgJpze9_dnQ/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 纤薄 保护壳 任天堂Switch 2 C5AD1 OmukudgJpze9 dnQ"
+  },
+  {
+   "id": "powera-nintendo-switch-2-slim-case-for-nintendo-switch-2-jta-6xzh-ual-yci4b-kzw",
+   "brand": "powera",
+   "name": "nintendo switch 2 slim case for nintendo switch 2 JtA 6XZh Ual Yci4B KZw",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/es-es/p/nintendo/nintendo-switch-2/protección-de-nintendo-switch-2/slim-case-for-nintendo-switch-2-JtA_6XZh-Ual_Yci4B_KZw/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 纤薄 保护壳 任天堂Switch 2 JtA 6XZh Ual Yci4B KZw"
+  },
+  {
+   "id": "powera-nintendo-switch-2-protection-slim-case-for-nintendo-switch-2-qx4s-2o1memxdcvwi-61fg",
+   "brand": "powera",
+   "name": "nintendo switch 2 protection slim case for nintendo switch 2 qx4s 2o1MEmxdcvWI 61fg",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/fr-fr/p/nintendo/nintendo-switch-2/nintendo-switch-2-protection/slim-case-for-nintendo-switch-2-qx4s-2o1MEmxdcvWI-61fg/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 专业版tection 纤薄 保护壳 任天堂Switch 2 qx4s 2o1MEmxdcvWI 61fg"
+  },
+  {
+   "id": "powera-nintendo-switch-2-slim-case-for-nintendo-switch-2-lpoonr-dumrenndxuf7ba",
+   "brand": "powera",
+   "name": "nintendo switch 2 slim case for nintendo switch 2 LpoonR dUmrENNdxUf7BA",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://www.powera.com/it-it/p/nintendo/nintendo-switch-2/protezione-nintendo-switch-2/slim-case-for-nintendo-switch-2-LpoonR-_dUmrENNdxUf7BA/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-09-19",
+   "status": "published",
+   "name_zh": "PowEra 任天堂Switch 2 纤薄 保护壳 任天堂Switch 2 LpoonR dUmrENNdxUf7BA"
   }
  ]
 }
