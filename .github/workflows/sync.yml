@@ -41,7 +41,7 @@ jobs:
           if [ "${{ github.event_name }}" = "push" ]; then
             python -m pipeline.run mass --limit 3000
           else
-            python -m pipeline.run full --limit-brands 30 --limit 20 --enrich-limit 1500
+            python -m pipeline.run full --limit-brands 45 --limit 30 --enrich-limit 2000
           fi
 
       - name: Commit data updates
