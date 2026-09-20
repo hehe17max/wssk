@@ -146,6 +146,37 @@ def _discover_page_url(product, brand, cfg):
     return None
 
 
+# 国内站优先：国内 CDN 图对国内用户加载快，且有中文参数
+CN_HOSTS = ("zol.com.cn", "pconline.com.cn", "jd.com", "tmall.com", "smzdm.com", "pchome.net", "sohu.com", "pcpop.com", "yesky.com")
+
+
+def _host_of(url):
+    try:
+        return (url.split("//", 1)[1].split("/", 1)[0]).lower()
+    except Exception:
+        return ""
+
+
+def _find_cn_page(product, brand, cfg):
+    """优先从国内站找产品页（中关村在线/太平洋/京东等）。"""
+    q = (product.get("name_zh") or product.get("name") or "").strip()
+    if not q or len(q) < 3:
+        return None
+    try:
+        results = verify.search_web(q + " 参数", cfg)
+    except Exception:
+        return None
+    for _t, url, _s in results:
+        if not url or "http" not in url:
+            continue
+        host = _host_of(url)
+        # 去掉 www. 后匹配国内站
+        bare = host.split("www.", 1)[-1]
+        if any(cn in bare for cn in CN_HOSTS):
+            return url
+    return None
+
+
 def _enrich_one(product, brands_by_key, cfg):
     """补全单个产品。返回 (product_id, 变更标记, 分类变更标记)。"""
     changed = False
@@ -160,6 +191,21 @@ def _enrich_one(product, brands_by_key, cfg):
             product["links"]["official"] = url
     if not url:
         return product.get("id"), changed, cat_changed
+    # 优先抓国内站（图在国内 CDN、描述为中文），再用官方页补缺
+    need_cn = (not product.get("image")) or not (product.get("description") or "").strip()
+    cn_url = _find_cn_page(product, brand, cfg) if need_cn else None
+    if cn_url:
+        info = extract_page_meta(cn_url, cfg)
+        if info and info.get("title"):
+            if not (product.get("description") or "").strip():
+                product["description"] = (info.get("description") or info["title"])[:300]
+                changed = True
+            if info.get("image") and not product.get("image"):
+                product["image"] = info["image"]
+                changed = True
+            if _fill_specs_from_rows(product, info.get("rows") or []):
+                changed = True
+    # 官方页兜底补全
     info = extract_page_meta(url, cfg)
     if not info or not info.get("title"):
         return product.get("id"), changed, cat_changed
