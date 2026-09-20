@@ -156,7 +156,28 @@ def prune_junk(data):
         "/releases/", "/examples/", "/demos/", "/sample/", "/samples/",
         "/contributing/", "/code-of-conduct/", "/funding/", "/donate/",
         "/donation/", "/kickstarter/", "/patreon/", "/indiegogo/",
+        "/assets/", "/cdn/", "/files/", "/s/files/", "/cdn-cgi/", "/checkout/",
     )
+    # 名称级垃圾：西语站前缀、资源名、乱码、配件/耗材、SEO 堆砌
+    _ACC = _re.compile(r"(storage bag|carry (case|pouch)|carrying case|protective (case|cover)|protection box|dust (cover|plug)|charging cable|data cable|power cord|ear tips?|comply foam|replacement (earpads?|pads?|cushions?|tips?)|screen (protector|guard)|wrist rest|mouse (feet|skates))", _re.I)
+    _MAIN = _re.compile(r"(earbud|earphone|headphone|speaker|soundbar|subwoofer|mouse|keyboard|gamepad|controller|console|power ?bank|charger|charging station|hub|dock|adapter|amplifier|\bamp\b|dac|streamer|microphone|\bmic\b|webcam|monitor|tablet|phone|laptop|\btv\b|receiver|headunit)", _re.I)
+    _GEN = _re.compile(r"\b(wireless|bluetooth|headphones?|earphones?|earbuds?|speakers?|with|and|for|noise|cancelling|charging|compatible|headset|cable|type|usb|portable|mini|new|upgrade|pro|max|plus)\b", _re.I)
+    _RESOURCE_NAMES = ("assets", "css", "js", "images", "files", "img", "static")
+    def _name_extra_junk(nl, raw):
+        if nl.startswith("es "):
+            return True
+        if nl in _RESOURCE_NAMES:
+            return True
+        if _re.search(r"(.)\1{6,}", raw):
+            return True
+        if len(nl) > 45 and len(set(nl)) < 9:
+            return True
+        if _ACC.search(raw) and not _MAIN.search(raw):
+            return True
+        g = len(_GEN.findall(raw))
+        if g >= 4 or len(nl.split()) >= 18:
+            return True
+        return False
     junk_name_words = (
         "blog", "blogs", "news", "newsroom", "press", "media", "videos",
         "wallpapers", "resources", "insights", "stories", "webinars",
@@ -184,6 +205,9 @@ def prune_junk(data):
                 junk = True
         if not junk:
             if any(w in name for w in junk_name_words):
+                junk = True
+        if not junk:
+            if _name_extra_junk(name, p.get("name") or ""):
                 junk = True
         if junk:
             removed += 1
