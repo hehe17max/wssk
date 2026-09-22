@@ -60,6 +60,35 @@ def extract_page_meta(url, cfg, timeout=20):
     status, html = utils.http_get(url, cfg, timeout=timeout)
     if not html:
         return None
+    # JSON-LD Product schema（比 og:image 更可靠的结构化数据）
+    jsonld_img = ""
+    jsonld_desc = ""
+    try:
+        import json as _json
+        for _m in re.finditer(r'<script[^>]+type="application/ld\+json"[^>]*>(.*?)</script>', html, re.S | re.I):
+            _blob = _m.group(1).strip()
+            try:
+                _data = _json.loads(_blob)
+            except Exception:
+                _data = None
+            _items = _data if isinstance(_data, list) else ([_data] if isinstance(_data, dict) else [])
+            for _it in _items:
+                if not isinstance(_it, dict):
+                    continue
+                if "Product" not in str(_it.get("@type", "")):
+                    continue
+                _im = _it.get("image")
+                if isinstance(_im, list) and _im:
+                    _im = _im[0]
+                if isinstance(_im, dict):
+                    _im = _im.get("url")
+                if isinstance(_im, str) and _im and not jsonld_img:
+                    jsonld_img = _im
+                _de = _it.get("description")
+                if isinstance(_de, str) and _de.strip() and not jsonld_desc:
+                    jsonld_desc = _de.strip()
+    except Exception:
+        pass
     t = _TITLE_RE.search(html)
     d = _DESC_RE.search(html)
     og = (_OG_IMAGE_RE.search(html) or _OG_IMAGE_RE2.search(html)
@@ -68,6 +97,8 @@ def extract_page_meta(url, cfg, timeout=20):
     image = ""
     if og:
         image = _clean(og.group(1))
+    if not image and jsonld_img:
+        image = jsonld_img
     if image and image.startswith("//"):
         image = "https:" + image
     elif image:
@@ -108,9 +139,12 @@ def extract_page_meta(url, cfg, timeout=20):
         if best:
             image = best
     rows = verify.extract_spec_rows(html)
+    _desc = _clean(d.group(1)) if d else ""
+    if not _desc and jsonld_desc:
+        _desc = _clean(jsonld_desc)[:500]
     return {
         "title": _clean(t.group(1)) if t else "",
-        "description": _clean(d.group(1)) if d else "",
+        "description": _desc,
         "image": _clean(image),
         "rows": rows,
     }

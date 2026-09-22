@@ -128,6 +128,10 @@ def cmd_enrich(args):
     done, reclassified, failed = enrich.enrich_unverified(data, brands_data, cfg, limit=args.limit or 500)
     utils.save_json(utils.data_path("products.json"), data)
     report = ingest.run_ingest(cfg=cfg)
+    report["products_enriched"] = done
+    report["enrich_failed"] = failed
+    import json as _json
+    utils.save_json(utils.data_path("pipeline_report.json"), report)
     print("页面补全：完成 %d，重新分类 %d，失败 %d" % (done, reclassified, failed))
     print("报告:", report)
 

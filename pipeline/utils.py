@@ -56,13 +56,24 @@ def http_get(url, cfg, timeout=None, headers=None):
     timeout = timeout or http.get("timeout", 15)
     retries = http.get("retries", 2)
     delay = http.get("delay_seconds", 1.0)
-    hdrs = {"User-Agent": ua}
+    # UA 池轮换 + 完整浏览器头，提升官网抓取成功率
+    _UAS = (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+    )
+    hdrs = {
+        "User-Agent": _UAS[hash(url) % len(_UAS)] if "bot" not in ua else ua,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Cache-Control": "no-cache",
+    }
     if headers:
         hdrs.update(headers)
     last_err = None
     for i in range(retries + 1):
         try:
-            r = requests.get(url, headers=hdrs, timeout=timeout)
+            r = requests.get(url, headers=hdrs, timeout=timeout, allow_redirects=True)
             if r.status_code == 200:
                 r.encoding = r.apparent_encoding or r.encoding
                 return r.status_code, r.text
