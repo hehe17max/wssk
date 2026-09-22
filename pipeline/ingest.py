@@ -242,7 +242,17 @@ def build_meta(data, brands_data, meta):
 
 
 def save_all(data, brands_data, meta, report):
+    import gzip as _gz
     utils.save_json(utils.data_path("products.json"), data)
+    # 站点提速：预压缩 products.json.gz（前端 DecompressionStream 解压，体积约减 80%）
+    try:
+        p = utils.data_path("products.json")
+        with open(p, "rb") as _f:
+            raw = _f.read()
+        with open(p + ".gz", "wb") as _f:
+            _f.write(_gz.compress(raw, 6))
+    except Exception:
+        pass
     utils.save_json(utils.data_path("brands.json"), brands_data)
     meta["pipeline"] = report
     utils.save_json(utils.data_path("meta.json"), meta)

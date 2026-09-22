@@ -8,9 +8,25 @@ const Data = (() => {
     ready: false,
   };
 
+  async function loadProducts() {
+    // 优先 gzip（体积减约 80%）；不支持 DecompressionStream 时回退原始 JSON
+    try {
+      if (typeof DecompressionStream !== "undefined") {
+        const resp = await fetch("data/products.json.gz");
+        if (resp.ok) {
+          const buf = await resp.arrayBuffer();
+          const ds = new DecompressionStream("gzip");
+          const stream = new Response(buf).body.pipeThrough(ds);
+          return await new Response(stream).json();
+        }
+      }
+    } catch (e) { /* 回退原始 JSON */ }
+    return await fetch("data/products.json").then(r => r.json());
+  }
+
   async function loadAll() {
     const [p, b, m] = await Promise.all([
-      fetch("data/products.json").then(r => r.json()),
+      loadProducts(),
       fetch("data/brands.json").then(r => r.json()),
       fetch("data/meta.json").then(r => r.json()).catch(() => null),
     ]);

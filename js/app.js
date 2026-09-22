@@ -188,7 +188,7 @@
         ${p.subtype && p.subtype !== "未分类" ? `<span class="type-badge">${escapeHtml(p.subtype)}</span>` : ""}
       </div>
       <h4>${escapeHtml(p.name_zh || p.name)}${isNew ? '<span class="new">新品</span>' : ""}${p.name_zh && p.name && p.name_zh !== p.name ? `<span class="en-sub">${escapeHtml(p.name)}</span>` : ""}</h4>
-      <p class="desc">${escapeHtml(p.description || "")}</p>
+      <p class="desc">${escapeHtml(p.description_zh || p.description || "")}</p>
       <div class="spec-preview">${specPreview(p)}</div>
       <div class="card-bottom">
         <span class="vbadge ${si.cls}">${si.text}</span>
@@ -245,7 +245,7 @@
       ${p.image ? `<div class="modal-img"><img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.name)}" onerror="this.style.display='none'"></div>` : ""}
       <div class="brand-line">${escapeHtml(b.name)} <span class="type-badge">${escapeHtml((Filters.CATEGORIES[p.category] || {}).label || "")}</span> <span class="type-badge">${escapeHtml(p.subtype || "")}</span></div>
       <h2>${escapeHtml(p.name_zh || p.name)}${p.name_zh && p.name && p.name_zh !== p.name ? `<span class="en-sub big">${escapeHtml(p.name)}</span>` : ""}</h2>
-      <p class="desc">${escapeHtml(p.description || "暂无描述")}</p>
+      <p class="desc">${escapeHtml(p.description_zh || p.description || "暂无描述")}</p>
       ${p.release ? `<p style="color:var(--muted);font-size:12.5px">上市时间：${escapeHtml(p.release)}</p>` : ""}
       <table class="spec-table">${specRows || "<tr><td>参数待补充</td></tr>"}</table>
       <h3 style="margin:0 0 8px;font-size:14px;color:var(--muted)">信息源</h3>

@@ -158,10 +158,38 @@ def _host_of(url):
 
 
 def _find_cn_page(product, brand, cfg):
-    """优先从国内站找产品页（中关村在线/太平洋/京东等）。"""
+    """优先从国内站找产品页（中关村在线/太平洋/京东等）。
+
+    不依赖搜索 API key：直接用必应中国站抓 HTML 结果页解析国内站链接，
+    失败时再回退到配置的搜索引擎。
+    """
     q = (product.get("name_zh") or product.get("name") or "").strip()
     if not q or len(q) < 3:
         return None
+    import urllib.parse as _up, base64 as _b64, re as _re2
+    # 1) 必应中国（无 key、国内站收录全、HTML 可直接抓）
+    try:
+        bing = "https://cn.bing.com/search?q=" + _up.quote(q + " 参数")
+        status, html = utils.http_get(bing, cfg)
+        if html:
+            for m in _re2.finditer(r'<li class="b_algo".*?<h2[^>]*><a[^>]+href="([^"]+)"', html, _re2.S | _re2.I):
+                url = m.group(1)
+                if url.startswith("https://cn.bing.com/ck/a"):
+                    um = _re2.search(r"[?&]u=a1([0-9A-Za-z+/=_-]+)", url)
+                    if not um:
+                        continue
+                    try:
+                        enc = um.group(1).replace("-", "+").replace("_", "/")
+                        url = _b64.urlsafe_b64decode(enc + "==="[: (4 - len(enc) % 4) % 4]).decode("utf-8", "ignore")
+                    except Exception:
+                        continue
+                host = _host_of(url)
+                bare = host.split("www.", 1)[-1]
+                if any(cn in bare for cn in CN_HOSTS):
+                    return url
+    except Exception:
+        pass
+    # 2) 回退：配置的搜索引擎
     try:
         results = verify.search_web(q + " 参数", cfg)
     except Exception:
@@ -170,7 +198,6 @@ def _find_cn_page(product, brand, cfg):
         if not url or "http" not in url:
             continue
         host = _host_of(url)
-        # 去掉 www. 后匹配国内站
         bare = host.split("www.", 1)[-1]
         if any(cn in bare for cn in CN_HOSTS):
             return url
