@@ -170,6 +170,61 @@ def _fill_specs_from_rows(product, rows):
     return False
 
 
+# 占位/透明/logo 图过滤（og:image 常给出透明 GIF 或 logo 占位）
+_PLACEHOLDER_RE = None
+
+
+def _is_placeholder_image(url):
+    global _PLACEHOLDER_RE
+    if not url:
+        return True
+    low = url.lower()
+    if any(k in low for k in ("transparent.gif", "placeholder", "spacer.gif", "blank.gif", "pixel.gif", "1x1.gif", "no-image", "noimage", "default.jpg", "logo.png", "logo.svg", ".svg")):
+        return True
+    return False
+
+
+def _shopify_json(product, cfg):
+    """Shopify 站直取产品 JSON（/products/{handle}.js），几乎必成功。"""
+    import re as _re2, json as _json
+    from urllib.parse import urlparse as _up2, urljoin as _uj
+    url = (product.get("links") or {}).get("official") or ""
+    if not url:
+        return None
+    path = _up2(url).path
+    m = _re2.search(r"/products/([^/?#]+)", path)
+    if not m:
+        return None
+    handle = m.group(1).split(".")[0]
+    base = "%s://%s" % (_up2(url).scheme, _up2(url).netloc)
+    js_url = _uj(base, "/products/%s.js" % handle)
+    try:
+        status, text = utils.http_get(js_url, cfg, timeout=15)
+        if status != 200 or not text or text.strip().startswith("<"):
+            return None
+        d = _json.loads(text)
+    except Exception:
+        return None
+    if not isinstance(d, dict) or not d.get("id"):
+        return None
+    img = d.get("featured_image") or ""
+    if isinstance(img, dict):
+        img = img.get("src") or ""
+    if not img and d.get("images"):
+        img = d["images"][0]
+    desc = re.sub(r"<[^>]+>", " ", (d.get("description") or "") or "")
+    desc = re.sub(r"\s+", " ", desc).strip()[:300]
+    title = (d.get("title") or "").strip()
+    _tags = d.get("tags") or ""
+    if isinstance(_tags, list):
+        tags = [str(t).strip() for t in _tags if str(t).strip()]
+    else:
+        tags = [t.strip() for t in str(_tags).split(",") if t.strip()]
+    if _is_placeholder_image(img):
+        img = ""
+    return {"title": title, "description": desc, "image": img, "tags": tags, "rows": [], "type": d.get("product_type") or ""}
+
+
 def _discover_page_url(product, brand, cfg):
     """无官方链接时经搜索引擎找产品页。返回 URL 或 None。"""
     q = "%s %s" % (brand.get("name_en") or brand.get("name"), product.get("name", ""))
@@ -252,28 +307,40 @@ def _enrich_one(product, brands_by_key, cfg):
             product["links"]["official"] = url
     if not url:
         return product.get("id"), changed, cat_changed
-    # 优先抓国内站（图在国内 CDN、描述为中文），再用官方页补缺
+    # 1) Shopify JSON 直取（最快最稳）
+    info = _shopify_json(product, cfg)
+    if info and info.get("title"):
+        if not (product.get("description") or "").strip() and info.get("description"):
+            product["description"] = info["description"]
+            changed = True
+        if not product.get("image") and info.get("image"):
+            product["image"] = info["image"]
+            changed = True
+        if info.get("tags") and not product.get("tags"):
+            product["tags"] = info["tags"]
+            changed = True
+    # 2) 国内站补缺（图在国内 CDN、描述为中文）
     need_cn = (not product.get("image")) or not (product.get("description") or "").strip()
     cn_url = _find_cn_page(product, brand, cfg) if need_cn else None
     if cn_url:
-        info = extract_page_meta(cn_url, cfg)
-        if info and info.get("title"):
+        info2 = extract_page_meta(cn_url, cfg)
+        if info2 and info2.get("title"):
             if not (product.get("description") or "").strip():
-                product["description"] = (info.get("description") or info["title"])[:300]
+                product["description"] = (info2.get("description") or info2["title"])[:300]
                 changed = True
-            if info.get("image") and not product.get("image"):
-                product["image"] = info["image"]
+            if info2.get("image") and not product.get("image") and not _is_placeholder_image(info2.get("image")):
+                product["image"] = info2["image"]
                 changed = True
-            if _fill_specs_from_rows(product, info.get("rows") or []):
+            if _fill_specs_from_rows(product, info2.get("rows") or []):
                 changed = True
-    # 官方页兜底补全
+    # 3) 官方页 HTML 兜底
     info = extract_page_meta(url, cfg)
     if not info or not info.get("title"):
         return product.get("id"), changed, cat_changed
     if not (product.get("description") or "").strip():
         product["description"] = (info.get("description") or info["title"])[:300]
         changed = True
-    if info.get("image") and not product.get("image"):
+    if info.get("image") and not product.get("image") and not _is_placeholder_image(info.get("image")):
         product["image"] = info["image"]
         changed = True
     if _fill_specs_from_rows(product, info.get("rows") or []):

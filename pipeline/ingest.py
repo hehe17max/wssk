@@ -209,6 +209,11 @@ def prune_junk(data):
         if not junk:
             if _name_extra_junk(name, p.get("name") or ""):
                 junk = True
+        if not junk and p.get("image"):
+            # 占位图/透明图清理（仅清图，不删产品）
+            _il = str(p["image"]).lower()
+            if any(_k in _il for _k in ("transparent.gif", "placeholder", "spacer.gif", "blank.gif", "pixel.gif", "1x1.gif", "no-image", "noimage", ".svg")):
+                p["image"] = ""
         if junk:
             removed += 1
         else:
