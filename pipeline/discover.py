@@ -146,12 +146,10 @@ def discover_from_sitemap(brand, cfg):
     sitemap_candidates = [
         urljoin(base, "sitemap.xml"),
         urljoin(base, "sitemap_index.xml"),
-        urljoin(base, "sitemap-index.xml"),
-        urljoin(base, "sitemap/sitemap.xml"),
-        urljoin(base, "sitemap/sitemap-index.xml"),
     ]
     patterns = cfg.get("discovery", {}).get("product_url_patterns", [])
     max_children = cfg.get("discovery", {}).get("max_sitemap_children", 25)
+    max_urls = int(cfg.get("discovery", {}).get("max_sitemap_urls", 300))
     found = []
 
     def _collect(html):
@@ -183,9 +181,9 @@ def discover_from_sitemap(brand, cfg):
             for u in locs:
                 if _looks_like_product_url(u, patterns):
                     found.append(u)
-        # 去重保序
+        # 去重保序 + 总数上限（防止巨型 sitemap 拖垮整轮）
         seen = set()
-        found = [u for u in found if not (u in seen or seen.add(u))]
+        found = [u for u in found if not (u in seen or seen.add(u))][:max_urls]
         if found:
             utils.logger.info("%s sitemap 发现产品 URL %d 个", brand.get("key"), len(found))
             return found

@@ -4,7 +4,7 @@
   "schema_version": 1,
   "http": {
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 waishui-shuiku-bot/1.0",
-    "timeout": 12,
+    "timeout": 10,
     "retries": 1,
     "delay_seconds": 1.0
   },
@@ -21,11 +21,12 @@
       "/goods/",
       "/item/"
     ],
-    "max_sitemap_children": 14
+    "max_sitemap_children": 8
+    ,"max_sitemap_urls": 300
   },
   "enrich": {
     "workers": 14,
-    "per_run_limit": 2000
+    "per_run_limit": 1500
   },
   "verification": {
     "brand_title_keywords": [
