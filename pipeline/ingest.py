@@ -172,6 +172,8 @@ def prune_junk(data):
             return True
         if len(nl) > 45 and len(set(nl)) < 9:
             return True
+        if _re.search(r"%[0-9A-Fa-f]{2}", raw):
+            return True
         if _ACC.search(raw) and not _MAIN.search(raw):
             return True
         g = len(_GEN.findall(raw))
@@ -191,6 +193,17 @@ def prune_junk(data):
         "plushie", "plushies", "sticker", "stickers", "keychain", "lanyard",
         "poster", "posters", "mug", "mugs", "t-shirt", "tshirt", "hoodie",
         "socks", "beanie", "backpack", "water bottle", "towel", "tote bag",
+        # 西语/葡语/法语新闻与栏目词（品牌官网新闻页被误采为产品）
+        "noticias", "noticia", "socios", "socio", "novidades", "novidade",
+        "nuevo", "nuevos", "lancamento", "productos", "produto",
+        "compatibilidad", "compatibil", "elegir", "escolher", "jugar", "jogar",
+        "volante", "conduccion", "automobili", "zeekr", "pininfarina",
+        "accesorios", "accesor", "para", "conoce", "descubre", "entdecke",
+        "partners", "partner", "dealers", "dealer", "sponsors", "sponsor",
+        "collaboration", "collaborations", "partnership", "partnerships",
+        "announcements", "announcement", "updates", "update", "highlights",
+        "features", "featured", "events", "event", "exhibitions", "trade",
+        "interview", "interviews", "review", "reviews", "editorial",
     )
     before = len(data["products"])
     kept = []
