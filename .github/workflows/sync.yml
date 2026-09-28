@@ -21,6 +21,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 120   # job 2 小时硬超时：杜绝 5h+ 长轮占用 runner 导致后续撞车取消
     steps:
       - name: Checkout
         uses: actions/checkout@v4
