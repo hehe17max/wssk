@@ -4,8 +4,8 @@
   "schema_version": 1,
   "http": {
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 waishui-shuiku-bot/1.0",
-    "timeout": 10,
-    "retries": 1,
+    "timeout": 8,
+    "retries": 0,
     "delay_seconds": 1.0
   },
   "discovery": {
@@ -21,8 +21,8 @@
       "/goods/",
       "/item/"
     ],
-    "max_sitemap_children": 8
-    ,"max_sitemap_urls": 300
+    "max_sitemap_children": 8,
+    "max_sitemap_urls": 300
   },
   "enrich": {
     "workers": 14,

@@ -362,7 +362,7 @@ def enrich_unverified(data, brands_data, cfg, limit=None, workers=None):
     targets = [
         p for p in products
         if (not p.get("image") or not (p.get("description") or "").strip() or not p.get("specs"))
-        and ((p.get("links") or {}).get("official") or brands_by_key.get(p.get("brand"), {}).get("verified"))
+        and (p.get("links") or {}).get("official")
     ][:limit]
     done = 0
     reclassified = 0
