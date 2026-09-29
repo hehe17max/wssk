@@ -21,7 +21,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 120   # job 2 小时硬超时：杜绝 5h+ 长轮占用 runner 导致后续撞车取消
+    timeout-minutes: 240   # job 4 小时硬超时：留足 2.5h 全流程余量，同时杜绝 5h+ 长轮占 runner 撞车
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,7 +42,7 @@ jobs:
           if [ "${{ github.event_name }}" = "push" ]; then
             python -m pipeline.run mass --limit 3000
           else
-            python -m pipeline.run full --limit-brands 18 --limit 20 --enrich-limit 1500
+            python -m pipeline.run full --limit-brands 14 --limit 20 --enrich-limit 1000
           fi
 
       - name: Commit data updates
