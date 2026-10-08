@@ -588554,6 +588554,34 @@
    "status": "published",
    "name_zh": "御斧 Panda Keyboard Wrist Rest",
    "description_zh": "<h5 style=\"text-align: center;\" data-mce-style=\"text-align: center;\">&lt;规格参数&gt;</h5>\n<ul>\n<li>Product: YUNZII Panda Wrist Rest</li>\n<li>Size of Product: 410*60*15mm/16.14*2.36*0.59inch</li>\n<li><span data-mce-fragment=\"1\">重量 of Product: 300g/0.66lb</span></li>\n<li>Color Choices: 黑色, 白色</li>\n<li>Material: Milk Silk 织物 &amp; 硅胶 Filling</li>\n</ul>\n<p><img src=\"https://"
+  },
+  {
+   "id": "keychron-keychron-g6-he-ultra-light-wireless-mouse",
+   "brand": "keychron",
+   "name": "keychron g6 he ultra light wireless mouse",
+   "category": "keyboard",
+   "subtype": "磁轴",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://keychron.com/products/keychron-g6-he-ultra-light-wireless-mouse",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-10-08",
+   "status": "published",
+   "name_zh": "Keychron g6 he ultra 灯光 无线鼠标"
   }
  ]
 }
