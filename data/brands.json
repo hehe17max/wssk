@@ -19,7 +19,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "url": "https://1more.com",
     "http_status": null
    }
@@ -187,7 +187,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "url": "https://akg.com",
     "http_status": null
    }
@@ -240,7 +240,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "url": "https://amazon.com",
     "http_status": null
    }
@@ -290,7 +290,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "error": "未发现官网候选"
    }
   },
@@ -369,7 +369,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "error": "未发现官网候选"
    }
   },
@@ -398,7 +398,7 @@
    "verified_at": null,
    "status": "待人工确认",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "url": "https://rog.asus.com",
     "http_status": 200,
     "title": "ROG - Republic of Gamers｜Global | For Those Who Dare",
@@ -447,13 +447,19 @@
    "region": "中国",
    "official_url": "https://atkgear.com.cn",
    "curated": true,
-   "verified": false,
-   "verified_at": null,
-   "status": "核验失败",
+   "verified": true,
+   "verified_at": "2026-10-19",
+   "status": "已核验",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "url": "https://atkgear.com.cn",
-    "http_status": null
+    "http_status": 200,
+    "title": "ATK商城官网",
+    "site_name": "",
+    "matched_terms": [
+     "ATK",
+     "ATK"
+    ]
    }
   },
   {
@@ -534,7 +540,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "error": "未发现官网候选"
    }
   },
@@ -555,7 +561,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "error": "未发现官网候选"
    }
   },
@@ -576,7 +582,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "error": "未发现官网候选"
    }
   },
@@ -685,7 +691,7 @@
    "verified_at": null,
    "status": "核验失败",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "url": "https://betopgame.com",
     "http_status": null
    }
@@ -734,7 +740,7 @@
    "verified_at": null,
    "status": "待人工确认",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "url": "https://blackcanyon.com",
     "http_status": 200,
     "title": "",
@@ -1041,7 +1047,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "error": "未发现官网候选"
    }
   },
@@ -1062,7 +1068,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-10-19",
     "error": "未发现官网候选"
    }
   },
