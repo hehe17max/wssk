@@ -612569,6 +612569,90 @@
    "discovered_at": "2026-10-23",
    "status": "published",
    "name_zh": "御斧 en ca yunzii c21 无线 mechanical numpad keyboard calculator"
+  },
+  {
+   "id": "nintendo-monster-hunter-wilds-switch-2",
+   "brand": "nintendo",
+   "name": "monster hunter wilds switch 2",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://nintendo.com/store/products/monster-hunter-wilds-switch-2/",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-10-23",
+   "status": "published",
+   "name_zh": "任天堂 monster hunter wilds 轴 2"
+  },
+  {
+   "id": "pioneer-sxt-c10ps",
+   "brand": "pioneer",
+   "name": "sxt c10ps",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://usa.pioneer/products/sxt-c10ps",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-10-23",
+   "status": "published",
+   "name_zh": "先锋 sxt c10ps"
+  },
+  {
+   "id": "pioneer-ts-x40sxt",
+   "brand": "pioneer",
+   "name": "ts x40sxt",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://usa.pioneer/products/ts-x40sxt",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（sitemap），待核验"
+   },
+   "discovered_at": "2026-10-23",
+   "status": "published",
+   "name_zh": "先锋 ts x40sxt"
   }
  ]
 }
