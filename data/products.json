@@ -613801,6 +613801,62 @@
    "discovered_at": "2026-10-26",
    "status": "published",
    "name_zh": "HyperX omen by hp 31 5 inch qhd 165hz 游戏 monitor omen 32q"
+  },
+  {
+   "id": "corsair-ch-931g400-ww-sabre-v3-pro-ultralight-37g-wireless-gaming-mouse-black",
+   "brand": "corsair",
+   "name": "ch 931g400 ww sabre v3 pro ultralight 37g wireless gaming mouse black",
+   "category": "mouse",
+   "subtype": "电竞",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://corsair.com/us/en/p/gaming-mouse/ch-931g400-ww/sabre-v3-pro-ultralight-37g-wireless-gaming-mouse-black",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-10-26",
+   "status": "published",
+   "name_zh": "海盗船 ch 931g400 ww sabre V3 专业版 ultralight 37g 无线游戏鼠标 黑色"
+  },
+  {
+   "id": "nintendo-03-bundle-thumb-2",
+   "brand": "nintendo",
+   "name": "03 bundle thumb 2",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_56,w_56/dpr_2.0/ccb3e8ca3c296e21a8c933e8369031511589d0ef6b079cf5bb3667b09893482c/wrt80zr3f/n.com_P9oiGKchO4/sElLqeipeXltr/Center%20Stage/03/bundle-thumb-2",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-10-26",
+   "status": "published",
+   "name_zh": "任天堂 03 套装 thumb 2"
   }
  ]
 }

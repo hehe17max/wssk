@@ -249,7 +249,7 @@
     "checked_at": "2026-10-26",
     "url": "https://amazon.com",
     "http_status": 200,
-    "title": "",
+    "title": "Amazon.com. Spend less. Smile more.",
     "site_name": "",
     "matched_terms": []
    }
@@ -1157,7 +1157,7 @@
    "verified_at": null,
    "status": "待核验",
    "evidence": {
-    "checked_at": "2026-09-26",
+    "checked_at": "2026-10-26",
     "error": "未发现官网候选"
    }
   },
