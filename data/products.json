@@ -616582,6 +616582,34 @@
    "discovered_at": "2026-10-31",
    "status": "published",
    "name_zh": "马兰士 mm7025 136932"
+  },
+  {
+   "id": "microsoft-ai-vibe-coding-and-other-ways-ai-is-changing-who-can-build-apps-and-how",
+   "brand": "microsoft",
+   "name": "ai vibe coding and other ways ai is changing who can build apps and how",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://news.microsoft.com/source/features/ai/vibe-coding-and-other-ways-ai-is-changing-who-can-build-apps-and-how/?icid=mscom_marcom_CPAI2a_AIVibeCoding",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-10-31",
+   "status": "published",
+   "name_zh": "微软 ai vibe coding and other ways ai is changing who can build apps and how"
   }
  ]
 }
