@@ -629126,6 +629126,566 @@
    "discovered_at": "2026-11-14",
    "status": "published",
    "name_zh": "纽曼 en se serviceundsupport"
+  },
+  {
+   "id": "neumann-audio-interfaces",
+   "brand": "neumann",
+   "name": "audio interfaces",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/products/audio-interfaces?productName=MT&#x2B;48",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 audio 接口s"
+  },
+  {
+   "id": "neumann-software-rime",
+   "brand": "neumann",
+   "name": "software rime",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/products/software/rime",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 软件 rime"
+  },
+  {
+   "id": "neumann-moniteurs",
+   "brand": "neumann",
+   "name": "Moniteurs",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/products/Moniteurs",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 Moniteurs"
+  },
+  {
+   "id": "neumann-made-to-order",
+   "brand": "neumann",
+   "name": "made to order",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/service-support/made-to-order",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 made to order"
+  },
+  {
+   "id": "neumann-accessoires-pour-microphones",
+   "brand": "neumann",
+   "name": "accessoires pour microphones",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/products/accessoires-pour-microphones",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 accessoires pour 麦克风s"
+  },
+  {
+   "id": "neumann-accessoires-pour-moniteurs",
+   "brand": "neumann",
+   "name": "Accessoires pour moniteurs",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/products/Accessoires-pour-moniteurs",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 Accessoires pour moniteurs"
+  },
+  {
+   "id": "neumann-accessoires-pour-casques",
+   "brand": "neumann",
+   "name": "Accessoires pour casques",
+   "category": "earphone",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/products/Accessoires-pour-casques",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 Accessoires pour casques"
+  },
+  {
+   "id": "neumann-historique",
+   "brand": "neumann",
+   "name": "Historique",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/products/Historique",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 Historique"
+  },
+  {
+   "id": "neumann-knowledge-base-expert-views-more",
+   "brand": "neumann",
+   "name": "knowledge base expert views more",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/knowledge-base/expert-views--more",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 knowledge base expert views more"
+  },
+  {
+   "id": "neumann-knowledge-base",
+   "brand": "neumann",
+   "name": "knowledge base",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/knowledge-base/product-history",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 knowledge base"
+  },
+  {
+   "id": "neumann-telechargements",
+   "brand": "neumann",
+   "name": "Telechargements",
+   "category": "speaker",
+   "subtype": "便携蓝牙",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/service-support/Telechargements",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 Telechargements"
+  },
+  {
+   "id": "neumann-service-points",
+   "brand": "neumann",
+   "name": "service points",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/service-support/service-points",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 service points"
+  },
+  {
+   "id": "neumann-glossary-microphones",
+   "brand": "neumann",
+   "name": "glossary microphones",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/knowledge-base/glossary/microphones",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 glossary 麦克风s"
+  },
+  {
+   "id": "neumann-glossary-monitors",
+   "brand": "neumann",
+   "name": "glossary monitors",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/knowledge-base/glossary/monitors",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 glossary monitors"
+  },
+  {
+   "id": "neumann-audio-interfaces-mt-48",
+   "brand": "neumann",
+   "name": "audio interfaces mt 48",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://neumann.com/fr-fr/products/audio-interfaces/mt-48",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "纽曼 audio 接口s mt 48"
+  },
+  {
+   "id": "teac-transport-cd-pd-507t-255665",
+   "brand": "teac",
+   "name": "transport cd pd 507t 255665",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://teac-audio.com/fr-FR/audio-hifi/audio-players/lecteurs-cd/transport-cd-pd-507t/p/255665",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "TEAC transport cd pd 507t 255665"
+  },
+  {
+   "id": "teac-amplificateur-de-puissance-stereo-ap-507-254905",
+   "brand": "teac",
+   "name": "amplificateur de puissance stereo ap 507 254905",
+   "category": "earphone",
+   "subtype": "TWS",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://teac-audio.com/fr-FR/audio-hifi/amplifiers-receivers/amplificateurs/amplificateur-de-puissance/amplificateur-de-puissance-stereo-ap-507/p/254905",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "TEAC amplificateur de puissance stereo ap 507 254905"
+  },
+  {
+   "id": "teac-amplificateur-de-casque-ha-507-254667",
+   "brand": "teac",
+   "name": "amplificateur de casque ha 507 254667",
+   "category": "earphone",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://teac-audio.com/fr-FR/audio-hifi/amplifiers-receivers/amplificateurs/preamplificateurs-hi-fi/amplificateur-de-casque-ha-507/p/254667",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "TEAC amplificateur de casque ha 507 254667"
+  },
+  {
+   "id": "teac-amplificateur-pour-ecouteurs-253892",
+   "brand": "teac",
+   "name": "amplificateur pour ecouteurs 253892",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://teac-audio.com/fr-FR/audio-hifi/amplifiers-receivers/amplificateurs/preamplificateurs-hi-fi/ud-507-dac-usb/preampli/amplificateur-pour-ecouteurs/p/253892",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "TEAC amplificateur pour ecouteurs 253892"
+  },
+  {
+   "id": "teac-audio-players-generateur-d",
+   "brand": "teac",
+   "name": "audio players generateur d&",
+   "category": "unclassified",
+   "subtype": "未分类",
+   "tags": [],
+   "specs": {},
+   "description": "",
+   "release": null,
+   "price_cny": null,
+   "image": null,
+   "extra": {},
+   "links": {
+    "official": "https://teac-audio.com/fr-FR/audio-hifi/audio-players/generateur-d&#39;horloge-maitre/generateur-d&#39;horloge-maitre-cg-10m-x/p/253893",
+    "reviews": []
+   },
+   "verification": {
+    "brand_status": "待核验",
+    "data_status": "unverified",
+    "confidence": null,
+    "last_checked": null,
+    "notes": "自动发现（homepage），待核验"
+   },
+   "discovered_at": "2026-11-14",
+   "status": "published",
+   "name_zh": "TEAC audio players generateur d&"
   }
  ]
 }
