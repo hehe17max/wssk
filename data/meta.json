@@ -2,16 +2,16 @@
  "site": "外设水库",
  "site_key": "waishui-shuiku",
  "schema_version": 1,
- "generated_at": "2026-11-15T02:35:11Z",
+ "generated_at": "2026-11-15T10:55:24Z",
  "brands": {
   "total": 231,
   "verified": 128,
   "pending": 103
  },
  "products": {
-  "total": 22627,
+  "total": 22629,
   "by_category": {
-   "unclassified": 13325,
+   "unclassified": 13327,
    "音响": 2114,
    "键盘": 2003,
    "耳机": 1966,
@@ -20,15 +20,15 @@
    "鼠标垫": 646
   },
   "by_status": {
-   "unverified": 22479,
+   "unverified": 22481,
    "seed": 4,
    "official": 144
   }
  },
  "last_sync": "2026-11-15",
  "pipeline": {
-  "ran_at": "2026-11-15T02:35:11Z",
-  "products_total": 22627,
+  "ran_at": "2026-11-15T10:55:24Z",
+  "products_total": 22629,
   "products_added": 0,
   "products_enriched": 0,
   "hint_backfilled": 0,
